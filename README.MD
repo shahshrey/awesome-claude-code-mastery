@@ -57,39 +57,26 @@
 <details open markdown="1">
 <summary><strong>Click to expand/collapse</strong></summary>
 
-- [🏛️ Official Resources](#-official-resources)
-  - [Documentation](#documentation)
-  - [Official GitHub Repositories](#official-github-repositories)
-- [🚀 Getting Started](#-getting-started)
-- [🎓 Courses & Learning Paths](#-courses--learning-paths)
-- [🎬 Video Tutorials](#-video-tutorials)
-- [✨ Best Practices & Workflows](#-best-practices--workflows)
-- [🔬 Deep Dives & Analysis](#-deep-dives--analysis)
-- [🤖 Subagents](#-subagents)
-- [🏗️ Agent Teams](#️-agent-teams)
-- [⚡ Hooks & Automation](#-hooks--automation)
-- [🔌 MCP (Model Context Protocol)](#-mcp-model-context-protocol)
-  - [MCP Documentation](#mcp-documentation)
-  - [MCP Servers & Integrations](#mcp-servers--integrations)
-- [💻 SDK & API](#-sdk--api)
-- [🛠️ Tools & Extensions](#️-tools--extensions)
-- [🎯 Skills & Templates](#-skills--templates)
-  - [Agent Skills Open Standard](#agent-skills-open-standard)
-  - [Skills Courses & Learning](#skills-courses--learning)
-  - [Skill Generators & Tools](#skill-generators--tools)
-  - [Skill Marketplaces & Registries](#skill-marketplaces--registries)
-  - [Skills Tutorials & Guides](#skills-tutorials--guides)
-- [🤝 Alternative Coding Agents](#-alternative-coding-agents)
-- [👥 Community](#-community)
-  - [Discord Servers](#discord-servers)
-  - [Slack Communities](#slack-communities)
-  - [Reddit Communities](#reddit-communities)
-  - [X / Twitter](#x--twitter)
-  - [LinkedIn](#linkedin)
-  - [Forums & Community Hubs](#forums--community-hubs)
-  - [Meetup Groups & In-Person Events](#meetup-groups--in-person-events)
-  - [GitHub Community Organizations](#github-community-organizations)
-- [📊 Experience Reports & Case Studies](#-experience-reports--case-studies)
+- [🏛️ Official Resources](#-official-resources) *(18 items)*
+  - [Documentation](#documentation) · [Articles & Blog Posts](#articles--blog-posts) · [Official GitHub Repos](#official-github-repositories) · [Courses](#courses)
+- [🚀 Getting Started](#-getting-started) *(12 items)*
+- [🎓 Courses & Learning Paths](#-courses--learning-paths) *(7 items)*
+- [🎬 Video Tutorials](#-video-tutorials) *(24 videos)*
+- [✨ Best Practices & Workflows](#-best-practices--workflows) *(15 items)*
+- [🔬 Deep Dives & Analysis](#-deep-dives--analysis) *(4 items)*
+- [🤖 Subagents](#-subagents) *(10 items)*
+- [🏗️ Agent Teams](#️-agent-teams) *(25 items)*
+- [⚡ Hooks & Automation](#-hooks--automation) *(18 items)*
+- [🔌 MCP (Model Context Protocol)](#-mcp-model-context-protocol) *(35+ items)*
+  - [MCP Documentation](#mcp-documentation) · [MCP Guides](#mcp-guides--tutorials) · [MCP Servers](#mcp-servers--integrations)
+- [💻 SDK & API](#-sdk--api) *(55+ items)*
+- [🛠️ Tools & Extensions](#️-tools--extensions) *(15 tools)*
+- [🎯 Skills & Templates](#-skills--templates) *(65+ items)*
+  - [Agent Skills Open Standard](#agent-skills-open-standard) · [Courses](#skills-courses--learning) · [Collections](#awesome-lists--collections) · [Core Libraries](#core-skills-libraries) · [Specialized Skills](#specialized-skills) · [Generators](#skill-generators--tools) · [Marketplaces](#skill-marketplaces--registries) · [Tutorials](#skills-tutorials--guides)
+- [🤝 Alternative Coding Agents](#-alternative-coding-agents) *(7 tools)*
+- [👥 Community](#-community) *(35+ items)*
+  - [Discord](#discord-servers) · [Reddit](#reddit-communities) · [X / Twitter](#x--twitter) · [LinkedIn](#linkedin) · [Forums](#forums--community-hubs) · [Meetups](#meetup-groups--in-person-events) · [GitHub Orgs](#github-community-organizations)
+- [📊 Experience Reports & Case Studies](#-experience-reports--case-studies) *(6 items)*
 
 </details>
 
@@ -102,6 +89,9 @@
 </picture>
 
 > Resources directly from Anthropic and official partners.
+
+<details open>
+<summary><strong>18 resources</strong> — Docs, blog posts, repos & courses from Anthropic</summary>
 
 ### Documentation
 
@@ -143,11 +133,16 @@
 - 📚 [Claude Code in Action - Anthropic Academy](https://anthropic.skilljar.com/claude-code-in-action)
   - [Alternative link](https://www.coursera.org/learn/claude-code-in-action)
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 🚀 Getting Started
 
 > Perfect for beginners who are new to Claude Code.
+
+<details>
+<summary><strong>12 resources</strong> — Beginner tutorials, courses & discussions</summary>
 
 ### Beginner Tutorials
 
@@ -168,11 +163,16 @@
 - 📗 [What are some of the best resources to learn Claude Code? - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1l8aeq9/what_are_some_of_the_best_resources_to_learn/)
 - 📗 [Where can I actually learn Claude Code without wanting to throw my laptop? - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1mwcr7e/where_can_i_actually_learn_claude_code_without/)
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 🎓 Courses & Learning Paths
 
 > Structured courses and comprehensive learning materials.
+
+<details>
+<summary><strong>7 resources</strong> — DeepLearning.AI, Coursera, Udemy, egghead & more</summary>
 
 - 📚 [Claude Code: A Highly Agentic Coding Assistant - DeepLearning.AI](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/)
   - [Alternative link](https://learn.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant/lesson/66b35/introduction)
@@ -184,11 +184,16 @@
 - 📚 [Agent Skills with Anthropic - DeepLearning.AI](https://www.deeplearning.ai/short-courses/agent-skills-with-anthropic/) *(Free)*
 - 📚 [The Essential Guide to Claude Code Skills - egghead.io](https://egghead.io/courses/the-essential-guide-to-claude-code-skills~7349k)
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 🎬 Video Tutorials
 
 > YouTube videos and video content about Claude Code.
+
+<details>
+<summary><strong>24 videos</strong> — Tutorials, workflows, skills, subagents & news</summary>
 
 ### Comprehensive Tutorials
 
@@ -234,11 +239,16 @@
 
 - 🎬 [5 MCP Servers That Make Claude Code 10x More Powerful](https://www.youtube.com/watch?v=M5CsRj6zSCA)
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## ✨ Best Practices & Workflows
 
 > Learn how to use Claude Code effectively from experts and power users.
+
+<details>
+<summary><strong>15 resources</strong> — Official guides, creator insights & practical tips</summary>
 
 ### Official Best Practices
 
@@ -265,22 +275,32 @@
 - 📗 [I mastered the Claude Code workflow](https://medium.com/@ashleyha/i-mastered-the-claude-code-workflow-145d25e502cf)
 - 📗 [A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 🔬 Deep Dives & Analysis
 
 > Technical deep dives into how Claude Code works.
 
+<details>
+<summary><strong>4 resources</strong> — Architecture, source analysis & internals</summary>
+
 - 📗 [How Claude Code is built - The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built)
 - 📗 [What makes Claude Code so damn good (and how to recreate that)](https://minusx.ai/blog/decoding-claude-code/)
 - 📗 [I analysed the source code of Twitter with Claude Code](https://medium.com/realworld-ai-use-cases/i-analysed-the-source-code-of-twitter-read-this-if-you-have-less-than-2500-followers-8a7a21c10fe0)
 - 📗 [I've been seeing people on X say Claude Code is insanely powerful - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1lfc5tn/ive_been_seeing_people_on_x_twitter_say_that_the/)
+
+</details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 🤖 Subagents
 
 > Resources about Claude Code's subagent capabilities for multi-agent workflows.
+
+<details>
+<summary><strong>10 resources</strong> — Tutorials, orchestration tools & multi-agent collections</summary>
 
 ### Documentation & Tutorials
 
@@ -300,11 +320,16 @@
 | 📚 [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 7.1k+ | 100+ specialized Claude Code subagents |
 | 🔧 [webdevtodayjason/sub-agents](https://github.com/webdevtodayjason/sub-agents) | 170+ | Sub Agent Manager with hooks and custom slash commands |
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 🏗️ Agent Teams
 
 > Resources about Claude Code's Agent Teams feature — spin up multiple Claude Code instances that work in parallel on a shared codebase, coordinated by a lead agent. Released as a research preview with Opus 4.6 in February 2026.
+
+<details>
+<summary><strong>25 resources</strong> — Official docs, tutorials, videos, experience reports & tools</summary>
 
 ### Official Resources
 
@@ -355,11 +380,16 @@
 | 🔧 [qingcaizz/claude-orchestra](https://github.com/qingcaizz/claude-orchestra) | 2+ | Real-time kanban dashboard for visualizing and managing multi-agent collaboration |
 | 🔧 [rhysheavensmith/claude-agent-launcher](https://github.com/rhysheavensmith/claude-agent-launcher) | 4+ | tmux multipane launcher for agent teams |
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## ⚡ Hooks & Automation
 
 > Automate your Claude Code workflows with hooks.
+
+<details>
+<summary><strong>18 resources</strong> — Hook docs, tutorials & 13 tools/repos</summary>
 
 ### Documentation & Tutorials
 
@@ -387,11 +417,16 @@
 | 📚 [ccplugins/awesome-claude-code-plugins](https://github.com/ccplugins/awesome-claude-code-plugins) | 300+ | Curated list of commands, subagents, MCP servers, and hooks |
 | 🔧 [yifanzz/claude-code-boost](https://github.com/yifanzz/claude-code-boost) | 160+ | Hook utilities with intelligent auto-approval |
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 🔌 MCP (Model Context Protocol)
 
 > Connect Claude Code to external tools and services.
+
+<details>
+<summary><strong>35+ resources</strong> — MCP docs, guides, 20+ servers & integrations</summary>
 
 ### MCP Documentation
 
@@ -460,11 +495,16 @@
 - 📁 [Twitter MCP - ClaudeLog](https://claudelog.com/claude-code-mcps/twitter-mcp/)
 - 🎬 [AMAZING Claude Code X (twitter) Context Engineering Workflow](https://www.youtube.com/watch?v=dm_B9UDMBg4)
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 💻 SDK & API
 
 > Programmatic access to Claude Code capabilities via the Claude Agent SDK — available in Python, TypeScript, and community ports for Go, Rust, Ruby, Elixir, .NET, and Kotlin.
+
+<details>
+<summary><strong>55+ resources</strong> — SDK docs, tutorials, repos, integrations & comparisons</summary>
 
 ### Documentation
 
@@ -578,11 +618,16 @@
 - 💡 [Claude Agent SDK: Build AI Agents That Actually Get Work Done - Reddit](https://www.reddit.com/r/aiagents/comments/1nuh1kq/claude_agent_sdk_build_ai_agents_that_actually/)
 - 💡 [Stopped Choosing Between LangGraph and Claude SDK — Using Both - Reddit](https://www.reddit.com/r/LangChain/comments/1qg98n5/stopped_choosing_between_langgraph_and_claude_sdk/) — hybrid architecture with working code examples
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 🛠️ Tools & Extensions
 
 > Utilities and tools to enhance your Claude Code experience.
+
+<details>
+<summary><strong>15 tools</strong> — Config, GUI apps, analytics, memory, routing & more</summary>
 
 ### Configuration & Setup Tools
 
@@ -625,15 +670,23 @@
 
 - 🔧 [claude-dev-toolkit - NPM package for Claude Code customization](https://medium.com/@PaulDuvall/customizing-claude-code-what-i-learned-from-losing-everything-72c90c98daba)
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 🎯 Skills & Templates
 
 > Pre-built skills, templates, and the Agent Skills open standard for Claude Code.
 
+<details>
+<summary><strong>65+ resources</strong> — Open standard, courses, libraries, generators, marketplaces & tutorials</summary>
+
 ### Agent Skills Open Standard
 
 > Anthropic's open standard for portable, cross-platform agent skills — adopted by Microsoft (VS Code), OpenAI (Codex), Vercel, Cursor, and 30+ platforms.
+
+<details>
+<summary><strong>Show open standard docs, articles & repos</strong></summary>
 
 #### Documentation
 
@@ -664,6 +717,8 @@
 | 🔧 [anthropics/skills](https://github.com/anthropics/skills) | 69.8k+ | Official Agent Skills examples and specification (Apache 2.0) |
 | 🔧 [agentskills/agentskills](https://github.com/agentskills/agentskills) | 9.8k+ | Agent Skills specification and reference SDK |
 | 🔧 [vercel-labs/skills](https://github.com/vercel-labs/skills) | 5.9k+ | Open agent skills CLI — `npx skills` |
+
+</details>
 
 ### Skills Courses & Learning
 
@@ -736,6 +791,9 @@
 
 ### Skills Tutorials & Guides
 
+<details>
+<summary><strong>Show 24 tutorials & guides</strong></summary>
+
 - 📗 [How to Build Claude Skills: Lesson Plan Generator - Codecademy](https://www.codecademy.com/article/how-to-build-claude-skills)
 - 📗 [Claude Agent Skills: A First Principles Deep Dive - Lee Hanchung](https://leehanchung.github.io/blogs/2025/10/26/claude-skills-deep-dive/)
 - 📗 [How to Make Claude Code Skills Activate Reliably - Scott Spence](https://scottspence.com/posts/how-to-make-claude-code-skills-activate-reliably)
@@ -761,6 +819,8 @@
 - 📗 [AGENTS.md Outperforms Skills in Our Agent Evals - Vercel](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)
 - 📗 [Introducing Skills: The Open Agent Skills Ecosystem - Vercel](https://vercel.com/changelog/introducing-skills-the-open-agent-skills-ecosystem)
 
+</details>
+
 ### Other Resources
 
 - 🔧 [Claude Code Skill: Writing X Posts & Viral Twitter Threads](https://mcpmarket.com/tools/skills/writing-x-posts)
@@ -768,11 +828,16 @@
 - 💡 [Agent Skills is Now an Open Standard - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1ppw38d/agent_skills_is_now_an_open_standard/)
 - 💡 [How to Set Up Claude Skills in <15 Minutes - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1onjxs9/how_to_set_up_claude_skills_in_15_minutes_for/)
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 🤝 Alternative Coding Agents
 
 > Other agentic coding tools inspired by or compatible with Claude Code.
+
+<details>
+<summary><strong>7 tools</strong> — Open-source coding agents & alternatives</summary>
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
@@ -784,11 +849,16 @@
 | 🔧 [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | 8.4k+ | Get AI agents to solve hard problems in complex codebases |
 | 🔧 [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | 13.6k+ | Get 10X more out of Claude Code, Codex or any coding agent |
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 👥 Community
 
 > Community resources, discussions, chat servers, meetups, and social platforms where Claude Code users connect and share ideas.
+
+<details>
+<summary><strong>35+ resources</strong> — Discord, Reddit, X/Twitter, meetups, forums, awesome lists & more</summary>
 
 ### Discord Servers
 
@@ -875,11 +945,16 @@
 | 🔧 [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) | 390+ | Project configuration with hooks, skills, agents, commands |
 | 🔧 [fcakyon/claude-codex-settings](https://github.com/fcakyon/claude-codex-settings) | 310+ | Personal setup with skills, commands, hooks, agents |
 
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
 ## 📊 Experience Reports & Case Studies
 
 > Real-world experiences and lessons learned from using Claude Code.
+
+<details>
+<summary><strong>6 resources</strong> — Long-term usage reports, config tips & case studies</summary>
 
 ### Long-term Usage
 
@@ -895,6 +970,8 @@
 ### Case Studies
 
 - 📗 [I analysed the source code of Twitter with Claude Code](https://medium.com/realworld-ai-use-cases/i-analysed-the-source-code-of-twitter-read-this-if-you-have-less-than-2500-followers-8a7a21c10fe0)
+
+</details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
