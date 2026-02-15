@@ -66,6 +66,7 @@
 - [✨ Best Practices & Workflows](#-best-practices--workflows)
 - [🔬 Deep Dives & Analysis](#-deep-dives--analysis)
 - [🤖 Subagents](#-subagents)
+- [🏗️ Agent Teams](#️-agent-teams)
 - [⚡ Hooks & Automation](#-hooks--automation)
 - [🔌 MCP (Model Context Protocol)](#-mcp-model-context-protocol)
   - [MCP Documentation](#mcp-documentation)
@@ -73,8 +74,21 @@
 - [💻 SDK & API](#-sdk--api)
 - [🛠️ Tools & Extensions](#️-tools--extensions)
 - [🎯 Skills & Templates](#-skills--templates)
+  - [Agent Skills Open Standard](#agent-skills-open-standard)
+  - [Skills Courses & Learning](#skills-courses--learning)
+  - [Skill Generators & Tools](#skill-generators--tools)
+  - [Skill Marketplaces & Registries](#skill-marketplaces--registries)
+  - [Skills Tutorials & Guides](#skills-tutorials--guides)
 - [🤝 Alternative Coding Agents](#-alternative-coding-agents)
 - [👥 Community](#-community)
+  - [Discord Servers](#discord-servers)
+  - [Slack Communities](#slack-communities)
+  - [Reddit Communities](#reddit-communities)
+  - [X / Twitter](#x--twitter)
+  - [LinkedIn](#linkedin)
+  - [Forums & Community Hubs](#forums--community-hubs)
+  - [Meetup Groups & In-Person Events](#meetup-groups--in-person-events)
+  - [GitHub Community Organizations](#github-community-organizations)
 - [📊 Experience Reports & Case Studies](#-experience-reports--case-studies)
 
 </details>
@@ -101,6 +115,10 @@
 - 📁 [Claude Code SDK - Python](https://docs.claude.com/en/docs/claude-code/sdk/sdk-python)
 - 📁 [Agent SDK Overview - Claude Docs](https://platform.claude.com/docs/en/agent-sdk/overview)
   - [Alternative link](https://docs.claude.com/en/api/agent-sdk/overview)
+- 📁 [Extend Claude with Skills - Claude Code Docs](https://code.claude.com/docs/en/skills)
+- 📁 [What are Skills? - Claude Help Center](https://support.claude.com/en/articles/12512176-what-are-skills)
+- 📁 [Skill Authoring Best Practices - Claude API Docs](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
+- 📁 [The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
 
 ### Articles & Blog Posts
 
@@ -108,6 +126,7 @@
 - 📗 [Building Agents with the Claude Agent SDK](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk)
 - 📗 [Introducing Advanced Tool Use on Claude Developer Platform](https://www.anthropic.com/engineering/advanced-tool-use)
 - 📗 [Claude Desktop Extensions: One-click MCP Server Installation](https://www.anthropic.com/engineering/desktop-extensions)
+- 📗 [Equipping Agents for the Real World with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
 
 ### Official GitHub Repositories
 
@@ -117,6 +136,7 @@
 | 🔧 [anthropics/claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python) | 3.9k+ | Official Claude Agent SDK for Python |
 | 🔧 [anthropics/claude-agent-sdk-typescript](https://github.com/anthropics/claude-agent-sdk-typescript) | 550+ | Official Claude Agent SDK for TypeScript |
 | 💡 [anthropics/claude-agent-sdk-demos](https://github.com/anthropics/claude-agent-sdk-demos) | 990+ | Claude Code SDK Demos |
+| 🔧 [anthropics/skills](https://github.com/anthropics/skills) | 69.8k+ | Official Agent Skills examples and specification (Apache 2.0) |
 
 ### Courses
 
@@ -161,6 +181,8 @@
 - 📚 [Claude Code: Software Engineering with Generative AI Agents - Coursera](https://www.coursera.org/learn/claude-code)
 - 📚 [Intro to Claude AI - Coursera](https://www.coursera.org/learn/intro-to-claude-ai)
 - 📚 [Claude Code: Building Faster with AI, from Prototype to Prod - Udemy](https://medium.com/javarevisited/top-5-udemy-courses-to-learn-claude-code-and-claude-ai-in-2025-7a0695c991af)
+- 📚 [Agent Skills with Anthropic - DeepLearning.AI](https://www.deeplearning.ai/short-courses/agent-skills-with-anthropic/) *(Free)*
+- 📚 [The Essential Guide to Claude Code Skills - egghead.io](https://egghead.io/courses/the-essential-guide-to-claude-code-skills~7349k)
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -193,6 +215,20 @@
 ### Subagents & Multi-Agent
 
 - 🎬 [Claude Sub-Agents Workflow (Full Demo) - Ray Fernando](https://www.youtube.com/watch?v=-zzbkh9B-5Q)
+
+### Skills
+
+- 🎬 [Claude Code Skills Tutorial: Build AI Automations (2026)](https://www.youtube.com/watch?v=PQeCd0awIug)
+- 🎬 [Claude Code Skills & skills.sh Crash Course](https://www.youtube.com/watch?v=rcRS8-7OgBo)
+- 🎬 [Claude Skills Explained - Step-by-Step Tutorial - Kevin Stratvert](https://www.youtube.com/watch?v=wO8EboopboU)
+- 🎬 [Mastering Claude Code Skills (This Changes Everything)](https://www.youtube.com/watch?v=EwAd-fqQfJ8)
+- 🎬 [Claude Code Skills vs MCPs: Complete Beginner's Guide 2026](https://www.youtube.com/watch?v=42nz2FfKA9A)
+- 🎬 [How I Made Claude Code WAY Better With Vercel Agent Skills](https://www.youtube.com/watch?v=PkeC2hNQ9Zw)
+- 🎬 [Claude Code Skills - The Only Tutorial You Need](https://www.youtube.com/watch?v=vIUJ4Hd7be0)
+- 🎬 [This Claude Code Skill Creates Skills For You](https://www.youtube.com/watch?v=LJI7FafIDg4)
+- 🎬 [Claude Code Skills just Built me an AI Agent Team (2026 Guide)](https://www.youtube.com/watch?v=OdtGN27LchE)
+- 🎬 [How to Create Claude Code Skills to 10x Your AI Results](https://www.youtube.com/watch?v=erkzROBDEFY)
+- 🎬 [Claude Code Skills are INSANE (and you're not using them correctly)](https://www.youtube.com/watch?v=thxXGxYIwUI)
 
 ### MCP & Integrations
 
@@ -263,6 +299,61 @@
 | 🔧 [ruvnet/claude-flow](https://github.com/ruvnet/claude-flow) | 11.2k+ | Agent orchestration platform with swarm intelligence |
 | 📚 [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 7.1k+ | 100+ specialized Claude Code subagents |
 | 🔧 [webdevtodayjason/sub-agents](https://github.com/webdevtodayjason/sub-agents) | 170+ | Sub Agent Manager with hooks and custom slash commands |
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
+
+## 🏗️ Agent Teams
+
+> Resources about Claude Code's Agent Teams feature — spin up multiple Claude Code instances that work in parallel on a shared codebase, coordinated by a lead agent. Released as a research preview with Opus 4.6 in February 2026.
+
+### Official Resources
+
+- 📁 [Orchestrate teams of Claude Code sessions - Official Docs](https://code.claude.com/docs/en/agent-teams)
+- 📗 [Introducing Claude Opus 4.6 - Anthropic](https://www.anthropic.com/news/claude-opus-4-6) — announcement of agent teams as a research preview
+- 📗 [Building a C compiler with a team of parallel Claudes - Anthropic Engineering](https://www.anthropic.com/engineering/building-c-compiler) — 16 parallel Claude agents built a 100k-line C compiler in Rust
+
+### Tutorials & Guides
+
+- 📗 [Claude Code Agent Teams: Run Parallel AI Agents on Your Codebase - SitePoint](https://www.sitepoint.com/anthropic-claude-code-agent-teams/) — architecture, setup, real-world patterns, and limitations
+- 📗 [Claude Code Swarms - Addy Osmani](https://addyosmani.com/blog/claude-code-agent-teams/) — evolution of agentic coding workflows
+- 📗 [How to Set Up and Use Claude Code Agent Teams (And Actually Get Great Results) - Dára Sobaloju](https://darasoba.medium.com/how-to-set-up-and-use-claude-code-agent-teams-and-actually-get-great-results-9a34f8648f6d) — practical setup, display modes, and team coordination
+- 📗 [From Tasks to Swarms: Agent Teams in Claude Code - alexop.dev](https://alexop.dev/posts/from-tasks-to-swarms-agent-teams-in-claude-code/) — spec-driven development with parallel research agents
+- 📗 [Agent Teams vs Subagents: When Teams Beat Solo Agents - Charles Jones](https://charlesjones.dev/blog/claude-code-agent-teams-vs-subagents-parallel-development) — comparison of when to use agent teams vs subagents
+- 📗 [Claude Code Agent Teams: Multi-Session Orchestration - ClaudeFast](https://claudefa.st/blog/guide/agents/agent-teams) — collaborative exploration and builder-validator patterns
+- 📗 [Agent Teams with Claude Code and Claude Agent SDK - Isaac Kargar](https://kargarisaac.medium.com/agent-teams-with-claude-code-and-claude-agent-sdk-e7de4e0cb03e) — using agent teams with the SDK
+- 📗 [Configure Claude Code to Power Your Agent Team - David Haberlah](https://medium.com/@haberlah/configure-claude-code-to-power-your-agent-team-90c8d3bca392) — CLAUDE.md configuration and team conventions
+- 📗 [Practical Guide to Parallelizing Development Tasks with Agent Teams - Zenn](https://zenn.dev/correlate/articles/agent-teams-parallel?locale=en) — 13 agents across 3 teams, DAG-based task design, mixed model strategy
+- 📗 [Claude Code Agent Teams: Complete Guide to Parallel AI Development - NxCode](https://www.nxcode.io/resources/news/claude-agent-teams-parallel-ai-development-guide-2026)
+- 📗 [Claude Code Agent Teams Setup Guide - Serenities AI](https://serenitiesai.com/articles/claude-code-agent-teams-documentation) — step-by-step setup, configuration, and troubleshooting
+- 📗 [Mastering the 5 Core Points of Claude Opus 4.6 Agent Teams - APIYi](https://help.apiyi.com/en/claude-opus-4-6-agent-teams-how-to-use-guide-en.html)
+- 📗 [Building Apps with Claude Opus 4.6 Agent Teams & Firecrawl Agent - Firecrawl](https://www.firecrawl.dev/blog/claude-opus-4-6-agent-teams-firecrawl) — integrating live web data with agent teams
+
+### Video Tutorials
+
+- 🎬 [Learn 90% Of Claude Code Agent Teams in 22 Minutes (Opus 4.6) - Bart Slodyczka](https://www.youtube.com/watch?v=cSkoaCCmq0w) — default vs subagents vs agent teams, tmux setup, cost tracking
+- 🎬 [Claude Opus 4.6: Agent Teams Change Everything!](https://www.youtube.com/watch?v=RWDK5414yL4) — hands-on build with split-pane agents
+- 🎬 [Claude Code Agent Teams Explained (Complete Guide)](https://www.youtube.com/watch?v=1jlKUxqRQAw) — full guide with downloadable diagrams
+- 🎬 [Multiple AI Agents Coding Together in Real Time](https://www.youtube.com/watch?v=-1K_ZWDKpU0)
+
+### Experience Reports & Analysis
+
+- 📗 [Claude Opus 4.6 is Driven - LessWrong](https://www.lesswrong.com/posts/btAn3hydqfgYFyHGW/claude-opus-4-6-is-driven) — 6 parallel agents reviewed an entire production codebase, found 35 issues
+- 📗 [Claude Code: Next Era Agent Collaboration - Cameron Hedrick](https://cameronxyz.substack.com/p/claude-code-next-era-agent-collaboration) — implications for organizational design
+- 💡 [How to Set Up Claude Code Agent Teams (Full Walkthrough + What Actually Changed) - Reddit](https://www.reddit.com/r/ClaudeCode/comments/1qz8tyy/how_to_set_up_claude_code_agent_teams_full/)
+- 💡 [Agent teams shipped yesterday — guide about when it works, and when it breaks - Reddit](https://www.reddit.com/r/ClaudeCode/comments/1qxsqr7/agent_teams_shipped_yesterday_wrote_a_guide_about/)
+- 💡 [Anthropic used Agent Teams and Opus 4.6 to build a C Compiler from scratch - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1qwvp6g/anthropic_used_agent_teams_and_opus_46_to_build_a/)
+
+### Tools & Utilities
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [Glsme/agent-monitor](https://github.com/Glsme/agent-monitor) | 30+ | GUI Monitor for agent teams — Tauri v2 + React desktop app with pixel art office view |
+| 🔧 [Pickle-Pixel/HydraTeams](https://github.com/Pickle-Pixel/HydraTeams) | 19+ | Translation proxy making agent teams model-agnostic — use GPT, Gemini, Ollama as teammates |
+| 🔧 [yuvalsuede/claude-teams-language-protocol](https://github.com/yuvalsuede/claude-teams-language-protocol) | 11+ | AgentSpeak: token-efficient protocol cutting inter-agent messaging tokens by 60-70% |
+| 🔧 [OthmanAdi/planning-with-teams](https://github.com/OthmanAdi/planning-with-teams) | 9+ | Manus-style context engineering for agent teams with shared planning files |
+| 🔧 [sethdford/shipwright](https://github.com/sethdford/shipwright) | 6+ | Orchestrate fully autonomous agent teams with delivery pipelines and DORA metrics |
+| 🔧 [qingcaizz/claude-orchestra](https://github.com/qingcaizz/claude-orchestra) | 2+ | Real-time kanban dashboard for visualizing and managing multi-agent collaboration |
+| 🔧 [rhysheavensmith/claude-agent-launcher](https://github.com/rhysheavensmith/claude-agent-launcher) | 4+ | tmux multipane launcher for agent teams |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -373,33 +464,119 @@
 
 ## 💻 SDK & API
 
-> Programmatic access to Claude Code capabilities.
+> Programmatic access to Claude Code capabilities via the Claude Agent SDK — available in Python, TypeScript, and community ports for Go, Rust, Ruby, Elixir, .NET, and Kotlin.
 
 ### Documentation
 
 - 📁 [Claude Code SDK - Python](https://docs.claude.com/en/docs/claude-code/sdk/sdk-python)
-- 📁 [Agent SDK overview - Claude Docs](https://platform.claude.com/docs/en/agent-sdk/overview)
+- 📁 [Agent SDK Overview - Claude Docs](https://platform.claude.com/docs/en/agent-sdk/overview)
   - [Alternative link](https://docs.claude.com/en/api/agent-sdk/overview)
+- 📁 [Connect to External Tools with MCP - Agent SDK Docs](https://platform.claude.com/docs/en/agent-sdk/mcp)
+- 📁 [Custom Tools - Agent SDK Docs](https://platform.claude.com/docs/en/agent-sdk/custom-tools)
 
-### Articles & Guides
+### Getting Started & Tutorials
 
-- 📗 [Building Agents with the Claude Agent SDK](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk)
-- 📗 [Using the Claude Agent SDK to build non-coding workflows](https://melvindave.medium.com/using-the-claude-agent-sdk-to-build-non-coding-workflows-c3f689e7e138)
-- 📗 [A Comprehensive Guide to the Claude Code SDK](https://apidog.com/blog/a-comprehensive-guide-to-the-claude-code-sdk/)
+- 📗 [Claude Agent SDK Tutorial: Create Agents Using Claude - DataCamp](https://www.datacamp.com/tutorial/how-to-use-claude-agent-sdk) — builds three practical projects (blog outline, CLI with web search, multi-tool app)
+- 📗 [Getting Started with the Claude Agent SDK - KDnuggets](https://www.kdnuggets.com/getting-started-with-the-claude-agent-sdk) — builds a multi-tool CLI app tracking live market trends
+- 📗 [The Complete Guide to Building Agents with the Claude Agent SDK - Nader Dabit](https://nader.substack.com/p/the-complete-guide-to-building-agents) — code review agent from scratch with MCP and permission modes
+- 📗 [How to Use Claude Agent SDK: Step-by-Step Tutorial - Skywork AI](https://skywork.ai/blog/how-to-use-claude-agent-sdk-step-by-step-ai-agent-tutorial/) — covers TypeScript and Python tracks with AWS Bedrock deployment
+- 📗 [How to Create AI Agents using Claude Agent SDK - Helply](https://helply.com/blog/create-ai-agent-using-claude-agent-sdk) — practical 7-step guide with custom tools and subagents
+- 📗 [How to Create Agents with Claude Agent SDK - Bind AI](https://blog.getbind.co/how-to-create-agents-with-claude-agents-sdk/)
+- 📗 [A Comprehensive Guide to the Claude Code SDK - Apidog](https://apidog.com/blog/a-comprehensive-guide-to-the-claude-code-sdk/)
+- 📗 [Build and Publish a Claude Agent SDK App - Replit Docs](https://docs.replit.com/tutorials/claude-agent-sdk) — complete tutorial with scheduled deployments
+- 📚 [Anthropic Claude Agent SDK - Agent Factory (Panaversity)](https://agentfactory.panaversity.org/docs/Building-Custom-Agents/anthropic-agents-kit-development) — structured course chapter covering setup, tool use, and framework comparisons
+
+### Deep Dives & Best Practices
+
+- 📗 [Building Agents with the Claude Agent SDK - Anthropic Engineering](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk)
+- 📗 [The Definitive Guide to the Claude Agent SDK - Bragi](https://medium.com/@datapoetica/the-definitive-guide-to-the-claude-agent-sdk-building-the-next-generation-of-ai-69fda0a0530f) — 37-minute deep dive on agent trust, permissions, costs, and production patterns
+- 📗 [Building Agents with Claude Agent SDK: Real Implementation Guide - Aankit Roy](https://aankitroy.com/blog/claude-agent-sdk-building-agents-that-work) — lessons from building 8+ production agents with concrete metrics
+- 📗 [Claude Agent SDK Best Practices for AI Agent Development - Skywork AI](https://skywork.ai/blog/claude-agent-sdk-best-practices-ai-agents-2025/) — orchestrator patterns, permission management, and production checklist
+- 📗 [Claude Agent SDK: Build Production AI Agents Without Starting from Scratch - BrainGrid](https://www.braingrid.ai/blog/claude-agent-sdk) — agent loop architecture, common mistakes, and Next.js/Vercel deployment
+- 📗 [Using the Claude Agent SDK to Build Non-Coding Workflows](https://melvindave.medium.com/using-the-claude-agent-sdk-to-build-non-coding-workflows-c3f689e7e138)
+- 📗 [Building Autonomous AI Agents with the Claude Agent SDK - Abhinav Dobhal](https://medium.com/@abhinav.dobhal/building-autonomous-ai-agents-with-the-claude-agent-sdk-a-complete-guide-feb1a3962387)
+- 📗 [Claude Code Multi-Agents and Subagents: Complete Orchestration Guide - TURION AI](https://turion.ai/blog/claude-code-multi-agents-subagents-guide/) — 7-parallel-task method and community orchestration tools
+
+### Video Tutorials
+
+- 🎬 [Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic](https://www.youtube.com/watch?v=TqC1qOfiVcQ) — official workshop from Anthropic engineer, live-coding an agent harness
+- 🎬 [Claude SDK: 24-Hour Coding Agent - Cole Medin](https://www.youtube.com/watch?v=BGouphNN5hg) — long-running agent harness with Linear integration
+- 🎬 [Claude Agent SDK - Complete Walkthrough in 12 Minutes](https://www.youtube.com/watch?v=u1uyXXl_6N8)
+- 🎬 [Claude Agents SDK BEATS all Agent Frameworks! (Beginners Guide)](https://www.youtube.com/watch?v=i6N8oQQ0tUE)
+
+### Deployment & Enterprise
+
+- 📗 [Deploying Claude Agent SDK on Amazon Bedrock AgentCore - AWS](https://builder.aws.com/content/30O5JJPjEeCugL5MAfSM9TTcd9p/deploying-claude-agent-sdk-on-amazon-bedrock-agentcore-runtime) — production deployment with three lines of code
+- 📗 [Using Vercel Sandbox to Run Claude Agent SDK - Vercel](https://vercel.com/kb/guide/using-vercel-sandbox-claude-agent-sdk) — sandboxed environments for secure, isolated execution
+- 📗 [Enterprise Deployment Guide for AI Agents with Claude SDK - MintMCP](https://www.mintmcp.com/blog/enterprise-development-guide-ai-agents) — centralized auth, audit trails, and governance controls
+
+### Integration Guides
+
+- 📗 [Rapidly Prototype and Evaluate Agents with Claude Agent SDK and MLflow](https://mlflow.org/blog/mlflow-autolog-claude-agents-sdk) — automatic tracing and systematic evaluation
+- 📗 [Claude Agent SDK + Bright Data Web MCP Integration Guide](https://brightdata.com/blog/ai/claude-agent-sdk-with-web-mcp) — 60+ AI-ready web scraping and browser automation tools
+
+### Comparisons & Analysis
+
+- 📗 [Claude vs Claude API vs Claude Code: What's the Difference? - 16x Eval](https://eval.16x.engineer/blog/claude-vs-claude-api-vs-claude-code) — clarifies pricing, use cases, and ecosystem integration
+- 📗 [AI Framework Comparison: Claude Agent SDK vs LangGraph vs OpenAI - Enhancial](https://enhancial.substack.com/p/choosing-the-right-ai-framework-a) — strengths/weaknesses and decision framework
+- 📗 [Claude Agent SDK vs OpenAI AgentKit: A Developer's Guide - Rick Hightower](https://medium.com/@richardhightower/claude-agent-sdk-vs-openai-agentkit-a-developers-guide-to-building-ai-agents-95780ec777ea)
 
 ### SDK Repositories
+
+#### Official SDKs
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
 | 🔧 [anthropics/claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python) | 3.9k+ | Official Claude Agent SDK for Python |
 | 🔧 [anthropics/claude-agent-sdk-typescript](https://github.com/anthropics/claude-agent-sdk-typescript) | 550+ | Official Claude Agent SDK for TypeScript |
 | 💡 [anthropics/claude-agent-sdk-demos](https://github.com/anthropics/claude-agent-sdk-demos) | 990+ | Claude Code SDK Demos |
+
+#### Community SDKs (Language Ports)
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [severity1/claude-agent-sdk-go](https://github.com/severity1/claude-agent-sdk-go) | 87+ | Unofficial Go SDK for Claude Agent CLI integration |
+| 🔧 [xemantic/anthropic-sdk-kotlin](https://github.com/xemantic/anthropic-sdk-kotlin) | 60+ | Unofficial Kotlin multiplatform SDK |
+| 🔧 [JinFanZheng/kode-sdk-csharp](https://github.com/JinFanZheng/kode-sdk-csharp) | 53+ | Kode Agent SDK for .NET with Claude and OpenAI support |
+| 🔧 [tyrchen/claude-agent-sdk-rs](https://github.com/tyrchen/claude-agent-sdk-rs) | 46+ | Unofficial Rust SDK for Claude Agent |
+| 🔧 [guess/claude_code](https://github.com/guess/claude_code) | 34+ | Claude Agent SDK for Elixir |
+| 🔧 [ya-luotao/claude-agent-sdk-ruby](https://github.com/ya-luotao/claude-agent-sdk-ruby) | 29+ | Unofficial Ruby SDK for Claude Agent |
+
+#### Applications & Tools Built with Agent SDK
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [AFK-surf/open-agent](https://github.com/AFK-surf/open-agent) | 570+ | Open-source alternative to Claude Agent SDK |
+| 🔧 [dzhng/claude-agent-server](https://github.com/dzhng/claude-agent-server) | 514+ | Run Claude Agent in a sandbox, control via websocket |
 | 🔧 [browserbase/agent-browse](https://github.com/browserbase/agent-browse) | 340+ | Claude Agent SDK with web browsing tool |
+| 🔧 [ericshang98/Perfect-Web-Clone](https://github.com/ericshang98/Perfect-Web-Clone) | 322+ | Multi-agent pixel-perfect web cloning with 40+ tools |
 | 🔧 [ruvnet/agentic-flow](https://github.com/ruvnet/agentic-flow) | 310+ | Switch between AI models in Claude Code/Agent SDK |
 | 🔧 [pheuter/claude-agent-desktop](https://github.com/pheuter/claude-agent-desktop) | 165+ | Cross-platform desktop app powered by Agent SDK |
+| 🔧 [ImGoodBai/goodable](https://github.com/ImGoodBai/goodable) | 136+ | Local-first Desktop AI Workspace with browser automation and Skills |
+| 🔧 [ErlichLiu/Proma](https://github.com/ErlichLiu/Proma) | 116+ | Open-source Agent SDK application with universal Agent capabilities |
+| 🔧 [terryso/AutoQA-Agent](https://github.com/terryso/AutoQA-Agent) | 99+ | Automated testing CLI tool built with Claude Agent SDK |
+| 🔧 [Harryoung/efka](https://github.com/Harryoung/efka) | 91+ | AI-powered knowledge management without vector embeddings |
+| 🔧 [castari/castari-proxy](https://github.com/castari/castari-proxy) | 81+ | Use Claude Agent SDK with other providers/models |
 | 🔧 [craigsdennis/claude-in-the-box](https://github.com/craigsdennis/claude-in-the-box) | 79+ | Use Claude Agent SDK in Cloudflare Sandbox |
-| 🔧 [AFK-surf/open-agent](https://github.com/AFK-surf/open-agent) | 570+ | Open-source alternative to Claude Agent SDK |
-| 🔧 [xemantic/anthropic-sdk-kotlin](https://github.com/xemantic/anthropic-sdk-kotlin) | 60+ | Unofficial Kotlin multiplatform SDK |
+| 🔧 [DV0x/creative-ad-agent](https://github.com/DV0x/creative-ad-agent) | 75+ | Multi-agent system for generating Meta/Instagram ad creatives |
+| 🔧 [bobmatnyc/claude-mpm](https://github.com/bobmatnyc/claude-mpm) | 72+ | Claude Multi-Agent Project Manager with subprocess orchestration |
+| 🔧 [skindhu/claude-deep-wiki](https://github.com/skindhu/claude-deep-wiki) | 71+ | AI-powered code analyzer generating docs, supports 165+ languages |
+| 🔧 [whiteboardmonk/agcluster-container](https://github.com/whiteboardmonk/agcluster-container) | 63+ | Self-hosted platform with container isolation and Web UI dashboard |
+| 🔧 [dkyazzentwatwa/Cyber-Claude](https://github.com/dkyazzentwatwa/Cyber-Claude) | 58+ | AI-powered cybersecurity agent for defensive security operations |
+| 🔧 [thomasgauvin/claude-agent-sdk-in-cloudflare-containers](https://github.com/thomasgauvin/claude-agent-sdk-in-cloudflare-containers) | 42+ | Run Claude Agents in Cloudflare Containers |
+| 🔧 [kcenon/claude_code_agent](https://github.com/kcenon/claude_code_agent) | 27+ | Agent-Driven Software Development Lifecycle (AD-SDLC) |
+
+#### Learning & Example Repositories
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 📚 [kenneth-liao/claude-agent-sdk-intro](https://github.com/kenneth-liao/claude-agent-sdk-intro) | 122+ | Step-by-step tutorial with 6 modules covering basics to MCP |
+| 📚 [ErlichLiu/claude-agent-sdk-master](https://github.com/ErlichLiu/claude-agent-sdk-master) | 112+ | From basics to advanced implementations with Skills and MCP |
+
+### Community Discussions
+
+- 💡 [Claude Agent SDK: Build AI Agents That Actually Get Work Done - Reddit](https://www.reddit.com/r/aiagents/comments/1nuh1kq/claude_agent_sdk_build_ai_agents_that_actually/)
+- 💡 [Stopped Choosing Between LangGraph and Claude SDK — Using Both - Reddit](https://www.reddit.com/r/LangChain/comments/1qg98n5/stopped_choosing_between_langgraph_and_claude_sdk/) — hybrid architecture with working code examples
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -452,16 +629,56 @@
 
 ## 🎯 Skills & Templates
 
-> Pre-built skills and templates for Claude Code.
+> Pre-built skills, templates, and the Agent Skills open standard for Claude Code.
+
+### Agent Skills Open Standard
+
+> Anthropic's open standard for portable, cross-platform agent skills — adopted by Microsoft (VS Code), OpenAI (Codex), Vercel, Cursor, and 30+ platforms.
+
+#### Documentation
+
+- 📁 [Agent Skills Open Standard - agentskills.io](https://agentskills.io/)
+  - [Specification](https://agentskills.io/specification)
+- 📁 [Extend Claude with Skills - Claude Code Docs](https://code.claude.com/docs/en/skills)
+- 📁 [What are Skills? - Claude Help Center](https://support.claude.com/en/articles/12512176-what-are-skills)
+- 📁 [Skill Authoring Best Practices - Claude API Docs](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
+- 📁 [The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
+- 📁 [Use Agent Skills in VS Code](https://code.visualstudio.com/docs/copilot/customization/agent-skills)
+- 📁 [Agent Skills - Cursor Docs](https://cursor.com/docs/context/skills)
+
+#### Articles & Announcements
+
+- 📗 [Equipping Agents for the Real World with Agent Skills - Anthropic Engineering](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
+- 📗 [Agent Skills: Anthropic's Next Bid to Define AI Standards - The New Stack](https://thenewstack.io/agent-skills-anthropics-next-bid-to-define-ai-standards/)
+- 📗 [Anthropic Launches Enterprise Agent Skills and Opens the Standard - VentureBeat](https://venturebeat.com/ai/anthropic-launches-enterprise-agent-skills-and-opens-the-standard)
+- 📗 [Claude Skills Are Awesome, Maybe Bigger Than MCP - Simon Willison](https://simonwillison.net/2025/Oct/16/claude-skills/)
+  - [Agent Skills deep dive](https://simonwillison.net/2025/Dec/19/agent-skills/)
+- 📗 [Anthropic Makes Agent Skills an Open Standard - SiliconANGLE](https://siliconangle.com/2025/12/18/anthropic-makes-agent-skills-open-standard/)
+- 📗 [Anthropic Opens Agent Skills Standard - Unite.AI](https://www.unite.ai/anthropic-opens-agent-skills-standard-continuing-its-pattern-of-building-industry-infrastructure/)
+- 📗 [Agent Skills: Standard for Smarter AI](https://medium.com/@nayakpplaban/agent-skills-standard-for-smarter-ai-bde76ea61c13)
+
+#### Official & Standard Repositories
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [anthropics/skills](https://github.com/anthropics/skills) | 69.8k+ | Official Agent Skills examples and specification (Apache 2.0) |
+| 🔧 [agentskills/agentskills](https://github.com/agentskills/agentskills) | 9.8k+ | Agent Skills specification and reference SDK |
+| 🔧 [vercel-labs/skills](https://github.com/vercel-labs/skills) | 5.9k+ | Open agent skills CLI — `npx skills` |
+
+### Skills Courses & Learning
+
+- 📚 [Agent Skills with Anthropic - DeepLearning.AI](https://www.deeplearning.ai/short-courses/agent-skills-with-anthropic/) *(Free)*
+- 📚 [The Essential Guide to Claude Code Skills - egghead.io](https://egghead.io/courses/the-essential-guide-to-claude-code-skills~7349k)
 
 ### Awesome Lists & Collections
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
 | 📚 [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 15.6k+ | Curated list of Claude Skills, resources, and tools |
+| 📚 [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 7k+ | 300+ agent skills compatible with Claude Code, Codex, and more |
 | 📚 [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | 4.2k+ | Skills & resources for Claude AI workflows |
-| 📚 [VoltAgent/awesome-claude-skills](https://github.com/VoltAgent/awesome-claude-skills) | 2.2k+ | Awesome collection of Claude Skills and resources |
 | 📚 [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) | 3.6k+ | Curated list of Claude Skills |
+| 📚 [VoltAgent/awesome-claude-skills](https://github.com/VoltAgent/awesome-claude-skills) | 2.2k+ | Awesome collection of Claude Skills and resources |
 | 📚 [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) | 1k+ | Skills for AI coding agents (Claude, Codex, Copilot, VS Code) |
 
 ### Core Skills Libraries
@@ -469,27 +686,87 @@
 | Repository | Stars | Description |
 |------------|-------|-------------|
 | 🔧 [obra/superpowers](https://github.com/obra/superpowers) | 14.2k+ | Claude Code superpowers: core skills library |
+| 🔧 [trailofbits/skills](https://github.com/trailofbits/skills) | 2.6k+ | Security research and vulnerability detection skills |
+| 🔧 [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills) | 2.4k+ | 66 specialized full-stack development skills |
 | 🔧 [mrgoonie/claudekit-skills](https://github.com/mrgoonie/claudekit-skills) | 1.1k+ | All powerful skills of ClaudeKit.cc |
 | 🔧 [GuDaStudio/skills](https://github.com/GuDaStudio/skills) | 1.1k+ | Agent Skills for collaboration between Claude and AI models |
+| 🔧 [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) | 470+ | 135 agents, 35+ skills, 42 commands, 120 plugins, 19 hooks |
+| 🔧 [raintree-technology/claude-starter](https://github.com/raintree-technology/claude-starter) | 44+ | Platform-agnostic, production-ready configs with 40+ skills |
+| 🔧 [jezweb/claude-skills](https://github.com/jezweb/claude-skills) | 460+ | Production-ready skills for Cloudflare, React, Tailwind v4 |
 
 ### Specialized Skills
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
 | 🔧 [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 8.4k+ | Design intelligence for professional UI/UX across platforms |
-| 🔧 [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | 4.7k+ | Ready-to-use scientific skills for Claude |
 | 🔧 [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | 6.2k+ | Convert docs, GitHub repos, and PDFs into Claude skills |
+| 🔧 [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | 4.7k+ | Ready-to-use scientific skills for Claude |
+| 🔧 [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 3.2k+ | Manus-style persistent markdown planning |
 | 🔧 [SawyerHood/dev-browser](https://github.com/SawyerHood/dev-browser) | 2.4k+ | Give your agent ability to use a web browser |
-| 🔧 [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill) | 1.1k+ | Browser automation with Playwright |
+| 🔧 [glitternetwork/pinme](https://github.com/glitternetwork/pinme) | 2.4k+ | Deploy your frontend in a single command |
 | 🔧 [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills) | 1.3k+ | n8n skillset for building flawless workflows |
 | 🔧 [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) | 1.3k+ | Communicate with Google NotebookLM notebooks |
-| 🔧 [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 3.2k+ | Manus-style persistent markdown planning |
-| 🔧 [glitternetwork/pinme](https://github.com/glitternetwork/pinme) | 2.4k+ | Deploy your frontend in a single command |
+| 🔧 [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill) | 1.1k+ | Browser automation with Playwright |
+| 🔧 [CharlesWiltgen/Axiom](https://github.com/CharlesWiltgen/Axiom) | 460+ | iOS/xOS development skills |
+| 🔧 [solana-foundation/solana-dev-skill](https://github.com/solana-foundation/solana-dev-skill) | 340+ | Solana blockchain development skill |
+| 🔧 [Aaronontheweb/dotnet-skills](https://github.com/Aaronontheweb/dotnet-skills) | 320+ | .NET development skills |
+
+### Skill Generators & Tools
+
+| Repository/Tool | Stars | Description |
+|-----------------|-------|-------------|
+| 🔧 [tripleyak/SkillForge](https://github.com/tripleyak/SkillForge) | 500+ | Meta-skill for generating best-in-class Claude Code skills |
+| 🔧 [alirezarezvani/claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory) | 490+ | Production-ready skill factory toolkit |
+
+| Tool | Description |
+|------|-------------|
+| 🔧 [skills.sh](https://skills.sh/) | Vercel's official Agent Skills directory, leaderboard, and CLI installer |
+| 🔧 [Claude Code Skills Generator - WebSearchAPI.ai](https://websearchapi.ai/free-tools/claude-code-skills-generator) | Free AI-powered skill generator with downloadable SKILL.md |
+| 🔧 [Claude Skills Generator - design.dev](https://design.dev/guides/claude-skills/) | Visual editor and template generator |
+| 🔧 [Claude Skills Generator - Firecrawl](https://www.firecrawl.dev/blog/claude-skills-generator) | Auto-generate skill documentation from any URL |
+| 🔧 [SkillMD.ai](https://skillmd.ai/) | Platform for building and downloading agent skills with templates |
+
+### Skill Marketplaces & Registries
+
+| Platform | Description |
+|----------|-------------|
+| 🔧 [skills.sh](https://skills.sh/) | Vercel's official skills marketplace with CLI and leaderboard |
+| 🔧 [claude-plugins.dev](https://claude-plugins.dev/) | Community-maintained marketplace with 6,000+ public skills |
+| 🔧 [ClaudePluginHub](https://www.claudepluginhub.com/marketplaces/) | Hub with 9,000+ plugins and skills across multiple marketplaces |
+
+### Skills Tutorials & Guides
+
+- 📗 [How to Build Claude Skills: Lesson Plan Generator - Codecademy](https://www.codecademy.com/article/how-to-build-claude-skills)
+- 📗 [Claude Agent Skills: A First Principles Deep Dive - Lee Hanchung](https://leehanchung.github.io/blogs/2025/10/26/claude-skills-deep-dive/)
+- 📗 [How to Make Claude Code Skills Activate Reliably - Scott Spence](https://scottspence.com/posts/how-to-make-claude-code-skills-activate-reliably)
+- 📗 [What Are Agent Skills and How To Use Them - Strapi](https://strapi.io/blog/what-are-agent-skills-and-how-to-use-them)
+- 📗 [36 Claude Skills Examples to Transform How You Work](https://aiblewmymind.substack.com/p/claude-skills-36-examples)
+- 📗 [Claude Skills Solve the Context Window Problem - Tyler Folkman](https://tylerfolkman.substack.com/p/the-complete-guide-to-claude-skills)
+- 📗 [The Definitive Guide to Claude SKILLS: Code vs Web vs Desktop vs API](https://limitededitionjonathan.substack.com/p/the-definitive-guide-to-claude-skills)
+- 📗 [Build Your First Claude Code Skill: A Simple Project Memory System](https://medium.com/@richardhightower/build-your-first-claude-code-skill-a-simple-project-memory-system-that-saves-hours-1d13f21aff9e)
+- 📗 [Claude Code Part 13: Skills and the Split-PDF Workflow](https://causalinf.substack.com/p/claude-code-part-13-skills-and-the)
+- 📗 [Skills and Hooks Starter Kit for Claude Code](https://medium.com/@davidroliver/skills-and-hooks-starter-kit-for-claude-code-c867af2ace32)
+- 📗 [Claude Skills and CLAUDE.md: A Practical 2026 Guide for Teams - Gend.co](https://www.gend.co/blog/claude-skills-claude-md-guide)
+- 📗 [Auto-Generating Architecture Diagrams with Excalidraw Skill](https://dev.to/yooi/custom-claude-code-skill-auto-generating-updating-architecture-diagrams-with-excalidraw-227k)
+- 📗 [How to Sync AI Skills Across Claude Code, OpenClaw, and Codex](https://dev.to/runkids/how-to-sync-ai-skills-across-claude-code-openclaw-and-codex-in-2-minutes-226e)
+- 📗 [10 Claude Skills That Actually Changed How I Work - Composio](https://dev.to/composiodev/10-claude-skills-that-actually-changed-how-i-work-2b58)
+- 📗 [Claude Code Skill That Scaffolds Complete Arbitrum DApps](https://dev.to/bengreenberg/how-i-built-a-claude-code-skill-that-scaffolds-complete-arbitrum-dapps-2njl)
+- 📗 [Claude Code Skill for One-Command Image Uploads](https://dev.to/gudong/i-built-a-claude-code-skill-for-one-command-image-uploads-n5a)
+- 📗 [Replacing a Plop React Component Generator with a Claude Code Skill](https://dev.to/mbarzeev/replacing-a-plop-react-component-generator-with-a-claude-code-skill-5do)
+- 📗 [Open-Sourced Claude Code Skills for Reddit and DEV.to Automation](https://dev.to/haoyang_pang_a9f08cdb0b6c/i-open-sourced-claude-code-skills-for-reddit-and-devto-automation-applescript-chrome-1k56)
+- 📗 [Beyond Coding: Your Accountability Buddy with Claude Code Skill](https://dev.to/yooi/beyond-coding-your-accountability-buddy-with-claude-code-skill-4omh)
+- 📗 [Claude Code Skill for WordPress Performance Reviews](https://dev.to/n3rdh4ck3r/claude-code-skill-for-wordpress-performance-reviews-1560)
+- 📗 [Claude Code Mastery Part 5: Skills](https://dev.to/jestersimpps/claude-code-mastery-part-5-skills-49oe)
+- 📗 [Vercel Introduces Skills.sh, an Open Ecosystem for Agent Commands - InfoQ](https://www.infoq.com/news/2026/02/vercel-agent-skills/)
+- 📗 [AGENTS.md Outperforms Skills in Our Agent Evals - Vercel](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)
+- 📗 [Introducing Skills: The Open Agent Skills Ecosystem - Vercel](https://vercel.com/changelog/introducing-skills-the-open-agent-skills-ecosystem)
 
 ### Other Resources
 
 - 🔧 [Claude Code Skill: Writing X Posts & Viral Twitter Threads](https://mcpmarket.com/tools/skills/writing-x-posts)
 - 🎬 [Self-Improving Skills in Claude Code](https://www.youtube.com/watch?v=-4nUCaMNBR8)
+- 💡 [Agent Skills is Now an Open Standard - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1ppw38d/agent_skills_is_now_an_open_standard/)
+- 💡 [How to Set Up Claude Skills in <15 Minutes - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1onjxs9/how_to_set_up_claude_skills_in_15_minutes_for/)
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -511,7 +788,66 @@
 
 ## 👥 Community
 
-> Community resources, discussions, and curated lists.
+> Community resources, discussions, chat servers, meetups, and social platforms where Claude Code users connect and share ideas.
+
+### Discord Servers
+
+| Server | Members | Description |
+|--------|---------|-------------|
+| 💡 [Claude Developers (Official)](https://anthropic.com/discord) | 59,800+ | Official Anthropic community — announcements, support, and Claude Code discussions with Anthropic staff |
+| 💡 [Developer Toolkit AI](https://developertoolkit.ai/en/community) | 10,000+ | Cursor, Claude Code, and Codex focused community |
+| 💡 [r/vibecoding Discord](https://discord.com/invite/vibecoding) | 4,500+ | Vibe coding community with active Claude Code discussions |
+| 💡 [BridgeMind](https://discord.gg/bridgemind) | 3,500+ | Hosts Vibeathons and AI coding events |
+| 💡 [GSD: Get Shit Done](https://discord.com/invite/gsd) | 1,600+ | Meta-prompting framework community for Claude Code |
+| 💡 [Claude Code Builders (ClaudeWorld)](https://discord.gg/rBtHzSD288) | — | Weekly cowork sessions, tech talks, and expert insights |
+| 💡 [zebbern/claude-code-discord](https://github.com/zebbern/claude-code-discord) | — | Open-source Discord bot bringing Claude Code to your channels |
+
+### Reddit Communities
+
+- 💡 [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) — 483K+ members, general Claude AI community
+- 💡 [r/ClaudeCode](https://www.reddit.com/r/ClaudeCode/) — 108K+ members, dedicated Claude Code community
+- 💡 [r/Anthropic](https://www.reddit.com/r/Anthropic/) — 25K+ members, Anthropic discussion
+- 💡 [r/vibecoding](https://www.reddit.com/r/vibecoding/) — Vibe coding community with Claude Code content
+
+### X / Twitter
+
+**Official Accounts:**
+
+- 💡 [@AnthropicAI](https://x.com/AnthropicAI) — Official Anthropic account
+- 💡 [@claudeai](https://x.com/claudeai) — Official Claude account
+
+**Community Accounts & Creators:**
+
+- 💡 [@ArcticColdBlood](https://x.com/ArcticColdBlood) — Boris Cherny, creator of Claude Code
+- 💡 [@InventorBlack](https://x.com/InventorBlack) — ClaudeLog creator, Claude Developer Ambassador, r/ClaudeAI mod
+
+### LinkedIn
+
+- 💡 [Anthropic](https://www.linkedin.com/company/anthropicresearch/) — 2M+ followers, official company page
+- 💡 [Claude](https://www.linkedin.com/company/claude-ai/) — 160K+ followers, official product page
+
+### Forums & Community Hubs
+
+- 💡 [Anthropic Community Forum](https://community.anthropic.com/) — Official Discourse-based forum for Claude and Anthropic discussions
+- 💡 [ClaudeLog](https://claudelog.com/) — No.1 Claude Code community resource — docs, guides, tutorials, and best practices by InventorBlack
+- 💡 [ClaudeWorld](https://claude-world.com/) — Community platform with Director Mode framework, articles, and Discord community
+- 💡 [Claude Code Documentation](https://claudecodedocs.com/docs) — Complete community-maintained documentation
+- 💡 [Hacker News](https://news.ycombinator.com/) — Active Claude Code discussions (search "Claude Code")
+
+### Meetup Groups & In-Person Events
+
+- 💡 [Clauders](https://clauders.com/) — **108+ community organizers** across **52+ cities** in **31 countries** — the global hub for Claude Code meetups
+- 💡 [Claude Code Anonymous](https://lu.ma/) — Regular meetups in London, Vienna, Berlin, Cologne, SF, and Delft
+- 💡 [Claude Campus / Builder Clubs](https://www.anthropic.com/campus) — University clubs at Stanford, UF, UW, Virginia Tech, Purdue, Cornell, ASU, and more
+- 💡 [Anthropic Events (Luma)](https://lu.ma/anthropic) — Official hackathons, workshops, and community events
+
+### GitHub Community Organizations
+
+| Organization | Description |
+|-------------|-------------|
+| 💡 [Claude-Code-Community-Ireland](https://github.com/Claude-Code-Community-Ireland) | Irish Claude Code community with shared resources and skills |
+| 💡 [claude-code-community-events](https://github.com/claude-code-community-events) | Global community event materials, templates, and tools |
+| 💡 [Claude Code Helsinki](https://github.com/hectortosa/claude-code-helsinki) | Helsinki chapter — builders, creators, and professionals exchanging knowledge |
 
 ### Awesome Lists
 
@@ -538,16 +874,6 @@
 | 🔧 [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | 8.1k+ | Infrastructure with skill auto-activation, hooks, agents |
 | 🔧 [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) | 390+ | Project configuration with hooks, skills, agents, commands |
 | 🔧 [fcakyon/claude-codex-settings](https://github.com/fcakyon/claude-codex-settings) | 310+ | Personal setup with skills, commands, hooks, agents |
-
-### Community Documentation
-
-- 📁 [Claude Code Documentation - Complete Guide](https://claudecodedocs.com/docs)
-- 📁 [ClaudeLog - Docs, Guides, Tutorials & Best Practices](https://claudelog.com/)
-
-### Reddit Communities
-
-- 💡 [r/ClaudeAI - Community Discussion](https://www.reddit.com/r/ClaudeAI/)
-- 💡 [r/ClaudeCode - Dedicated Claude Code Community](https://www.reddit.com/r/ClaudeCode/)
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
