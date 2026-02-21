@@ -7,7 +7,7 @@
   <img alt="Claude Code" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/claude-color.png" width="120" height="120">
 </picture>
 
-# Awesome Claude Code Resources
+# Awesome Claude Code Mastery
 
 <p>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
