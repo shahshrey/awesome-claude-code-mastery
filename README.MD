@@ -714,6 +714,12 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
+### CLI Frameworks
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [daxaur/openpaw](https://github.com/daxaur/openpaw) | New | Open-source CLI (`npx pawmode`) -- 38 skills for Claude Code as personal assistant |
+
 ## 🤝 Alternative Coding Agents
 
 > Other agentic coding tools inspired by or compatible with Claude Code.
