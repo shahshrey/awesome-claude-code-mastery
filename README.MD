@@ -59,7 +59,9 @@
 - [🎯 Skills](#-skills)
 - [🤖 Subagents](#-subagents)
 - [🏗️ Agent Teams](#️-agent-teams)
+- [📱 Remote Control](#-remote-control)
 - [⚡ Hooks & Automation](#-hooks--automation)
+- [🔄 Headless Mode & CI/CD](#-headless-mode--cicd)
 - [🔌 MCP (Model Context Protocol)](#-mcp-model-context-protocol)
 - [💻 SDK & API](#-sdk--api)
 - [🛠️ Tools & Extensions](#️-tools--extensions)
@@ -92,7 +94,16 @@
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
-| 🔧 [anthropics/claude-code](https://github.com/anthropics/claude-code) | 52k+ | Official Claude Code - agentic coding tool for your terminal |
+| 🔧 [anthropics/claude-code](https://github.com/anthropics/claude-code) | 73k+ | Official Claude Code - agentic coding tool for your terminal |
+| 🔧 [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 8.8k+ | Official, Anthropic-managed directory of high quality Claude Code Plugins |
+| 🔧 [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) | 3.5k+ | AI-powered security review GitHub Action using Claude |
+| 🔧 [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | — | Official GitHub Action for Claude Code in CI/CD pipelines |
+| 📚 [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 34k+ | Collection of notebooks/recipes showcasing effective ways of using Claude |
+| 📚 [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | 32k+ | Anthropic's Interactive Prompt Engineering Tutorial |
+| 📚 [anthropics/courses](https://github.com/anthropics/courses) | 19k+ | Anthropic's educational courses |
+| 📚 [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | 15k+ | Projects to help developers quickly get started building with Claude API |
+| 🔧 [anthropic-experimental/sandbox-runtime](https://github.com/anthropic-experimental/sandbox-runtime) | 3.3k+ | Lightweight sandboxing tool for filesystem and network restrictions |
+| 📚 [anthropics/original_performance_takehome](https://github.com/anthropics/original_performance_takehome) | 3.6k+ | Anthropic's original performance take-home, open for you to try |
 
 ### Course
 
@@ -138,6 +149,15 @@
 - 📗 [The creator of Claude Code just revealed his workflow - VentureBeat](https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are)
 - 📗 [Boris Cherny's Claude Code Setup Thread](https://twitter-thread.com/t/2007179832300581177)
 - 📗 [A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
+
+### Guides & Reference Repositories
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 📚 [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 6.8k+ | Practice made Claude perfect — curated best practices |
+| 📚 [zebbern/claude-code-guide](https://github.com/zebbern/claude-code-guide) | 3.5k+ | Setup, commands, workflows, agents, skills & tips-n-tricks |
+| 📚 [gerred/building-an-agentic-system](https://github.com/gerred/building-an-agentic-system) | 290+ | In-depth book and reference on building agentic systems like Claude Code |
+| 📚 [automazeio/claude-code-for-power-users](https://github.com/automazeio/claude-code-for-power-users) | 200+ | From Autocomplete to AI Architect: Mastering Claude Code for Professional Development |
 
 ### Deep Dives & Case Studies
 
@@ -241,6 +261,7 @@
 | 🔧 [CharlesWiltgen/Axiom](https://github.com/CharlesWiltgen/Axiom) | 460+ | iOS/xOS development skills |
 | 🔧 [solana-foundation/solana-dev-skill](https://github.com/solana-foundation/solana-dev-skill) | 340+ | Solana blockchain development skill |
 | 🔧 [Aaronontheweb/dotnet-skills](https://github.com/Aaronontheweb/dotnet-skills) | 320+ | .NET development skills |
+| 🔧 [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 10.4k+ | Marketing skills — CRO, copywriting, SEO, analytics, and growth engineering |
 
 ### Generators & Tools
 
@@ -248,6 +269,8 @@
 |-----------------|-------|-------------|
 | 🔧 [tripleyak/SkillForge](https://github.com/tripleyak/SkillForge) | 500+ | Meta-skill for generating best-in-class Claude Code skills |
 | 🔧 [alirezarezvani/claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory) | 490+ | Production-ready skill factory toolkit |
+| 🔧 [numman-ali/openskills](https://github.com/numman-ali/openskills) | 8.7k+ | Universal skills loader for AI coding agents — `npm i -g openskills` |
+| 🔧 [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | 410+ | Package manager for AI agents — install agent skills from GitHub |
 
 | Tool | Description |
 |------|-------------|
@@ -317,6 +340,9 @@
 | 🔧 [ruvnet/claude-flow](https://github.com/ruvnet/claude-flow) | 11.2k+ | Agent orchestration platform with swarm intelligence |
 | 📚 [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 7.1k+ | 100+ specialized Claude Code subagents |
 | 🔧 [webdevtodayjason/sub-agents](https://github.com/webdevtodayjason/sub-agents) | 170+ | Sub Agent Manager with hooks and custom slash commands |
+| 🔧 [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents) | 4k+ | Orchestrated sub agent dev team powered by Claude Code |
+| 🔧 [a5c-ai/babysitter](https://github.com/a5c-ai/babysitter) | 380+ | Deterministic, hallucination-free self-orchestration for complex tasks |
+| 🔧 [CoderMageFox/claudecode-codex-subagents](https://github.com/CoderMageFox/claudecode-codex-subagents) | 38+ | Orchestrate tasks by delegating to multiple parallel Codex agents |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -365,6 +391,7 @@
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
+| 🔧 [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 8.1k+ | Teams-first multi-agent orchestration for Claude Code |
 | 🔧 [Glsme/agent-monitor](https://github.com/Glsme/agent-monitor) | 30+ | GUI Monitor for agent teams — Tauri v2 + React desktop app with pixel art office view |
 | 🔧 [Pickle-Pixel/HydraTeams](https://github.com/Pickle-Pixel/HydraTeams) | 19+ | Translation proxy making agent teams model-agnostic — use GPT, Gemini, Ollama as teammates |
 | 🔧 [yuvalsuede/claude-teams-language-protocol](https://github.com/yuvalsuede/claude-teams-language-protocol) | 11+ | AgentSpeak: token-efficient protocol cutting inter-agent messaging tokens by 60-70% |
@@ -372,6 +399,36 @@
 | 🔧 [sethdford/shipwright](https://github.com/sethdford/shipwright) | 6+ | Orchestrate fully autonomous agent teams with delivery pipelines and DORA metrics |
 | 🔧 [qingcaizz/claude-orchestra](https://github.com/qingcaizz/claude-orchestra) | 2+ | Real-time kanban dashboard for visualizing and managing multi-agent collaboration |
 | 🔧 [rhysheavensmith/claude-agent-launcher](https://github.com/rhysheavensmith/claude-agent-launcher) | 4+ | tmux multipane launcher for agent teams |
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
+
+## 📱 Remote Control
+
+> Control Claude Code sessions from any device — phone, tablet, or another computer. Released as a native feature in February 2026.
+
+### Documentation
+
+- 📁 [Remote Control - Claude Code Docs](https://code.claude.com/docs/en/remote-control)
+- 📁 [Claude Code on the Web - Claude Code Docs](https://code.claude.com/docs/en/claude-code-on-the-web)
+- 📁 [Claude Code Desktop - Claude Code Docs](https://code.claude.com/docs/en/desktop)
+
+### Tutorials & Guides
+
+- 📗 [Claude Code Remote Control: Complete Setup Guide 2026 - ClaudeFast](https://claudefa.st/blog/guide/development/remote-control-guide)
+- 📗 [Complete Guide — From Setup to Mobile Control - jangwook.net](https://jangwook.net/en/blog/en/claude-code-remote-control-guide/)
+- 📗 [How to Control Your Terminal from Your Phone - NxCode](https://www.nxcode.io/resources/news/claude-code-remote-control-mobile-terminal-handoff-guide-2026)
+- 📗 [I Tried New Claude Code Remote-Control (Before You Waste Your Time) - Medium](https://medium.com/@joe.njenga/i-tried-new-claude-code-remote-control-before-you-waste-your-time-c829a83417f7)
+
+### Tools & Extensions
+
+> Third-party tools that extend native Remote Control with additional channels, workflows, or deployment models.
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [JessyTsui/Claude-Code-Remote](https://github.com/JessyTsui/Claude-Code-Remote) | — | Control via email, Discord, and Telegram |
+| 🔧 [yuuichieguchi/claude-remote-approver](https://github.com/yuuichieguchi/claude-remote-approver) | 17+ | Approve permission requests from phone via ntfy |
+| 🔧 [yusufkaraaslan/claude-remote-plus](https://github.com/yusufkaraaslan/claude-remote-plus) | 2+ | Hot-swap sessions between projects with daemon, MCP, and auto-restart |
+| 🔧 [sequoia-hope/claude-remote](https://github.com/sequoia-hope/claude-remote) | 3+ | Run Claude in Docker and serve terminal over a web interface |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -392,7 +449,7 @@
 | 🔧 [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) | 2.1k+ | Skills, Agents, Commands, Hooks, Plugins collection |
 | 🔧 [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) | 2k+ | Master Claude Code hooks |
 | 🔧 [nizos/tdd-guard](https://github.com/nizos/tdd-guard) | 1.6k+ | Automated TDD enforcement for Claude Code |
-| 🔧 [parcadei/Continuous-Claude-v2](https://github.com/parcadei/Continuous-Claude-v2) | 1.5k+ | Context management via ledgers and handoffs |
+| 🔧 [parcadei/Continuous-Claude-v3](https://github.com/parcadei/Continuous-Claude-v3) | 3.6k+ | Context management via ledgers, handoffs, and MCP execution |
 | 🔧 [peterkrueck/Claude-Code-Development-Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit) | 1.2k+ | Custom workflow with hooks, MCP and sub-agents |
 | 🔧 [severity1/claude-code-prompt-improver](https://github.com/severity1/claude-code-prompt-improver) | 1k+ | Intelligent prompt improver hook |
 | 🔧 [CloudAI-X/claude-workflow-v2](https://github.com/CloudAI-X/claude-workflow-v2) | 1k+ | Universal workflow plugin with agents, skills, hooks |
@@ -400,6 +457,69 @@
 | 🔧 [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit) | 520+ | Custom commands, hooks, and utilities |
 | 🔧 [zxdxjtu/claudecode-rule2hook](https://github.com/zxdxjtu/claudecode-rule2hook) | 400+ | Transform natural language rules into automation hooks |
 | 🔧 [yifanzz/claude-code-boost](https://github.com/yifanzz/claude-code-boost) | 160+ | Hook utilities with intelligent auto-approval |
+| 🔧 [GowayLee/cchooks](https://github.com/GowayLee/cchooks) | 120+ | Python SDK for claude-code hooks |
+| 🔧 [rinadelph/Rapala](https://github.com/rinadelph/Rapala) | 110+ | Auto-commits every edit with context — code fearlessly, revert easily |
+| 🔧 [decider/claude-hooks](https://github.com/decider/claude-hooks) | 70+ | Comprehensive hooks for enforcing clean code practices |
+| 🔧 [possibilities/claude-code-generic-hooks](https://github.com/possibilities/claude-code-generic-hooks) | 53+ | Generic reusable hooks for Claude Code |
+
+### Scheduling & Cron
+
+> Schedule recurring Claude Code tasks. Native Cowork scheduling requires the desktop app to be open; third-party tools below add server-side execution, webhook triggers, and notification integrations.
+
+#### Documentation
+
+- 📁 [Schedule recurring tasks in Cowork - Claude Help Center](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-cowork)
+- 💡 [Feature Request: Cron-like Hooks (#4785)](https://github.com/anthropics/claude-code/issues/4785)
+
+#### Tutorials & Guides
+
+- 📗 [Scheduled Tasks: How to Put Claude on Autopilot - atal upadhyay](https://atalupadhyay.wordpress.com/2026/03/02/scheduled-tasks-how-to-put-claude-on-autopilot/)
+- 📗 [How to Automate Recurring Tasks With Claude Code - The Neuron](https://www.theneuron.ai/explainer-articles/claude-code-recurring-automations-tutorial/)
+- 📗 [Claude Cowork Scheduled Tasks: 6 Ways I Automated My Work - Substack](https://aiblewmymind.substack.com/p/claude-cowork-scheduled-tasks-6-ways)
+- 📗 [Schedule an Automated Subagent - Hands-on AI Cookbook](https://handsonai.info/platforms/claude/questions/how-do-i-schedule-an-automated-claude-subagent/)
+- 📗 [Task Automation with Claude Code - Developer Toolkit](https://developertoolkit.ai/en/claude-code/lessons/automation/)
+
+#### Tools
+
+| Repository/Tool | Stars | Description |
+|-----------------|-------|-------------|
+| 🔧 [kylemclaren/claude-tasks](https://github.com/kylemclaren/claude-tasks) | — | TUI scheduler with cron, webhooks, and Discord/Slack notifications |
+| 🔧 [tonybentley/claude-mcp-scheduler](https://github.com/tonybentley/claude-mcp-scheduler) | — | MCP-based scheduling — prompt remote agents on cron intervals |
+| 🔧 [runCLAUDErun](https://runclauderun.com/) | — | Native macOS GUI scheduler for Claude Code |
+| 🔧 [NickCirv/claude-webhook](https://github.com/NickCirv/claude-webhook) | — | Event-driven triggers from Slack, GitHub, n8n, and Zapier |
+| 🔧 [intelligence-assist/claude-hub](https://github.com/intelligence-assist/claude-hub) | — | Webhook service connecting Claude Code to GitHub for PR automation |
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
+
+## 🔄 Headless Mode & CI/CD
+
+> Run Claude Code non-interactively in pipelines, GitHub Actions, and automated workflows.
+
+### Documentation
+
+- 📁 [Run Claude Code programmatically (Headless Mode) - Claude Code Docs](https://code.claude.com/docs/en/headless)
+- 📁 [Claude Code GitHub Actions - Claude Code Docs](https://code.claude.com/docs/en/github-actions)
+- 📁 [CLI reference - Claude Code Docs](https://code.claude.com/docs/en/cli-reference)
+
+### Tutorials & Guides
+
+- 📗 [Headless Mode and CI/CD Tutorial - SFEIR Institute](https://institute.sfeir.com/en/claude-code/claude-code-headless-mode-and-ci-cd/tutorial/)
+- 📗 [Headless Mode Cheatsheet - SFEIR Institute](https://institute.sfeir.com/en/claude-code/claude-code-headless-mode-and-ci-cd/cheatsheet/)
+- 📗 [Headless Mode: Unleash AI in Your CI/CD Pipeline - dev.to](https://dev.to/rajeshroyal/headless-mode-unleash-ai-in-your-cicd-pipeline-1imm)
+- 📗 [Headless Mode Automation - ClaudeCode101](https://www.claudecode101.com/en/tutorial/advanced/headless-mode)
+- 📗 [Claude Code Headless - Adriano Melo](https://adrianomelo.com/posts/claude-code-headless.html)
+- 📗 [GitHub Actions Integration - Developer Toolkit](https://developertoolkit.ai/en/claude-code/advanced-techniques/github-actions/)
+- 📗 [How to Secure Claude Code in GitHub Actions - StepSecurity](https://www.stepsecurity.io/blog/anthropics-claude-code-action-security-how-to-secure-claude-code-in-github-actions-with-harden-runner)
+- 📗 [Automate Your Documentation with Claude Code & GitHub Actions - Medium](https://medium.com/@fra.bernhardt/automate-your-documentation-with-claude-code-github-actions-a-step-by-step-guide-2be2d315ed45)
+- 📗 [Building Automated Claude Code Workers with Cron and MCP - blle.co](https://www.blle.co/blog/automated-claude-code-workers)
+
+### Tools
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | — | Official GitHub Action for Claude Code |
+| 🔧 [kylewanginchina/gitlab-claude-webhook](https://github.com/kylewanginchina/gitlab-claude-webhook) | 25+ | GitLab webhook service for Claude Code CLI |
+| 🔧 [jamiew/clactions](https://github.com/jamiew/clactions) | 4+ | Claude + GitHub Actions with self-repair and autonomous improvement |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -447,6 +567,9 @@
 | 🔧 [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | 1k+ | Automatic context memory for Claude, VS Code, Cursor |
 | 🔧 [robotmcp/ros-mcp-server](https://github.com/robotmcp/ros-mcp-server) | 910+ | Connect AI models with robots using MCP and ROS |
 | 🔧 [steipete/claude-code-mcp](https://github.com/steipete/claude-code-mcp) | 990+ | Claude Code as one-shot MCP server |
+| 🔧 [Pimzino/spec-workflow-mcp](https://github.com/Pimzino/spec-workflow-mcp) | 3.9k+ | Spec-driven development workflow with real-time web dashboard and VSCode extension |
+| 🔧 [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 3.7k+ | 25+ visual charts for chart generation and data analysis |
+| 🔧 [ConstantineB6/comfy-pilot](https://github.com/ConstantineB6/comfy-pilot) | 120+ | MCP server + embedded terminal for ComfyUI workflows |
 
 #### MCP Resources
 
@@ -597,7 +720,11 @@
 |------------|-------|-------------|
 | 🔧 [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) | 19.8k+ | Configuration framework with specialized commands & cognitive personas |
 | 🔧 [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | 14.8k+ | CLI tool for configuring and monitoring Claude Code |
+| 🔧 [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 58k+ | Agent harness — skills, instincts, memory, security, and research-first development |
+| 🔧 [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | 9.8k+ | Official Claude Code compound engineering plugin |
 | 🔧 [maxritter/claude-codepro](https://github.com/maxritter/claude-codepro) | 340+ | Professional dev environment with spec-driven workflow, TDD, LSP |
+| 🔧 [nyatinte/ccexp](https://github.com/nyatinte/ccexp) | 250+ | Interactive terminal for discovering, previewing, and managing config files |
+| 🔧 [gifflet/ccmd](https://github.com/gifflet/ccmd) | 29+ | Package manager for Claude Code commands |
 
 ### GUI & Desktop Apps
 
@@ -606,13 +733,17 @@
 | 🔧 [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 37k+ | Unified AI access with Agent capabilities in one desktop app |
 | 🔧 [winfunc/opcode](https://github.com/winfunc/opcode) | 19.7k+ | GUI app and Toolkit - create custom agents, manage sessions |
 | 🔧 [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 9.7k+ | Cross-platform desktop All-in-One assistant for Claude Code, Codex & Gemini |
+| 🔧 [siteboon/claudecodeui](https://github.com/siteboon/claudecodeui) | 7.6k+ | Mobile and Web UI for Claude Code — manage sessions and projects remotely |
 | 🔧 [slopus/happy](https://github.com/slopus/happy) | 6.6k+ | Mobile and Web client with realtime voice & encryption |
+| 🔧 [somersby10ml/win-claude-code](https://github.com/somersby10ml/win-claude-code) | 230+ | Claude Code for Windows — no WSL, no Docker, just code |
 
 ### Usage Analytics & Monitoring
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
 | 🔧 [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | 9.6k+ | CLI tool for analyzing Claude Code usage from local JSONL files |
+| 🔧 [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | 6.8k+ | Real-time usage monitor with predictions and warnings |
+| 🔧 [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | 300+ | CLI for logging and analyzing AI-driven coding sessions |
 
 ### Memory & Context Management
 
@@ -627,6 +758,32 @@
 |------------|-------|-------------|
 | 🔧 [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) | 24.9k+ | Use Claude Code as foundation for coding infrastructure |
 | 🔧 [starbaser/ccproxy](https://github.com/starbaser/ccproxy) | 120+ | Build mods for Claude Code - hook requests, modify responses |
+
+### Multi-Session & Orchestration
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [AndyMik90/Auto-Claude](https://github.com/AndyMik90/Auto-Claude) | 12.9k+ | Autonomous multi-session AI coding |
+| 🔧 [automazeio/ccpm](https://github.com/automazeio/ccpm) | 7.5k+ | Project management using GitHub Issues and Git worktrees for parallel agents |
+| 🔧 [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 7.4k+ | Autonomous AI development loop with intelligent exit detection |
+| 🔧 [smtg-ai/claude-squad](https://github.com/smtg-ai/claude-squad) | 6.2k+ | Manage Claude Code, Aider, Codex, OpenCode, and Amp in a single TUI |
+| 🔧 [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 18.4k+ | Agent orchestration platform — multi-agent swarms, autonomous workflows, RAG integration |
+| 🔧 [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 9k+ | Open-source AI coworker with memory |
+| 🔧 [built-by-as/FleetCode](https://github.com/built-by-as/FleetCode) | 410+ | Light-weight control pane to run CLI coding agents in parallel |
+| 🔧 [regenrek/peky](https://github.com/regenrek/peky) | 140+ | All your AI Agents in a single TUI to keep things organized |
+| 🔧 [to-na/claude-code-crew](https://github.com/to-na/claude-code-crew) | 55+ | Browser-based interface for managing sessions across Git worktrees |
+
+### Workflow & Project Management
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | 23.7k+ | Meta-prompting, context engineering and spec-driven development system |
+| 🔧 [snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) | 7.6k+ | Task management system for managing AI dev agents |
+| 🔧 [breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) | 4.1k+ | Workflow Studio with agent skills, MCP tools, slash commands, and VSCode extension |
+| 🔧 [Pimzino/claude-code-spec-workflow](https://github.com/Pimzino/claude-code-spec-workflow) | 3.5k+ | Automated spec-driven development and streamlined bug fix workflows |
+| 🔧 [fynnfluegge/agtx](https://github.com/fynnfluegge/agtx) | 310+ | Autonomous multi-session spec-driven AI coding orchestration in the terminal |
+| 🔧 [therealarthur/myrlin-workbook](https://github.com/therealarthur/myrlin-workbook) | 220+ | Workspace manager with embedded terminals and drag-and-drop organization |
+| 🔧 [Dimon94/cc-devflow](https://github.com/Dimon94/cc-devflow) | 100+ | One-command requirement development flow with sub-agents and quality gates |
 
 ### Other Tools
 
@@ -651,6 +808,7 @@
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
+| 🔧 [tolluset/statusline](https://github.com/tolluset/statusline) | 5+ | Enhanced statusline with Git status, GitHub notifications, and smart path display |
 | 🔧 [terryso/ccpet](https://github.com/terryso/ccpet) | 56 | Virtual pet in your statusline |
 | 🔧 [jakreymyers/awesome-claude-statusline](https://github.com/jakreymyers/awesome-claude-statusline) | 3 | Git Flow icons, burn rate, billing block tracking |
 | 🔧 [martinemde/starship-claude](https://github.com/martinemde/starship-claude) | 15 | Uses **Starship prompt** as the statusline renderer |
@@ -764,6 +922,7 @@
 |------------|-------|-------------|
 | 📚 [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 19.5k+ | Curated list of commands, files, and workflows |
 | 📚 [ccplugins/awesome-claude-code-plugins](https://github.com/ccplugins/awesome-claude-code-plugins) | 300+ | Slash commands, subagents, MCP servers, and hooks |
+| 📚 [JSONbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | 190+ | Searchable collection of pre-built configs, MCP servers, and custom rules |
 
 ### Learning & Reference
 
@@ -779,7 +938,8 @@
 | Repository | Stars | Description |
 |------------|-------|-------------|
 | 🔧 [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) | 390+ | Project configuration with hooks, skills, agents, commands |
-| 🔧 [fcakyon/claude-codex-settings](https://github.com/fcakyon/claude-codex-settings) | 310+ | Personal setup with skills, commands, hooks, agents |
+| 🔧 [fcakyon/claude-codex-settings](https://github.com/fcakyon/claude-codex-settings) | 440+ | Battle-tested setup with skills, commands, hooks, agents, and MCP servers |
+| 🔧 [markmdev/meridian](https://github.com/markmdev/meridian) | 140+ | Zero-config setup with enforced scaffolding, structured memory, and persistent context |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
