@@ -115,13 +115,7 @@
 
 ### Beginner Tutorials
 
-- 🎬 [Claude Code Tutorial #1 - Introduction & Setup - Net Ninja](https://www.youtube.com/watch?v=SUysp3sJHbA)
-- 🎬 [Claude Code Tutorial for Beginners - Kevin Stratvert](https://www.youtube.com/watch?v=eMZmDH3T2bY)
-- 🎬 [Claude Code for Absolute Beginners: STEP-BY-STEP TUTORIAL - Allie K Miller](https://www.youtube.com/watch?v=v1ynWeHhzXs)
-- 📗 [Claude Code Learning Path: A Practical Guide to Getting Started](https://medium.com/@dan.avila7/claude-code-learning-path-a-practical-guide-to-getting-started-fcc601550476)
-- 📗 [Claude Code: From Zero to Hero](https://medium.com/@dan.avila7/claude-code-from-zero-to-hero-bebe2436ac32)
 - 📗 [Claude Code Tutorial: How to Generate, Debug and Document Code - Codecademy](https://www.codecademy.com/article/claude-code-tutorial-how-to-generate-debug-and-document-code-with-ai)
-- 📗 [Claude Code Beginner's Tutorial: Build a Movie App in 15 Minutes](https://creatoreconomy.so/p/claude-code-beginners-tutorial-build-a-movie-app-in-15-minutes)
 - 📗 [Claude Code Deep Dive — Basics](https://medium.com/@the.gigi/claude-code-deep-dive-basics-ca4a48003b02)
 - 💡 [What are some of the best resources to learn Claude Code? - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1l8aeq9/what_are_some_of_the_best_resources_to_learn/)
 - 💡 [Where can I actually learn Claude Code without wanting to throw my laptop? - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1mwcr7e/where_can_i_actually_learn_claude_code_without/)
@@ -129,35 +123,25 @@
 ### Video Tutorials
 
 - 🎬 [The Last Claude Code Tutorial You'll Ever Need](https://www.youtube.com/watch?v=EHDzlot7LKU)
-- 🎬 [6 Months of Claude Code Lessons in 27 Minutes](https://www.youtube.com/watch?v=rfDvkSkelhg)
 - 🎬 [My Claude Code Workflow for 2026 - Ray Amjad](https://www.youtube.com/watch?v=sy65ARFI9Bg)
 - 🎬 [Claude Code is crazy good in 2026… just watch](https://www.youtube.com/watch?v=smMC1W-Mjt4)
 - 🎬 [You're prompting Claude Code wrong. Here's how to do it correctly](https://www.youtube.com/watch?v=7WuKgc3-_-s)
-- 🎬 [AMAZING Claude Code X (Twitter) Context Engineering Workflow](https://www.youtube.com/watch?v=dm_B9UDMBg4)
-- 🎬 [What's going on with Claude Code? - Matthew Berman](https://www.youtube.com/watch?v=pwmK46hhfwg)
-- 🎬 [Claude Code just had a MAJOR update - Alex Finn](https://www.youtube.com/watch?v=Cb49pGTSigI)
 - 🎬 [Anthropic Just Added These Features to Claude Code](https://www.youtube.com/watch?v=IiA4Ku5viyg)
 
 ### Best Practices & Guides
 
 - 📗 [Cooking with Claude Code: The Complete Guide - Sid Bharath](https://www.siddharthbharath.com/claude-code-the-complete-guide/)
-- 📗 [How I Use Every Claude Code Feature - Shrivu Shankar](https://blog.sshh.io/p/how-i-use-every-claude-code-feature)
 - 📗 [The Claude Code Complete Guide: Learn Vibe-Coding & Agentic AI](https://natesnewsletter.substack.com/p/the-claude-code-complete-guide-learn)
 - 📗 [The Ultimate Claude Code Guide: Every Hidden Trick, Hack, and Power Feature](https://dev.to/holasoymalva/the-ultimate-claude-code-guide-every-hidden-trick-hack-and-power-feature-you-need-to-know-2l45)
-- 📗 [Read These 4 Claude Code Resources or You're Using It Wrong](https://levelup.gitconnected.com/read-these-4-claude-code-resources-or-youre-using-it-wrong-9dc093e61aba)
 - 📗 [How the Creator of Claude Code Uses Claude Code: A Complete Breakdown](https://dev.to/sivarampg/how-the-creator-of-claude-code-uses-claude-code-a-complete-breakdown-4f07)
 - 📗 [How the Creator of Claude Code Actually Uses It: 13 Practical Moves](https://blog.devgenius.io/how-the-creator-of-claude-code-actually-uses-it-13-practical-moves-2bf02eec032a)
 - 📗 [The creator of Claude Code just revealed his workflow - VentureBeat](https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are)
 - 📗 [Boris Cherny's Claude Code Setup Thread](https://twitter-thread.com/t/2007179832300581177)
-- 📗 [How I use Claude Code (+ my best tips) - Builder.io](https://www.builder.io/blog/claude-code)
-- 📗 [I mastered the Claude Code workflow](https://medium.com/@ashleyha/i-mastered-the-claude-code-workflow-145d25e502cf)
 - 📗 [A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
 
 ### Deep Dives & Case Studies
 
 - 📗 [How Claude Code is built - The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built)
-- 📗 [What makes Claude Code so damn good (and how to recreate that)](https://minusx.ai/blog/decoding-claude-code/)
-- 📗 [I analysed the source code of Twitter with Claude Code](https://medium.com/realworld-ai-use-cases/i-analysed-the-source-code-of-twitter-read-this-if-you-have-less-than-2500-followers-8a7a21c10fe0)
 - 💡 [I've been seeing people on X say Claude Code is insanely powerful - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1lfc5tn/ive_been_seeing_people_on_x_twitter_say_that_the/)
 - 📗 [Claude Code: My Six-Month Journey from Chaos to (Relative) Control](https://medium.com/@pa_sherman/claude-code-my-six-month-journey-from-chaos-to-relative-control-a-security-engineers-7eda18030e98)
 - 📗 [Lessons Learned Working with Claude Code on Medium-sized Projects](https://www.reddit.com/r/ClaudeCode/comments/1nymq99/lessons_learned_working_with_claude_code_on/)
@@ -175,7 +159,6 @@
 - 📁 [What are Skills? - Claude Help Center](https://support.claude.com/en/articles/12512176-what-are-skills)
 - 📁 [Skill Authoring Best Practices - Claude API Docs](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
 - 📁 [The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
-- 📗 [Equipping Agents for the Real World with Agent Skills - Anthropic Engineering](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
 
 ### Agent Skills Open Standard
 
@@ -190,11 +173,6 @@
 
 #### Standard Articles
 
-- 📗 [Agent Skills: Anthropic's Next Bid to Define AI Standards - The New Stack](https://thenewstack.io/agent-skills-anthropics-next-bid-to-define-ai-standards/)
-- 📗 [Anthropic Launches Enterprise Agent Skills and Opens the Standard - VentureBeat](https://venturebeat.com/ai/anthropic-launches-enterprise-agent-skills-and-opens-the-standard)
-- 📗 [Claude Skills Are Awesome, Maybe Bigger Than MCP - Simon Willison](https://simonwillison.net/2025/Oct/16/claude-skills/)
-  - [Agent Skills deep dive](https://simonwillison.net/2025/Dec/19/agent-skills/)
-- 📗 [Anthropic Makes Agent Skills an Open Standard - SiliconANGLE](https://siliconangle.com/2025/12/18/anthropic-makes-agent-skills-open-standard/)
 - 📗 [Anthropic Opens Agent Skills Standard - Unite.AI](https://www.unite.ai/anthropic-opens-agent-skills-standard-continuing-its-pattern-of-building-industry-infrastructure/)
 - 📗 [Agent Skills: Standard for Smarter AI](https://medium.com/@nayakpplaban/agent-skills-standard-for-smarter-ai-bde76ea61c13)
 
@@ -215,12 +193,9 @@
 
 - 🎬 [Claude Code Skills Tutorial: Build AI Automations (2026)](https://www.youtube.com/watch?v=PQeCd0awIug)
 - 🎬 [Claude Code Skills & skills.sh Crash Course](https://www.youtube.com/watch?v=rcRS8-7OgBo)
-- 🎬 [Claude Skills Explained - Step-by-Step Tutorial - Kevin Stratvert](https://www.youtube.com/watch?v=wO8EboopboU)
-- 🎬 [Mastering Claude Code Skills (This Changes Everything)](https://www.youtube.com/watch?v=EwAd-fqQfJ8)
 - 🎬 [Claude Code Skills vs MCPs: Complete Beginner's Guide 2026](https://www.youtube.com/watch?v=42nz2FfKA9A)
 - 🎬 [How I Made Claude Code WAY Better With Vercel Agent Skills](https://www.youtube.com/watch?v=PkeC2hNQ9Zw)
 - 🎬 [Claude Code Skills - The Only Tutorial You Need](https://www.youtube.com/watch?v=vIUJ4Hd7be0)
-- 🎬 [This Claude Code Skill Creates Skills For You](https://www.youtube.com/watch?v=LJI7FafIDg4)
 - 🎬 [Claude Code Skills just Built me an AI Agent Team (2026 Guide)](https://www.youtube.com/watch?v=OdtGN27LchE)
 - 🎬 [How to Create Claude Code Skills to 10x Your AI Results](https://www.youtube.com/watch?v=erkzROBDEFY)
 - 🎬 [Claude Code Skills are INSANE (and you're not using them correctly)](https://www.youtube.com/watch?v=thxXGxYIwUI)
@@ -292,7 +267,6 @@
 ### Tutorials & Guides
 
 - 📗 [How to Build Claude Skills: Lesson Plan Generator - Codecademy](https://www.codecademy.com/article/how-to-build-claude-skills)
-- 📗 [Claude Agent Skills: A First Principles Deep Dive - Lee Hanchung](https://leehanchung.github.io/blogs/2025/10/26/claude-skills-deep-dive/)
 - 📗 [How to Make Claude Code Skills Activate Reliably - Scott Spence](https://scottspence.com/posts/how-to-make-claude-code-skills-activate-reliably)
 - 📗 [What Are Agent Skills and How To Use Them - Strapi](https://strapi.io/blog/what-are-agent-skills-and-how-to-use-them)
 - 📗 [36 Claude Skills Examples to Transform How You Work](https://aiblewmymind.substack.com/p/claude-skills-36-examples)
@@ -331,7 +305,6 @@
 ### Documentation & Tutorials
 
 - 📁 [Subagents - Claude Code Docs](https://code.claude.com/docs/en/sub-agents)
-- 🎬 [Claude Sub-Agents Workflow (Full Demo) - Ray Fernando](https://www.youtube.com/watch?v=-zzbkh9B-5Q)
 - 📗 [Claude Code and Subagents: How to Build Your First Multi-Agent Workflow](https://medium.com/@techofhp/claude-code-and-subagents-how-to-build-your-first-multi-agent-workflow-3cdbc5e430fa)
 - 📗 [Claude Code Subagents Quickstart: what they are + how to use them](https://shipyard.build/blog/claude-code-subagents-guide/)
 - 📗 [How to create and use Subagents in Claude Code — a practical guide](https://www.cometapi.com/en/how-to-create-and-use-subagents-in-claude-code/)
@@ -409,9 +382,7 @@
 ### Documentation & Tutorials
 
 - 📁 [Get started with Claude Code hooks](https://code.claude.com/docs/en/hooks-guide)
-- 📗 [Claude Code Hooks: Automate Your Development Workflow](https://liquidmetal.ai/casesAndBlogs/claude-code-hooks-guide/)
 - 📗 [Guide to Claude Code Subagents & Hooks for Automation](https://www.arsturn.com/blog/a-beginners-guide-to-using-subagents-and-hooks-in-claude-code)
-- 📗 [How Claude Code helped me create these tutorials](https://gexijin.github.io/vibe/Building_Tutorial_Library_with_Slash_Commands)
 
 ### Tools & Examples
 
@@ -441,14 +412,11 @@
 - 📁 [Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp)
 - 📁 [Model Context Protocol Documentation](https://modelcontextprotocol.io/docs/develop/connect-remote-servers)
 - 📁 [Set Up MCP with Claude Code - SailPoint](https://developer.sailpoint.com/docs/extensibility/mcp/integrations/claude-code)
-- 📗 [Claude Desktop Extensions: One-click MCP Server Installation](https://www.anthropic.com/engineering/desktop-extensions)
 - 💡 [Claude Code Now Supports Remote MCP Servers - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1lemtxx/claude_code_now_supports_remote_mcp_servers_no/)
 
 ### Guides & Tutorials
 
-- 🎬 [5 MCP Servers That Make Claude Code 10x More Powerful](https://www.youtube.com/watch?v=M5CsRj6zSCA)
 - 📗 [Configuring Claude Code MCP Tools for Better Integration - Clockwise](https://www.getclockwise.com/blog/claude-code-mcp-tools-integration)
-- 📗 [7 Claude MCP servers you can set up right now - Zapier](https://zapier.com/blog/claude-mcp-servers/)
 - 📗 [Top Claude MCP server integrations - DronaHQ](https://www.dronahq.com/top-claude-mcp-server/)
 - 📗 [Claude Code: Part 5 - MCP Servers and Tool Integration](https://dev.to/letanure/claude-code-part-5-mcp-servers-and-tool-integration-41pf)
 
@@ -530,7 +498,6 @@
 
 ### Deep Dives & Best Practices
 
-- 📗 [Building Agents with the Claude Agent SDK - Anthropic Engineering](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk)
 - 📗 [The Definitive Guide to the Claude Agent SDK - Bragi](https://medium.com/@datapoetica/the-definitive-guide-to-the-claude-agent-sdk-building-the-next-generation-of-ai-69fda0a0530f)
 - 📗 [Building Agents with Claude Agent SDK: Real Implementation Guide - Aankit Roy](https://aankitroy.com/blog/claude-agent-sdk-building-agents-that-work)
 - 📗 [Claude Agent SDK Best Practices for AI Agent Development - Skywork AI](https://skywork.ai/blog/claude-agent-sdk-best-practices-ai-agents-2025/)
@@ -542,9 +509,7 @@
 ### Video Tutorials
 
 - 🎬 [Claude Agent SDK [Full Workshop] — Thariq Shihipar, Anthropic](https://www.youtube.com/watch?v=TqC1qOfiVcQ)
-- 🎬 [Claude SDK: 24-Hour Coding Agent - Cole Medin](https://www.youtube.com/watch?v=BGouphNN5hg)
 - 🎬 [Claude Agent SDK - Complete Walkthrough in 12 Minutes](https://www.youtube.com/watch?v=u1uyXXl_6N8)
-- 🎬 [Claude Agents SDK BEATS all Agent Frameworks! (Beginners Guide)](https://www.youtube.com/watch?v=i6N8oQQ0tUE)
 
 ### Deployment & Enterprise
 
