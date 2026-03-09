@@ -570,7 +570,7 @@
 | 🔧 [Pimzino/spec-workflow-mcp](https://github.com/Pimzino/spec-workflow-mcp) | 3.9k+ | Spec-driven development workflow with real-time web dashboard and VSCode extension |
 | 🔧 [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 3.7k+ | 25+ visual charts for chart generation and data analysis |
 | 🔧 [ConstantineB6/comfy-pilot](https://github.com/ConstantineB6/comfy-pilot) | 120+ | MCP server + embedded terminal for ComfyUI workflows |
-
+| 🔧 [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) | — | X/Twitter data extraction skill & MCP server. 20 tools for followers, tweets, replies, mentions, lists & more |
 #### MCP Resources
 
 | Repository | Stars | Description |
