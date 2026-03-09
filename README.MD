@@ -949,6 +949,7 @@
 | 🔧 [Pimzino/spec-workflow-mcp](https://github.com/Pimzino/spec-workflow-mcp) | 4k+ | Spec-driven development workflow with real-time web dashboard and VSCode extension |
 | 🔧 [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 3.8k+ | 25+ visual charts for chart generation and data analysis |
 | 🔧 [ConstantineB6/comfy-pilot](https://github.com/ConstantineB6/comfy-pilot) | 131 | MCP server + embedded terminal for ComfyUI workflows |
+| 🔧 [connerlambden/bgpt-mcp](https://github.com/connerlambden/bgpt-mcp) | 4 | Hosted MCP server for searching scientific papers with full-text experimental data |
 
 #### MCP Resources
 
