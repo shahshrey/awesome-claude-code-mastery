@@ -52,6 +52,7 @@
 
 - [Official Resources](#️-official-resources)
 - [Getting Started & Learning](#-getting-started--learning)
+- [Using Claude Code for Free](#-using-claude-code-for-free)
 - [Skills](#-skills)
 - [Subagents](#-subagents)
 - [Agent Teams](#️-agent-teams)
@@ -95,6 +96,20 @@
 - [Best Practices & Guides](docs/getting-started.md#best-practices--guides) — Complete guides from Sid Bharath, VentureBeat, Boris Cherny, and more
 - [Guides & Reference Repositories](docs/getting-started.md#guides--reference-repositories) — claude-code-best-practice, claude-code-guide, building-an-agentic-system, claude-code-for-power-users
 - [Deep Dives & Case Studies](docs/getting-started.md#deep-dives--case-studies) — How Claude Code is built, six-month journey reports, lessons learned
+
+---
+
+## 🆓 Using Claude Code for Free
+
+> Ways to use Claude Code without a paid subscription — free credits, cloud provider trials, proxy tools, and programs for open source maintainers.
+
+📄 **[View all Free Usage resources →](docs/free-usage.md)**
+
+- [Official Free & Discounted Access](docs/free-usage.md#official-free--discounted-access) — Free tier details, Claude Max free for OSS maintainers (6 months), February 2026 free tier expansion
+- [Free API Credits & Cloud Trials](docs/free-usage.md#free-api-credits--cloud-trials) — Comprehensive guides to using Claude Code for free via API credits, Vertex AI ($300 free), and Bedrock
+- [Proxy Tools](docs/free-usage.md#proxy-tools-use-claude-code-with-freealternative-backends) — free-claude-code (NVIDIA NIM), claude-code-proxy variants for OpenRouter, Gemini, Ollama, and Codex
+- [Pricing Guides](docs/free-usage.md#pricing-guides) — Plan comparisons and cost-saving strategies
+- [Tips for Minimizing Costs](docs/free-usage.md#tips-for-minimizing-costs) — Use Sonnet, .claudeignore, concise prompts, cloud free tiers
 
 ---
 
