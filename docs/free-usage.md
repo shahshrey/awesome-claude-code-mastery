@@ -19,11 +19,14 @@
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
+| 🔧 [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) | 29.6k+ | Route Claude Code requests to OpenRouter, DeepSeek, Ollama, Gemini, and more — model routing, multi-provider support, request/response transformation |
 | 🔧 [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | — | Drop-in proxy routing to NVIDIA NIM (40 req/min free), OpenRouter, LM Studio, or llama.cpp — zero cost, no CLI modifications needed |
 | 🔧 [1rgs/claude-code-proxy](https://github.com/1rgs/claude-code-proxy) | — | Use Claude Code with Gemini, OpenAI, or direct Anthropic backends via LiteLLM |
+| 🔧 [kiyo-e/claude-code-proxy](https://github.com/kiyo-e/claude-code-proxy) | — | Supports GitHub Models and OpenRouter backends, including free models like `glm-4.5-air:free` |
 | 🔧 [nielspeter/claude-code-proxy](https://github.com/nielspeter/claude-code-proxy) | — | Lightweight proxy for OpenRouter (200+ models), OpenAI Direct, and Ollama (free local inference) |
 | 🔧 [fuergaosi233/claude-code-proxy](https://github.com/fuergaosi233/claude-code-proxy) | — | Converts Claude API requests to OpenAI API calls for use with various LLM providers |
 | 🔧 [Ayush-Kotlin-Dev/codex-claude-proxy](https://github.com/Ayush-Kotlin-Dev/codex-claude-proxy) | — | Use Claude Code CLI with ChatGPT Codex models via your Free/Plus/Pro subscription |
+| 🔧 [starbaser/ccproxy](https://github.com/starbaser/ccproxy) | — | Build mods for Claude Code — hook requests, modify responses, intelligent model routing with custom logic |
 
 ## Pricing Guides
 

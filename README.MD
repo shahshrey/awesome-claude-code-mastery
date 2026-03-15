@@ -107,7 +107,7 @@
 
 - [Official Free & Discounted Access](docs/free-usage.md#official-free--discounted-access) — Free tier details, Claude Max free for OSS maintainers (6 months), February 2026 free tier expansion
 - [Free API Credits & Cloud Trials](docs/free-usage.md#free-api-credits--cloud-trials) — Comprehensive guides to using Claude Code for free via API credits, Vertex AI ($300 free), and Bedrock
-- [Proxy Tools](docs/free-usage.md#proxy-tools-use-claude-code-with-freealternative-backends) — free-claude-code (NVIDIA NIM), claude-code-proxy variants for OpenRouter, Gemini, Ollama, and Codex
+- [Proxy Tools](docs/free-usage.md#proxy-tools-use-claude-code-with-freealternative-backends) — claude-code-router (29.6k+ stars), free-claude-code (NVIDIA NIM), claude-code-proxy variants for OpenRouter, Gemini, Ollama, and Codex
 - [Pricing Guides](docs/free-usage.md#pricing-guides) — Plan comparisons and cost-saving strategies
 - [Tips for Minimizing Costs](docs/free-usage.md#tips-for-minimizing-costs) — Use Sonnet, .claudeignore, concise prompts, cloud free tiers
 
