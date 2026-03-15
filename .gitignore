@@ -36,4 +36,5 @@ npm-debug.log*
 .env
 .env.local
 
-.cursor/
+.cursor/*
+.firecrawl/

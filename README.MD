@@ -57,14 +57,22 @@
 - [🏛️ Official Resources](#-official-resources)
 - [📚 Getting Started & Learning](#-getting-started--learning)
 - [🎯 Skills](#-skills)
-- [🤖 Subagents](#-subagents)
-- [🏗️ Agent Teams](#️-agent-teams)
+- [🧩 Plugins](#-plugins)
+- [🔀 Multi-Agent Development](#-multi-agent-development)
+  - [🤖 Subagents](#-subagents)
+  - [🏗️ Agent Teams](#️-agent-teams)
+  - [🌳 Git Worktrees](#-git-worktrees)
+  - [🔄 Multi-Session & Orchestration](#-multi-session--orchestration)
 - [📱 Remote Control](#-remote-control)
+- [🌐 Claude for Chrome](#-claude-for-chrome)
 - [⚡ Hooks & Automation](#-hooks--automation)
 - [🔄 Headless Mode & CI/CD](#-headless-mode--cicd)
 - [🔌 MCP (Model Context Protocol)](#-mcp-model-context-protocol)
 - [💻 SDK & API](#-sdk--api)
-- [🛠️ Tools & Extensions](#️-tools--extensions)
+- [☁️ Cloud Provider Integrations](#️-cloud-provider-integrations)
+- [🧠 Memory & Context](#-memory--context)
+- [🖥️ GUI & Desktop Apps](#️-gui--desktop-apps)
+- [⚙️ Utilities & Config](#️-utilities--config)
 - [💰 Free & Budget Usage](#-free--budget-usage)
 - [🤝 Alternative Coding Agents](#-alternative-coding-agents)
 - [👥 Community](#-community)
@@ -99,6 +107,9 @@
 | 🔧 [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 12k+ | Official, Anthropic-managed directory of high quality Claude Code Plugins |
 | 🔧 [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) | 3.8k+ | AI-powered security review GitHub Action using Claude |
 | 🔧 [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | 6.3k+ | Official GitHub Action for Claude Code in CI/CD pipelines |
+| 🔧 [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 8.8k+ | Official plugins for knowledge workers in Claude Cowork (Sales, Marketing, Legal, Finance, HR, etc.) |
+| 🔧 [anthropics/financial-services-plugins](https://github.com/anthropics/financial-services-plugins) | 5.6k+ | Official plugins for financial services workflows (wealth management, equity research, investment banking) |
+| 🔧 [anthropics/life-sciences](https://github.com/anthropics/life-sciences) | 259 | Official Claude Code marketplace for life sciences research and bioinformatics |
 | 📚 [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 35k+ | Collection of notebooks/recipes showcasing effective ways of using Claude |
 | 📚 [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | 33k+ | Anthropic's Interactive Prompt Engineering Tutorial |
 | 📚 [anthropics/courses](https://github.com/anthropics/courses) | 19k+ | Anthropic's educational courses |
@@ -180,6 +191,9 @@
 - 📁 [What are Skills? - Claude Help Center](https://support.claude.com/en/articles/12512176-what-are-skills)
 - 📁 [Skill Authoring Best Practices - Claude API Docs](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
 - 📁 [The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
+- 📁 [Create Plugins - Claude Code Docs](https://code.claude.com/docs/en/plugins)
+- 📁 [Discover and Install Prebuilt Plugins - Claude Code Docs](https://code.claude.com/docs/en/discover-plugins)
+- 📁 [Create and Distribute a Plugin Marketplace - Claude Code Docs](https://code.claude.com/docs/en/plugin-marketplaces)
 
 ### Agent Skills Open Standard
 
@@ -283,10 +297,45 @@
 
 ### Marketplaces
 
+> Official and community-built directories for discovering and installing Claude Code plugins, skills, and extensions. Plugins are installed via `/plugin marketplace add owner/repo` in Claude Code.
+
+#### Official Plugin Directories
+
 | Platform | Description |
 |----------|-------------|
+| 📁 [Claude Plugins Directory - claude.com/plugins](https://claude.com/plugins) | Official Anthropic-curated plugin directory — 75+ reviewed plugins for Claude Code and Cowork; submit via [clau.de/plugin-directory-submission](https://clau.de/plugin-directory-submission) |
+| 🔧 [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 12k+ The official, Anthropic-managed GitHub marketplace — install via `/plugin install {name}@claude-plugin-directory` |
+
+#### Web Discovery Platforms
+
+| Platform | Description |
+|----------|-------------|
+| 🔧 [claudemarketplaces.com](https://claudemarketplaces.com/) | Meta-directory of **2,919+** Claude Code marketplaces — browse by category, GitHub-backed, open source (by mertdx) |
+| 🔧 [buildwithclaude.com](https://buildwithclaude.com/) | **488+** practical extensions tracking 9k plugins + 4k skills across 2,605 marketplaces; `/plugin marketplace add davepoon/buildwithclaude` |
+| 🔧 [skillsmp.com](https://skillsmp.com/) | **508k+** agent skills in the open SKILL.md format — compatible with Claude Code, Codex, and ChatGPT |
+| 🔧 [lobehub.com/skills](https://lobehub.com/en/skills) | **211k+** skills marketplace — open SKILL.md standard with ratings, install counts, and category browsing |
+| 🔧 [awesomeclaudeplugins.com](https://awesomeclaudeplugins.com/) | Automated collection tracking **22k+** plugins across 7,413 GitHub repos with adoption metrics |
 | 🔧 [claude-plugins.dev](https://claude-plugins.dev/) | Community-maintained marketplace with 6,000+ public skills |
 | 🔧 [ClaudePluginHub](https://www.claudepluginhub.com/marketplaces/) | Hub with 9,000+ plugins and skills across multiple marketplaces |
+| 🔧 [claudecodemarketplace.net](https://claudecodemarketplace.net/marketplace) | Community submissions marketplace — aggregates known collections from the ecosystem |
+
+#### Notable GitHub Marketplaces
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [ComposioHQ/awesome-claude-plugins](https://github.com/ComposioHQ/awesome-claude-plugins) | 1.2k+ | Curated list of plugins for Claude Code — commands, agents, hooks, and MCP servers |
+| 🔧 [ananddtyagi/cc-marketplace](https://github.com/ananddtyagi/cc-marketplace) | 662 | Community-driven marketplace auto-synced from claudecodecommands.directory |
+| 🔧 [mhattingpete/claude-skills-marketplace](https://github.com/mhattingpete/claude-skills-marketplace) | 468 | Engineering workflows — Git automation, testing, code review, and execution runtime |
+| 🔧 [quemsah/awesome-claude-plugins](https://github.com/quemsah/awesome-claude-plugins) | 181 | Source repo for awesomeclaudeplugins.com — automated plugin adoption metrics |
+| 🔧 [Chat2AnyLLM/awesome-claude-plugins](https://github.com/Chat2AnyLLM/awesome-claude-plugins) | 62 | Curated list of awesome Claude marketplaces and plugins with website |
+| 🔧 [Dev-GOM/claude-code-marketplace](https://github.com/Dev-GOM/claude-code-marketplace) | 76 | Hooks, commands, and agents for developer productivity and workflow automation |
+
+#### Articles & Guides
+
+- 📗 [Claude Code Has a Skills Marketplace Now — A Beginner-Friendly Walkthrough](https://medium.com/@markchen69/claude-code-has-a-skills-marketplace-now-a-beginner-friendly-walkthrough-8adeb67cdc89)
+- 📗 [Organising Claude Code Skills Into Plugin Marketplaces - Scott Spence](https://scottspence.com/posts/organising-claude-code-skills-into-plugin-marketplaces)
+- 💡 [There are 28 official Claude Code plugins most people don't know about - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1r4tk3u/there_are_28_official_claude_code_plugins_most/)
+- 💡 [The ultimate Claude Code marketplace hub - Reddit](https://www.reddit.com/r/ClaudeCode/comments/1o3txls/the_ultimate_claude_code_marketplace_hub/)
 
 ### Tutorials & Guides
 
@@ -322,18 +371,189 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
-## 🤖 Subagents
+## 🧩 Plugins
+
+> Plugins are the packaging and distribution format for Claude Code extensions. A plugin bundles skills, agents, hooks, MCP servers, LSP integrations, and commands into a single installable unit distributed via GitHub repos. Install with `/plugin install name@marketplace`. Plugins require Claude Code v1.0.33+.
+>
+> **Plugins vs standalone config:** Standalone `.claude/` configs use short names like `/hello`; plugins use namespaced names like `/my-plugin:hello` — preventing conflicts when mixing multiple plugins.
+
+### Documentation
+
+- 📁 [Create plugins — Claude Code Docs](https://code.claude.com/docs/en/plugins) — full authoring guide: skills, agents, hooks, MCP, LSP, `--plugin-dir` dev flag, submission
+- 📁 [Discover and install plugins — Claude Code Docs](https://code.claude.com/docs/en/discover-plugins) — how to add marketplaces, install/remove, scopes, team marketplaces
+- 📁 [Create and distribute a plugin marketplace — Claude Code Docs](https://code.claude.com/docs/en/plugin-marketplaces) — `marketplace.json` schema, namespace rules, distribution
+- 📁 [Plugins reference — Claude Code Docs](https://code.claude.com/docs/en/plugins-reference) — complete technical specification for all plugin components
+
+### Official Plugin Directory
+
+> Anthropic's curated directory of high-quality plugins. The official marketplace is pre-registered in every Claude Code install — no setup needed. Browse it with `/plugin` → **Discover** tab, or install directly.
+
+#### Repositories
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 12k+ | Official Anthropic-managed directory of high-quality Claude Code plugins |
+| 🔧 [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 9.2k+ | 15 domain-specialist plugins for knowledge workers: sales, engineering, data, design, HR, legal, finance |
+
+#### Code Intelligence (LSP) Plugins
+
+> Give Claude real-time language intelligence: jump to definitions, find references, see type errors after every edit. Requires the language server binary installed on your machine.
+
+| Plugin | Language | Install |
+|--------|----------|---------|
+| 🔧 [typescript-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/typescript-lsp) | TypeScript / JS | `/plugin install typescript-lsp@claude-plugins-official` |
+| 🔧 [pyright-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/pyright-lsp) | Python | `/plugin install pyright-lsp@claude-plugins-official` |
+| 🔧 [rust-analyzer-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/rust-analyzer-lsp) | Rust | `/plugin install rust-analyzer-lsp@claude-plugins-official` |
+| 🔧 [gopls-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/gopls-lsp) | Go | `/plugin install gopls-lsp@claude-plugins-official` |
+| 🔧 [ruby-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ruby-lsp) | Ruby | `/plugin install ruby-lsp@claude-plugins-official` |
+| 🔧 [clangd-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/clangd-lsp) | C / C++ | `/plugin install clangd-lsp@claude-plugins-official` |
+| 🔧 [csharp-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/csharp-lsp) | C# | `/plugin install csharp-lsp@claude-plugins-official` |
+| 🔧 [swift-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/swift-lsp) | Swift | `/plugin install swift-lsp@claude-plugins-official` |
+| 🔧 [kotlin-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/kotlin-lsp) | Kotlin | `/plugin install kotlin-lsp@claude-plugins-official` |
+| 🔧 [jdtls-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/jdtls-lsp) | Java | `/plugin install jdtls-lsp@claude-plugins-official` |
+| 🔧 [php-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/php-lsp) | PHP | `/plugin install php-lsp@claude-plugins-official` |
+| 🔧 [lua-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/lua-lsp) | Lua | `/plugin install lua-lsp@claude-plugins-official` |
+
+#### External Integration Plugins
+
+> Pre-configured MCP server bundles for connecting Claude to external services — no manual MCP setup required.
+
+| Plugin | Category | Description |
+|--------|----------|-------------|
+| 🔧 [github](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/github) | Source Control | GitHub integration via MCP |
+| 🔧 [gitlab](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/gitlab) | Source Control | GitLab integration via MCP |
+| 🔧 [context7](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/context7) | Documentation | Up-to-date code documentation for LLMs (by Upstash) |
+| 🔧 [playwright](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/playwright) | Testing | Browser automation and testing via Playwright MCP |
+| 🔧 [serena](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/serena) | Code Intelligence | Advanced code navigation and semantic search |
+| 🔧 [greptile](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/greptile) | Code Search | AI-powered codebase search and understanding |
+| 🔧 [supabase](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/supabase) | Infrastructure | Supabase database/auth integration |
+| 🔧 [firebase](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/firebase) | Infrastructure | Firebase integration via MCP |
+| 🔧 [stripe](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/stripe) | Payments | Stripe integration with best-practices skill |
+| 🔧 [slack](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/slack) | Communication | Slack integration via HTTP/OAuth MCP |
+| 🔧 [linear](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/linear) | Project Management | Linear issue tracking via MCP |
+| 🔧 [asana](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/asana) | Project Management | Asana integration via MCP |
+| 🔧 [laravel-boost](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/laravel-boost) | Framework | Laravel framework boost with best-practices skill |
+
+> Additional official integrations in the marketplace: `atlassian` (Jira/Confluence), `notion`, `figma`, `vercel`, `sentry`
+
+#### Development Workflow Plugins
+
+| Plugin | Description |
+|--------|-------------|
+| 🔧 [feature-dev](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/feature-dev) | Comprehensive feature development with specialized agents |
+| 🔧 [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands) | Git commit workflows: commit, push, and PR creation |
+| 🔧 [pr-review-toolkit](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/pr-review-toolkit) | Specialized agents for reviewing pull requests |
+| 🔧 [ralph-loop](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) | Autonomous coding loop — works through tasks, commits, repeats |
+| 🔧 [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review) | Comprehensive code review |
+| 🔧 [code-simplifier](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier) | Simplify code while preserving functionality |
+| 🔧 [security-guidance](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance) | Hook that warns about command injection, XSS, and unsafe patterns |
+| 🔧 [frontend-design](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design) | Frontend design workflows and agents |
+| 🔧 [agent-sdk-dev](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/agent-sdk-dev) | Development kit for working with the Claude Agent SDK |
+| 🔧 [hookify](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/hookify) | Rule-based hook system for Claude Code |
+| 🔧 [plugin-dev](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev) | Toolkit for creating your own plugins |
+| 🔧 [skill-creator](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator) | Helps create new agent skills |
+| 🔧 [claude-code-setup](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup) | Setup and configuration for Claude Code |
+| 🔧 [claude-md-management](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management) | Tools for managing and improving CLAUDE.md files |
+| 🔧 [playground](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground) | Creates interactive HTML playgrounds |
+| 🔧 [explanatory-output-style](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/explanatory-output-style) | Educational output mode with insights about implementation choices |
+| 🔧 [learning-output-style](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/learning-output-style) | Interactive learning mode for skill building |
+| 🔧 [example-plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/example-plugin) | Reference implementation for plugin developers |
+
+### Plugin Marketplaces & Directories
+
+> For the full list of plugin and skills marketplaces, see [Skills > Marketplaces](#marketplaces). Plugin-specific directories below:
+
+| Platform | Description |
+|----------|-------------|
+| 🔧 [claudecodeplugins.dev](https://claudecodeplugins.dev/) | Categorized plugin directory with beginner guides and tutorials |
+| 🔧 [claudecodecommands.directory](https://claudecodecommands.directory/) | Submit and discover commands, agents, and plugins |
+| 🔧 [claudecodemarketplace.com](https://claudecodemarketplace.com/) | Browse hundreds of plugins; auto-synced from community submissions |
+
+### Community Plugin Collections
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | 10k+ | Official Claude Code compound engineering plugin for large-scale workflows |
+| 🔧 [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | 1.6k+ | 340 plugins + 1,367 agent skills; includes CCPI package manager |
+| 🔧 [obra/superpowers-marketplace](https://github.com/obra/superpowers-marketplace) | 654 | Curated Claude Code plugin marketplace (superpowers framework) |
+| 🔧 [Kamalnrf/claude-plugins](https://github.com/Kamalnrf/claude-plugins) | 481 | Lightweight registry for discovering, installing, and managing public Claude plugins |
+| 🔧 [hashicorp/agent-skills](https://github.com/hashicorp/agent-skills) | 462 | Agent skills and plugins for HashiCorp products (Terraform, Vault, Consul) |
+| 🔧 [Piebald-AI/claude-code-lsps](https://github.com/Piebald-AI/claude-code-lsps) | 305 | Plugin marketplace focused on LSP server integrations |
+
+### Notable Community Plugins
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | 4.5k+ | Real-time HUD showing context usage %, active tools, running agents, and todo progress |
+| 🔧 [YishenTu/claudian](https://github.com/YishenTu/claudian) | 3.8k+ | Obsidian plugin that embeds Claude Code as an AI collaborator inside your vault |
+| 🔧 [agenticnotetaking/arscontexta](https://github.com/agenticnotetaking/arscontexta) | 2.6k+ | Generates individualized knowledge systems and "second brain" from conversations |
+| 🔧 [ZeframLou/call-me](https://github.com/ZeframLou/call-me) | 2.5k+ | Minimal plugin that calls you on the phone when Claude finishes a task |
+| 🔧 [zhukunpenglinyutong/idea-claude-code-gui](https://github.com/zhukunpenglinyutong/idea-claude-code-gui) | 1.8k+ | JetBrains / IntelliJ IDEA GUI Plugin for Claude Code |
+| 🔧 [hamelsmu/claude-review-loop](https://github.com/hamelsmu/claude-review-loop) | 576 | Automated code review loop coordinating Claude Code with Codex |
+| 🔧 [gmickel/gmickel-claude-marketplace](https://github.com/gmickel/gmickel-claude-marketplace) | 545 | Flow-Next plan-first workflows, Ralph autonomous overnight mode, multi-model review gates |
+| 🔧 [zscole/adversarial-spec](https://github.com/zscole/adversarial-spec) | 511 | Iteratively refines product specs via multi-LLM debate until consensus |
+| 🔧 [kingbootoshi/cartographer](https://github.com/kingbootoshi/cartographer) | 509 | Maps and documents codebases of any size using parallel AI subagents |
+| 🔧 [muratcankoylan/ralph-wiggum-marketer](https://github.com/muratcankoylan/ralph-wiggum-marketer) | 687 | Autonomous AI copywriter plugin |
+| 🔧 [team-attention/plugins-for-claude-natives](https://github.com/team-attention/plugins-for-claude-natives) | 668 | Claude Code plugins for power users |
+| 🔧 [humanplane/homunculus](https://github.com/humanplane/homunculus) | 297 | Watches how you work, learns your patterns, evolves itself to help you better |
+| 🔧 [closedloop-ai/claude-plugins](https://github.com/closedloop-ai/claude-plugins) | 75 | Plan-first software delivery plugins for multi-agent workflows |
+
+### Tutorials & Guides
+
+#### Getting Started
+
+- 📗 [Building My First Claude Code Plugin — alexop.dev](https://alexop.dev/posts/building-my-first-claude-code-plugin/)
+- 📗 [How to Build Your Own Claude Code Plugin — Agnost AI](https://agnost.ai/blog/claude-code-plugins-guide/)
+- 📗 [How to Build Claude Code Plugins: Step-by-Step Guide — DataCamp](https://www.datacamp.com/tutorial/how-to-build-claude-code-plugins)
+- 📗 [A Practical Guide to Building a Claude Code Plugin — Medium](https://medium.com/@kbdhunga/a-practical-guide-to-claude-code-plugins-building-a-legal-document-analyzer-89a8db3eadda)
+- 📗 [Creating Claude Code Plugins — Clune.org](https://clune.org/posts/creating-claude-code-plugins/)
+- 📗 [Claude Code Deep Dive — Plug and Play — Medium](https://medium.com/@the.gigi/claude-code-deep-dive-plug-and-play-af03f77c6568)
+- 📗 [Improving your coding workflow with Claude Code Plugins — Composio](https://composio.dev/content/claude-code-plugin)
+
+#### Concept Clarity (Plugins vs Skills vs MCPs)
+
+- 📗 [A Mental Model for Claude Code: Skills, Subagents, and Plugins — Level Up Coding](https://levelup.gitconnected.com/a-mental-model-for-claude-code-skills-subagents-and-plugins-3dea9924bf05)
+- 📗 [Claude Code Skills vs MCP vs Plugins: Complete Guide 2026 — MorphLLM](https://morphllm.com/claude-code-skills-mcp-plugins)
+- 📗 [Definitive Guide: MCP vs Skills vs Agents vs Plugins — Medium](https://medium.com/@joaquinlopezm/definitive-guide-mcp-vs-skills-vs-agents-vs-plugins-65afc5448bd2)
+- 📗 [Claude Code Plugins: Anthropic's Official Ecosystem Explained — Groundy](https://groundy.com/articles/claude-code-plugins-anthropic-s-official-plugin-ecosystem/)
+
+#### Ecosystem Coverage
+
+- 📗 [Claude Code Plugins Review 2026: 9,000+ Extensions — AI Tool Analysis](https://aitoolanalysis.com/claude-code-plugins/)
+- 📗 [Top 10 Claude Code Plugins to Try in 2026 — Firecrawl Blog](https://www.firecrawl.dev/blog/best-claude-code-plugins)
+- 📗 [10 Top Claude Code Plugins to Consider in 2026 — Composio](https://composio.dev/blog/top-claude-code-plugins)
+- 📗 [Anthropic Knowledge Work Plugins: Complete Guide to 15 Official Plugins — ClaudeWorld](https://claude-world.com/articles/anthropic-knowledge-work-plugins-overview/)
+- 📗 [Anthropic Launches Enterprise Agents with Plugins — TechCrunch](https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/)
+- 📗 [Complete Guide to 36 Official Plugins — Pete Gypps](https://www.petegypps.uk/blog/claude-code-official-plugin-marketplace-complete-guide-36-plugins-december-2025)
+- 📗 [LiteLLM Claude Code Plugin Marketplace — LiteLLM Docs](https://docs.litellm.ai/docs/tutorials/claude_code_plugin_marketplace)
+
+#### Videos
+
+- 🎬 [10 Claude Code Plugins to 10X Your Projects](https://www.youtube.com/watch?v=OFyECKgWXo8)
+
+#### Community
+
+- 💡 [There are 28 official Claude Code plugins most people don't know about — Reddit](https://www.reddit.com/r/ClaudeAI/comments/1r4tk3u/)
+- 💡 [The ultimate Claude Code marketplace hub — Reddit](https://www.reddit.com/r/ClaudeCode/comments/1o3txls/the_ultimate_claude_code_marketplace_hub/)
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
+
+## 🔀 Multi-Agent Development
+
+> Everything about running multiple Claude Code agents in parallel — from single-session subagents to multi-session teams, isolated git worktrees, and orchestration tools. These features work together: subagents handle delegation within a session, agent teams spawn full parallel sessions, and git worktrees give each agent its own isolated workspace.
+
+### 🤖 Subagents
 
 > Resources about Claude Code's subagent capabilities for multi-agent workflows.
 
-### Documentation & Tutorials
+#### Documentation & Tutorials
 
 - 📁 [Subagents - Claude Code Docs](https://code.claude.com/docs/en/sub-agents)
-- 📗 [Claude Code and Subagents: How to Build Your First Multi-Agent Workflow](https://medium.com/@techofhp/claude-code-and-subagents-how-to-build-your-first-multi-agent-workflow-3cdbc5e430fa)
+- 📗 [Claude Code and Subagents: How to Build Your First Multi-Agent Workflow](https://medium.com/@techofhap/claude-code-and-subagents-how-to-build-your-first-multi-agent-workflow-3cdbc5e430fa)
 - 📗 [Claude Code Subagents Quickstart: what they are + how to use them](https://shipyard.build/blog/claude-code-subagents-guide/)
 - 📗 [How to create and use Subagents in Claude Code — a practical guide](https://www.cometapi.com/en/how-to-create-and-use-subagents-in-claude-code/)
 
-### Tools & Collections
+#### Tools & Collections
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
@@ -345,19 +565,17 @@
 | 🔧 [a5c-ai/babysitter](https://github.com/a5c-ai/babysitter) | 445 | Deterministic, hallucination-free self-orchestration for complex tasks |
 | 🔧 [CoderMageFox/claudecode-codex-subagents](https://github.com/CoderMageFox/claudecode-codex-subagents) | 39 | Orchestrate tasks by delegating to multiple parallel Codex agents |
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
-
-## 🏗️ Agent Teams
+### 🏗️ Agent Teams
 
 > Spin up multiple Claude Code instances that work in parallel on a shared codebase, coordinated by a lead agent. Released as a research preview with Opus 4.6 in February 2026.
 
-### Official Resources
+#### Official Resources
 
 - 📁 [Orchestrate teams of Claude Code sessions - Official Docs](https://code.claude.com/docs/en/agent-teams)
 - 📗 [Introducing Claude Opus 4.6 - Anthropic](https://www.anthropic.com/news/claude-opus-4-6) — announcement of agent teams as a research preview
 - 📗 [Building a C compiler with a team of parallel Claudes - Anthropic Engineering](https://www.anthropic.com/engineering/building-c-compiler) — 16 parallel Claude agents built a 100k-line C compiler in Rust
 
-### Tutorials & Guides
+#### Tutorials & Guides
 
 - 📗 [Claude Code Agent Teams: Run Parallel AI Agents on Your Codebase - SitePoint](https://www.sitepoint.com/anthropic-claude-code-agent-teams/) — architecture, setup, real-world patterns, and limitations
 - 📗 [Claude Code Swarms - Addy Osmani](https://addyosmani.com/blog/claude-code-agent-teams/) — evolution of agentic coding workflows
@@ -373,14 +591,14 @@
 - 📗 [Mastering the 5 Core Points of Claude Opus 4.6 Agent Teams - APIYi](https://help.apiyi.com/en/claude-opus-4-6-agent-teams-how-to-use-guide-en.html)
 - 📗 [Building Apps with Claude Opus 4.6 Agent Teams & Firecrawl Agent - Firecrawl](https://www.firecrawl.dev/blog/claude-opus-4-6-agent-teams-firecrawl)
 
-### Video Tutorials
+#### Video Tutorials
 
 - 🎬 [Learn 90% Of Claude Code Agent Teams in 22 Minutes (Opus 4.6) - Bart Slodyczka](https://www.youtube.com/watch?v=cSkoaCCmq0w)
 - 🎬 [Claude Opus 4.6: Agent Teams Change Everything!](https://www.youtube.com/watch?v=RWDK5414yL4)
 - 🎬 [Claude Code Agent Teams Explained (Complete Guide)](https://www.youtube.com/watch?v=1jlKUxqRQAw)
 - 🎬 [Multiple AI Agents Coding Together in Real Time](https://www.youtube.com/watch?v=-1K_ZWDKpU0)
 
-### Experience Reports & Analysis
+#### Experience Reports & Analysis
 
 - 📗 [Claude Opus 4.6 is Driven - LessWrong](https://www.lesswrong.com/posts/btAn3hydqfgYFyHGW/claude-opus-4-6-is-driven)
 - 📗 [Claude Code: Next Era Agent Collaboration - Cameron Hedrick](https://cameronxyz.substack.com/p/claude-code-next-era-agent-collaboration)
@@ -388,7 +606,7 @@
 - 💡 [Agent teams shipped yesterday — guide about when it works, and when it breaks - Reddit](https://www.reddit.com/r/ClaudeCode/comments/1qxsqr7/agent_teams_shipped_yesterday_wrote_a_guide_about/)
 - 💡 [Anthropic used Agent Teams and Opus 4.6 to build a C Compiler from scratch - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1qwvp6g/anthropic_used_agent_teams_and_opus_46_to_build_a/)
 
-### Tools & Utilities
+#### Tools & Utilities
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
@@ -400,6 +618,87 @@
 | 🔧 [sethdford/shipwright](https://github.com/sethdford/shipwright) | 12 | Orchestrate fully autonomous agent teams with delivery pipelines and DORA metrics |
 | 🔧 [qingcaizz/claude-orchestra](https://github.com/qingcaizz/claude-orchestra) | 4 | Real-time kanban dashboard for visualizing and managing multi-agent collaboration |
 | 🔧 [rhysheavensmith/claude-agent-launcher](https://github.com/rhysheavensmith/claude-agent-launcher) | 6 | tmux multipane launcher for agent teams |
+
+### 🌳 Git Worktrees
+
+> Run parallel Claude Code sessions in completely isolated working directories. Each worktree gets its own files, branch, and context — no conflicts between concurrent agents. Native `--worktree` (`-w`) flag shipped with Claude Code in early 2026.
+
+#### Documentation
+
+- 📁 [Run Parallel Claude Code Sessions with Git Worktrees — Common Workflows](https://code.claude.com/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees) — Official docs covering `--worktree` flag, subagent isolation, cleanup behavior, and manual management
+  - [Subagent Worktrees](https://code.claude.com/docs/en/common-workflows#subagent-worktrees) — Add `isolation: worktree` to a subagent's frontmatter for automatic parallel isolation
+  - [Worktree Cleanup](https://code.claude.com/docs/en/common-workflows#worktree-cleanup) — Auto-cleanup when no changes; prompts to keep/remove when changes exist
+  - [Manage Worktrees Manually](https://code.claude.com/docs/en/common-workflows#manage-worktrees-manually) — Create worktrees directly with Git for custom branch and location control
+- 📗 [Introducing Built-in Git Worktree Support — Boris Cherny (Claude Code creator)](https://www.threads.com/@boris_cherny/post/DVAAnexgRUj/) — Announcement post introducing the native `--worktree` flag so agents can run in parallel without interfering with each other
+
+#### Video Tutorials
+
+- 🎬 [Git Worktrees Explained: The Feature That Unlocks Parallel AI Agents](https://www.youtube.com/watch?v=BGTOnMz_qcw) — How the 2015 Git feature powers modern parallel AI agent workflows with Claude Code
+- 🎬 [How I PARALLELIZE Claude Code with Git Worktrees](https://www.youtube.com/watch?v=f8RnRuaxee8) — Hands-on parallelization tutorial for agentic coding workflows
+- 🎬 [Claude Code Worktrees in 7 Minutes](https://www.youtube.com/watch?v=z_VI51k-tn0) — Quick intro: what they are, why agents benefit, and hands-on setup
+
+#### Tutorials & Guides
+
+- 📗 [Parallel Vibe Coding with Git Worktrees — Dan Does Code](https://www.dandoescode.com/blog/parallel-vibe-coding-with-git-worktrees) — Shows how Claude creates isolated worktrees at `.claude/worktrees/<name>/` with a new branch per session
+- 📗 [A Complete Guide to Git Worktrees with Claude Code — Dev.to](https://dev.to/bhaidar/supercharge-your-ai-coding-workflow-a-complete-guide-to-git-worktrees-with-claude-code-60m) — From basics to advanced AI-assisted workflows with emphasis on AI-safe isolation
+- 📗 [Introduction to Git Worktrees in Claude Code — Better Stack](https://betterstack.com/community/guides/ai/git-worktrees-claude/) — Step-by-step guide covering setup prerequisites and worktree lifecycle management
+- 📗 [The Complete Guide to Git Worktrees with Claude Code — notes.muthu.co](https://notes.muthu.co/2026/02/the-complete-guide-to-git-worktrees-with-claude-code/) — Worktree fundamentals applied specifically to Claude Code workflows
+- 📗 [Mastering Git Worktrees with Claude Code — Medium](https://medium.com/@dtunai/mastering-git-worktrees-with-claude-code-for-parallel-development-workflow-41dc91e645fe) — Running multiple Claude Code sessions in parallel with isolated contexts, eliminating context switching
+- 📗 [Git Worktrees: The Secret Weapon for Multiple AI Agents in Parallel — Medium](https://medium.com/@mabd.dev/git-worktrees-the-secret-weapon-for-running-multiple-ai-coding-agents-in-parallel-e9046451eb96) — Preventing agents from conflicting across Claude Code, Codex, and other tools
+- 📗 [Git Worktree Isolation: Parallel Development Without the Chaos — Medium](https://medium.com/@richardhightower/git-worktree-isolation-in-claude-code-parallel-development-without-the-chaos-262e12b85cc5) — Deep dive on zero-conflict parallel development with the `--worktree` flag
+- 📗 [Parallel Development with Claude Code and Git Worktrees — Dev.to](https://dev.to/yooi/parallel-development-with-claudecode-and-git-worktrees-305a) — Managing multiple development efforts from a single repository with separate working directories per task
+- 📗 [Git Worktrees for AI Coding: Run Multiple Agents in Parallel — Dev.to](https://dev.to/mashrulhaque/git-worktrees-for-ai-coding-run-multiple-agents-in-parallel-3pgb) — Practical setup for simultaneous Claude Code, Cursor, or Copilot agents
+- 📗 [Git Worktrees for Parallel AI Coding Agents — Upsun Dev Center](https://devcenter.upsun.com/posts/git-worktrees-for-parallel-ai-coding-agents/) — Create branch locally, push to trigger environment creation, then point AI agents at isolated branches
+- 📗 [How Git Worktrees Changed My AI Agent Workflow — Nx Blog](https://nx.dev/blog/git-worktrees-ai-agents) — Eliminating context switching and speeding up development cycles with parallel agents
+- 📗 [Using Git Worktrees for Parallel AI Agent Development — Mike Bianchi](https://mikebian.co/using-git-worktrees-for-parallel-ai-agent-development/) — How git worktrees became truly useful only after CLI coding agents (like Claude Code) became popular
+- 📗 [Parallel AI Development with Git Worktrees — Medium](https://medium.com/@ooi_yee_fei/parallel-ai-development-with-git-worktrees-f2524afc3e33) — Orchestrating a team of agents across multiple tasks simultaneously using GitHub integration
+- 📗 [Why Git Worktrees Are the Secret Weapon for Parallel Coding Agents — Medium](https://thamizhelango.medium.com/why-git-worktrees-are-the-secret-weapon-for-parallel-development-in-coding-agents-a969bc20d04e) — Solve the classic interrupt problem: handle a high-priority bug while keeping the other agent running
+- 📗 [What 371 Git Worktrees Taught Me About Multi-Agent AI — Level Up Coding](https://levelup.gitconnected.com/what-371-git-worktrees-taught-me-about-multi-agent-ai-36d4d61acfb5) — Hard-won lessons from running hundreds of worktrees at scale: race conditions, branch conflicts, and merge coordination
+- 📗 [Git Worktrees: Run Multiple AI Agents on Different Branches at Once — Medium](https://medium.com/@jatin4228/git-worktrees-run-multiple-ai-agents-copilot-claude-code-on-different-branches-at-once-ba46cd8e0ae7) — One-command setup script that auto-installs node_modules and copies `.env` files for new worktrees
+- 📗 [Claude Code Deep Dive Part 2: Development Workflows — mostlycopyandpaste.com](https://mostlycopyandpaste.com/articles/2026/02/claude-code-deep-dive-part-2-development-workflows/) — Parallel Claude instances with git worktrees + tmux, spec-driven development, and multi-agent coordination
+- 📗 [Parallel Workflows with Git Worktrees and AI Agents — IT Depends Blog](https://blog.itdepends.be/parallel-workflows-git-worktrees-agents/) — Applying the decade-old git worktrees pattern to modern AI agent workflows
+- 📗 [How to Use Git Worktrees with Claude Code — Inventive HQ](https://inventivehq.com/knowledge-base/claude/how-to-use-git-worktrees) — Setup, session management across worktrees, and CLAUDE.md behavior in isolated environments
+- 📗 [Parallel AI Coding with Git Worktrees and Custom Agents — Agent Interviews](https://docs.agentinterviews.com/blog/parallel-ai-coding-with-gitworktrees/) — Building multiple component versions simultaneously with parallel Claude Code agents
+
+#### Tools & Utilities
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [bucket-robotics/claude-worktree](https://github.com/bucket-robotics/claude-worktree) | 14 | TUI for git worktree management, built specifically for Claude Code |
+| 🔧 [tfriedel/claude-worktree-hooks](https://github.com/tfriedel/claude-worktree-hooks) | 18 | Auto-setup hooks for Claude Code worktrees: env files, dependencies, and deterministic ports |
+| 🔧 [hschne/claude-worktree](https://github.com/hschne/claude-worktree) | 7 | Utility script to simplify running Claude in Git Worktrees |
+| 🔧 [Ryokuman/claude-worktree-system](https://github.com/Ryokuman/claude-worktree-system) | 8 | Claude Code worktree system for parallel agent management |
+| 🔧 [riotbyte-com/worktree](https://github.com/riotbyte-com/worktree) | 1 | Claude Code `/worktree` slash command to create and provision a git worktree |
+
+| Tool | Description |
+|------|-------------|
+| 🔧 [wraith.im](https://wraith.im) | Select a Linear issue → creates isolated git worktree → runs Claude Code → pushes branch → opens PR → updates Linear automatically |
+| 🔧 [DevSwarm](https://devswarm.ai/) | Multi-workspace command center for parallel AI coding — each workspace is an isolated worktree with VS Code IDE, terminals, diffs, and git controls |
+
+#### Community Discussions
+
+- 💡 [5 Claude Code Worktree Tips from Boris Cherny (Claude Code creator) — Reddit](https://www.reddit.com/r/ClaudeCode/comments/1rae7sa/5_claude_code_worktree_tips_from_creator_of/) — Practical tips including the 'handoff artifact' pattern to solve inter-session coordination
+- 💡 [Git Worktrees are a Superpower for Agentic Dev — Reddit](https://www.reddit.com/r/ClaudeCode/comments/1pzczjn/git_worktrees_are_a_superpower_for_agentic_dev/) — High-signal community discussion on why git worktrees are transformative for agentic workflows
+- 💡 [Claude Code Multi-Project Workflows: Terminals, Worktrees, Parallel Agents, SSH — Reddit](https://www.reddit.com/r/ClaudeCode/comments/1rp4j24/claude_code_multiproject_workflows_terminals/) — Community setups combining tmux, git worktrees, parallel agents, and SSH access
+- 💡 [How I Use Git Worktrees + Multiple AI Agents to Parallelize Feature Development — Reddit](https://www.reddit.com/r/vibecoding/comments/1r76gwj/how_i_use_git_worktrees_multiple_ai_agents_to/) — Orchestrating multiple agents with Playwright MCP, iOS Simulator MCP, and Conductor coordination tool
+- 💡 [I Built a Claude Code Skill for Fully Isolated Git Worktrees (Laravel + Herd) — Reddit](https://www.reddit.com/r/PHP/comments/1rgka8j/i_built_a_claude_code_skill_that_sets_up_fully/) — PHP-specific worktree isolation setup with per-worktree database and environment configuration
+- 💡 [Git Worktree Docs Issue: Dependency Installation — GitHub](https://github.com/anthropics/claude-code/issues/20905) — Community feedback on official docs with full worktree lifecycle walkthrough
+
+### 🔄 Multi-Session & Orchestration
+
+> Tools for managing multiple concurrent Claude Code sessions, running agents in parallel TUIs, and coordinating autonomous multi-agent workflows.
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [AndyMik90/Auto-Claude](https://github.com/AndyMik90/Auto-Claude) | 13k+ | Autonomous multi-session AI coding |
+| 🔧 [automazeio/ccpm](https://github.com/automazeio/ccpm) | 7.6k+ | Project management using GitHub Issues and Git worktrees for parallel agents |
+| 🔧 [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 7.9k+ | Autonomous AI development loop with intelligent exit detection |
+| 🔧 [smtg-ai/claude-squad](https://github.com/smtg-ai/claude-squad) | 6.4k+ | Manage Claude Code, Aider, Codex, OpenCode, and Amp in a single TUI |
+| 🔧 [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 21k+ | Agent orchestration platform — multi-agent swarms, autonomous workflows, RAG integration |
+| 🔧 [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 9.3k+ | Open-source AI coworker with memory |
+| 🔧 [built-by-as/FleetCode](https://github.com/built-by-as/FleetCode) | 410 | Light-weight control pane to run CLI coding agents in parallel |
+| 🔧 [regenrek/peky](https://github.com/regenrek/peky) | 140 | All your AI Agents in a single TUI to keep things organized |
+| 🔧 [to-na/claude-code-crew](https://github.com/to-na/claude-code-crew) | 55 | Browser-based interface for managing sessions across Git worktrees |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -430,6 +729,84 @@
 | 🔧 [yuuichieguchi/claude-remote-approver](https://github.com/yuuichieguchi/claude-remote-approver) | 36 | Approve permission requests from phone via ntfy |
 | 🔧 [yusufkaraaslan/claude-remote-plus](https://github.com/yusufkaraaslan/claude-remote-plus) | 3 | Hot-swap sessions between projects with daemon, MCP, and auto-restart |
 | 🔧 [sequoia-hope/claude-remote](https://github.com/sequoia-hope/claude-remote) | 3 | Run Claude in Docker and serve terminal over a web interface |
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
+
+## 🌐 Claude for Chrome
+
+> Anthropic's official Chrome extension enabling AI-powered browser automation — navigate pages, click buttons, fill forms, debug console errors, automate multi-site workflows, and record demo GIFs, all from Claude or Claude Code. Available to Pro, Max, and Team users. Works with Google Chrome and Microsoft Edge (beta).
+
+### Official Resources
+
+- 📁 [Claude for Chrome - Official Page](https://claude.com/claude-for-chrome) — feature overview and install link
+- 📁 [Use Claude Code with Chrome (beta) - Claude Code Docs](https://code.claude.com/docs/en/chrome) — connect Claude Code to Chrome via the `--chrome` flag or `/chrome` command
+- 📁 [Claude in Chrome - Chrome Web Store](https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn) — official extension for Chrome and Microsoft Edge
+- 📁 [Getting Started with Claude in Chrome - Help Center](https://support.claude.com/en/articles/12012173-getting-started-with-claude-in-chrome)
+- 📁 [Using Claude for Chrome Safely - Help Center](https://support.claude.com/en/articles/12902428-using-claude-for-chrome-safely) — security, permissions, and staying safe from bad actors
+
+### Tutorials & Guides
+
+- 📗 [Claude for Chrome: Complete Guide - ALMCorp](https://almcorp.com/blog/claude-for-chrome-complete-guide/) — features, pricing, security risks, setup, and real-world use cases (updated 2026)
+- 📗 [Claude for Chrome: AI-Powered Browser Assistance and Automation - DataCamp](https://www.datacamp.com/tutorial/claude-for-chrome-ai-powered-browser-assistance-automation) — hands-on tutorial with practical examples
+- 📗 [A Hands-On Guide to Claude in Chrome - Graymatter](https://graymatter.jamesgray.ai/p/claude-in-chrome) — setup and usage across Chrome extension, Claude Desktop, and Claude Code
+- 📗 [Claude Code Chrome Extension: The Complete Guide to Browser-Native AI Automation - ContextStudios](https://www.contextstudios.ai/blog/claude-code-chrome-extension-the-complete-guide-to-browser-native-ai-automation)
+- 📗 [Claude In Chrome: The Browser Extension That Clicks - aimaker](https://aimaker.substack.com/p/claude-chrome-extension-browser-automation-guide) — setup guide and real use cases
+- 📗 [Claude Code Chrome Integration: What Developers Need to Know - AdwaitX](https://www.adwaitx.com/claude-code-chrome-integration-browser-automation/) — full developer breakdown
+- 📗 [Browser Automation in Claude Code: 5 Tools Compared (2026)](https://www.heyuan110.com/posts/ai/2026-01-28-claude-code-browser-automation/) — Claude for Chrome vs browser-use vs Playwright vs others
+- 📗 [I Taught One AI to Hijack Another AI — Browser Automation with Claude Code - Medium](https://medium.com/@didierlacroix/browser-automation-with-claude-code-755abda21b4e) — controlling any website with natural language using Claude Code + Chrome extension
+- 📗 [Claude for Chrome — The Most Advanced AI Browser You Have Ever Seen - Medium](https://medium.com/codex/claude-for-chrome-the-most-advanced-ai-browser-you-have-ever-seen-c53218bf37bc)
+- 📗 [Claude's AI Chrome Extension Won't Revolutionize Web Browsing Yet, But I Like It - PCMag](https://www.pcmag.com/articles/claudes-ai-chrome-extension-wont-revolutionize-web-browsing-yet-but-i-like)
+- 📗 [I Tried the New Claude in Chrome Extension - TechRadar](https://www.techradar.com/ai-platforms-assistants/claude/i-tried-the-new-claude-in-chrome-extension-and-it-delivered-convenience-with-a-side-of-digital-paranoia)
+- 📗 [Anthropic Launches Claude Chrome Extension: How to Try It - Mashable](https://mashable.com/article/anthropic-launches-claude-extension-for-chrome)
+- 📗 [Claude for Chrome Review: Is It Worth It? - AIOperator](https://aioperator.com/blog/claude-for-chrome-review-how-to-use-anthropics-new-ai-browser-extension/) — hands-on testing of real-world tasks
+
+### Video Tutorials
+
+- 🎬 [Claude Code Can Now Automate Work in Chrome](https://www.youtube.com/watch?v=Irl90FjzuOc) — overview of the Claude Code + Chrome integration
+- 🎬 [Claude's New Chrome Extension: The Secret Weapon](https://www.youtube.com/watch?v=D5nTL66HVUU) — agentic browser control overview
+- 🎬 [Claude for Chrome: Agentic Browsing is Here](https://www.youtube.com/watch?v=liSuhkxCYCg) — hands-on review
+- 🎬 [Claude in Chrome: How To Teach AI To Do ALL Your Work](https://www.youtube.com/watch?v=XkjCXBw4lLs) — workflow recording feature walkthrough
+- 🎬 [Claude for Chrome brings AI where you're already working](https://www.youtube.com/watch?v=IypXvHej9eY)
+- 🎬 [Let Claude handle work in your browser](https://www.youtube.com/watch?v=rBJnWMD0Pho)
+- 🎬 [Claude in Chrome: The AI Browser Agent Nobody's Talking About](https://www.youtube.com/watch?v=GcA16w-3yj8)
+- 🎬 [Claude for Chrome (First Impressions)](https://www.youtube.com/watch?v=UmMmMY_R49A)
+- 🎬 [How I Automate Analytics & Zapier with Claude for Chrome](https://www.youtube.com/watch?v=uCkamQ-Idio)
+- 🎬 [Claude for Chrome is a Game Changer](https://www.youtube.com/watch?v=rO_OE84NiN8)
+- 🎬 [Research Preview: Claude for Chrome](https://www.youtube.com/watch?v=mCj4kx_P2Ak) — Anthropic's original demo
+- 🎬 [New Claude For Chrome is INSANE](https://www.youtube.com/watch?v=HQ6pqrpqfdk)
+- 🎬 [Claude Code Chrome Extension: How People Are Getting 10x More](https://www.youtube.com/watch?v=t6pJ8COaXOY)
+- 🎬 [How to automate 20 Chrome windows using Claude Code](https://www.youtube.com/watch?v=h9w1Px4JP_o)
+- 🎬 [How To Install Claude in Google Chrome | Step By Step](https://www.youtube.com/watch?v=niRLNJz-tCI)
+- 🎬 [Unlocking the cutting edge: Claude for Chrome and Node-RED](https://www.youtube.com/watch?v=C8UFc66onHQ)
+
+### Community Discussions
+
+- 💡 [Tutorial: How to use Claude in Chrome in Claude Code - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1pqkby5/tutorial_how_to_use_claude_in_chrome_in_claude/) — one-minute setup walkthrough
+- 💡 [Anthropic just dropped Claude for Chrome — AI that fully controls your browser - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1prcypb/anthropic_just_dropped_claude_for_chrome_ai_that/)
+- 💡 [Claude in Chrome vs ChromeDevTools MCP: a simple comparison - Reddit](https://www.reddit.com/r/Anthropic/comments/1pqj7ue/claude_in_chrome_vs_chromedevtools_mcp_a_simple/) — token usage comparison
+- 💡 [Am I missing out on Claude in Chrome? - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1qw3xgj/am_i_missing_out_on_claude_in_chrome/) — community use cases
+- 💡 [Spent this weekend with Claude Code + Chrome - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1pthd5z/spent_this_weekend_with_claude_code_chrome/) — real-world developer experience
+- 💡 [Standalone Claude for Chrome vs Claude Code + Chrome - Reddit](https://www.reddit.com/r/ClaudeCode/comments/1q5gy3l/different_claude_experiences_standalone_claude/) — when to use which
+- 💡 [Claude for Chrome now available to Pro users - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1ppwx6i/claude_for_chrome_now_available_to_pro_users/) — rollout announcement
+
+### MCP Servers & Developer Tools
+
+> Tools for deeper Chrome + Claude integration, beyond the official extension.
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) | 11k+ | Chrome extension-based MCP server — browser automation, content analysis, semantic search for Claude |
+| 🔧 [benjaminr/chrome-devtools-mcp](https://github.com/benjaminr/chrome-devtools-mcp) | 289 | MCP Server for Chrome DevTools Protocol — integrates with Claude Desktop and Claude Code |
+| 🔧 [AlexGladkov/claude-in-mobile](https://github.com/AlexGladkov/claude-in-mobile) | 145 | "Claude in Chrome" for mobile — Android (ADB), iOS Simulator, and Compose Multiplatform Desktop |
+| 🔧 [AIPexStudio/system-prompts-of-claude-chrome](https://github.com/AIPexStudio/system-prompts-of-claude-chrome) | 29 | Claude Chrome Extension system prompts, internal tools & AI models (reverse-engineered) |
+| 🔧 [durapensa/claude-chrome-mcp](https://github.com/durapensa/claude-chrome-mcp) | 7 | Developer tool suite enabling Claude Desktop and Claude Code to interact with claude.ai in Chrome |
+| 🔧 [haasonsaas/claude-code-browser-mcp-setup](https://github.com/haasonsaas/claude-code-browser-mcp-setup) | 11 | Setup documentation for using Chrome DevTools MCP server with Claude Code |
+| 🔧 [nonsleepr/claude-chrome-mcp](https://github.com/nonsleepr/claude-chrome-mcp) | 2 | MCP server for browser automation via the Claude Chrome Extension |
+| 🔧 [johunsang/claude-chrome-skills](https://github.com/johunsang/claude-chrome-skills) | 9 | Claude Code + Chrome MCP website analysis skills (16 slash commands, 6 browser analyzers, Playwright fallback) |
+| 🔧 [kuroko1t/webclaw](https://github.com/kuroko1t/webclaw) | 13 | WebMCP-native browser agent running inside your real Chrome — control via Claude or any MCP client |
+| 🔧 [ly0/claude-code-chrome-extension](https://github.com/ly0/claude-code-chrome-extension) | 3 | Open-source reimplementation of the Claude Chrome extension |
+| 🔧 [jdphil/claude-chrome-bridge](https://github.com/jdphil/claude-chrome-bridge) | — | Network bridge enabling Claude Code on Linux to control Chrome on Windows via the extension |
+| 🔧 [Mgczacki/claude-code-chrome-docker-bridge](https://github.com/Mgczacki/claude-code-chrome-docker-bridge) | — | Docker-to-Host Chrome bridge for Claude Code |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -550,7 +927,8 @@
 | 🔧 [oraios/serena](https://github.com/oraios/serena) | 22k+ | Semantic retrieval and editing capabilities |
 | 🔧 [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 15k+ | Build n8n workflows with Claude |
 | 🔧 [BeehiveInnovations/pal-mcp-server](https://github.com/BeehiveInnovations/pal-mcp-server) | 11k+ | Multi-model integration (Gemini, OpenAI, Ollama, etc.) |
-| 🔧 [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) | 11k+ | Chrome browser functionality via MCP |
+| 🔧 [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) | 11k+ | Chrome browser functionality via MCP — see [🌐 Claude for Chrome](#-claude-for-chrome) for the full Chrome section |
+| 🔧 [benjaminr/chrome-devtools-mcp](https://github.com/benjaminr/chrome-devtools-mcp) | 289 | MCP Server for Chrome DevTools Protocol — integrates with Claude Desktop and Claude Code |
 | 🔧 [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | 9.4k+ | Easiest way to interact with MCP servers |
 | 🔧 [idosal/git-mcp](https://github.com/idosal/git-mcp) | 7.8k+ | Remote MCP server for any GitHub project |
 | 🔧 [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | 7.4k+ | 150+ cybersecurity tools for pentesting |
@@ -577,6 +955,14 @@
 | Repository | Stars | Description |
 |------------|-------|-------------|
 | 📚 [yzfly/Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH) | 6.5k+ | MCP resources (Chinese) - servers, clients, tools |
+
+#### MCP Marketplaces & Directories
+
+| Platform / Repository | Stars | Description |
+|-----------------------|-------|-------------|
+| 🔧 [mcpmarket.com](https://mcpmarket.com) | — | MCP server marketplace with Claude Code skill reference and curated integrations |
+| 🔧 [cline/mcp-marketplace](https://github.com/cline/mcp-marketplace) | 756 | Cline's official MCP Marketplace — submit servers for discoverable installation by millions of developers |
+| 🔧 [xpack-ai/XPack-MCP-Marketplace](https://github.com/xpack-ai/XPack-MCP-Marketplace) | 158 | World's first open-source MCP monetization platform — create and sell your own MCP server in minutes |
 
 #### Commercial MCP Servers
 
@@ -640,6 +1026,8 @@
 - 📗 [Deploying Claude Agent SDK on Amazon Bedrock AgentCore - AWS](https://builder.aws.com/content/30O5JJPjEeCugL5MAfSM9TTcd9p/deploying-claude-agent-sdk-on-amazon-bedrock-agentcore-runtime)
 - 📗 [Using Vercel Sandbox to Run Claude Agent SDK - Vercel](https://vercel.com/kb/guide/using-vercel-sandbox-claude-agent-sdk)
 - 📗 [Enterprise Deployment Guide for AI Agents with Claude SDK - MintMCP](https://www.mintmcp.com/blog/enterprise-development-guide-ai-agents)
+
+> For deploying Claude Code itself on AWS Bedrock, Google Vertex AI, or Microsoft Foundry, see [☁️ Cloud Provider Integrations](#️-cloud-provider-integrations).
 
 ### Integration Guides
 
@@ -711,9 +1099,221 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
-## 🛠️ Tools & Extensions
+## ☁️ Cloud Provider Integrations
 
-> Utilities and tools to enhance your Claude Code experience.
+> Deploy Claude Code through AWS, Google Cloud, or Azure for enterprise-grade security, compliance, and cost control — or route requests through LLM gateways for multi-provider failover, observability, and governance.
+
+### Official Documentation
+
+- 📁 [Enterprise Deployment Overview](https://code.claude.com/docs/en/third-party-integrations) — Compare Anthropic direct, Bedrock, Vertex AI, and Microsoft Foundry options side-by-side
+  - [Alternative link](https://docs.anthropic.com/en/docs/claude-code/bedrock-vertex-proxies)
+- 📁 [LLM Gateway Configuration](https://code.claude.com/docs/en/llm-gateway) — Route Claude Code through LiteLLM, Portkey, Bifrost, or any Anthropic-compatible gateway via `ANTHROPIC_BASE_URL`
+- 📁 [Model Configuration](https://code.claude.com/docs/en/model-config) — Pin model versions per provider with `modelOverrides` and `ANTHROPIC_DEFAULT_*_MODEL` env vars
+- 📁 [Claude Code for Enterprise](https://claude.com/product/claude-code/enterprise) — VPC deployment, SSO, RBAC, and compliance across all supported providers
+- 📁 [Use Claude Code with your Team or Enterprise Plan](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan) — Seat types, authentication, HIPAA caveats, usage limits
+
+### Amazon Bedrock
+
+#### Documentation
+
+- 📁 [Claude Code on Amazon Bedrock — Official Setup Guide](https://code.claude.com/docs/en/amazon-bedrock) — IAM setup, `CLAUDE_CODE_USE_BEDROCK=1`, model pinning with `ANTHROPIC_DEFAULT_SONNET_MODEL`, AWS Guardrails, inference profile ARNs
+  - [Alternative link](https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock)
+- 📁 [Guidance for Claude Code with Amazon Bedrock — AWS Solutions Library](https://aws.amazon.com/solutions/guidance/claude-code-with-amazon-bedrock/) — Architecture diagram and OIDC federation patterns for enterprise Bedrock deployments
+
+#### Tutorials & Guides
+
+- 📗 [Claude Code Deployment Patterns and Best Practices with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/claude-code-deployment-patterns-and-best-practices-with-amazon-bedrock/) — AWS ML Blog: IAM, SSO, OIDC, monitoring strategies for enterprise scale
+- 📗 [Supercharge Your Development with Claude Code and Amazon Bedrock Prompt Caching](https://aws.amazon.com/blogs/machine-learning/supercharge-your-development-with-claude-code-and-amazon-bedrock-prompt-caching/) — AWS ML Blog: prompt caching for faster Claude Code sessions
+- 📗 [Claude Code on Amazon Bedrock: Getting Started](https://builder.aws.com/content/39M5ctlGOnaUTx5qNZNgqjh0oou/claude-code-on-bedrock-part-1-getting-started) — AWS Builder community step-by-step first-use guide
+- 📗 [Claude Code on Amazon Bedrock: Scaling with Budgets](https://builder.aws.com/content/39OqOKVVx1hx272vhp3x2DFGdXH/claude-code-on-bedrock-part-2-scaling-with-budgets-and-self-service) — AWS Builder: budget controls and self-service scaling
+- 📗 [Configuring Claude Code in VS Code with AWS Bedrock](https://builder.aws.com/content/34BNVuMx0MTHNDjr07aVyWu5a4V/configuring-claude-code-in-vs-code-with-aws-bedrock) — VS Code-specific Bedrock configuration guide
+- 📗 [Why and How to Run Claude Code with Amazon Bedrock](https://ndeplace.medium.com/why-and-how-to-run-claude-code-with-amazon-bedrock-28979c92098b) — Data residency and cost rationale, practical walkthrough
+- 📗 [Configuring Claude Code with AWS Bedrock (And How to Avoid Mistakes)](https://aws.plainenglish.io/configuring-claude-code-extension-with-aws-bedrock-and-how-you-can-avoid-my-mistakes-090dbed5215b) — VS Code extension setup, model pinning, updated for Claude 4.x
+- 📗 [Using Claude Code on AWS Bedrock — bespinian](https://bespinian.io/en/blog/claude-code-using-aws-bedrock/) — From first setup to team-wide rollout with SSO, data residency, and cost controls
+- 📗 [Stack Overflow: How do I use Claude Code through AWS Bedrock?](https://stackoverflow.com/questions/79556137/how-do-i-use-claude-code-through-aws-bedrock) — Q&A with env var solution (5k+ views)
+- 📚 [Claude in Amazon Bedrock — Anthropic Academy](https://anthropic.skilljar.com/claude-in-amazon-bedrock) — Official Anthropic training curriculum for Claude on Bedrock
+
+#### Tools & Repositories
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [aws-solutions-library-samples/guidance-for-claude-code-with-amazon-bedrock](https://github.com/aws-solutions-library-samples/guidance-for-claude-code-with-amazon-bedrock) | 172 | Official AWS sample: OIDC federation (Okta, Azure AD, Auth0, Cognito) for Claude Code + Bedrock, interactive setup wizard for Windows/macOS/Linux |
+| 🔧 [navapbc/terraform-aws-claude-code-bedrock](https://github.com/navapbc/terraform-aws-claude-code-bedrock) | — | Terraform infrastructure for Claude Code on Bedrock with cost tracking, per-developer attribution, and budget controls |
+
+### Google Vertex AI
+
+#### Documentation
+
+- 📁 [Claude Code on Google Vertex AI — Official Setup Guide](https://code.claude.com/docs/en/google-vertex-ai) — `CLAUDE_CODE_USE_VERTEX=1`, global/regional endpoints, per-model region overrides, minimum IAM permissions
+  - [Alternative link](https://docs.anthropic.com/en/docs/claude-code/google-vertex-ai)
+- 📁 [Claude on Vertex AI — Anthropic API Docs](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai) — AnthropicVertex SDK client, model IDs, region configuration
+- 📁 [Vertex AI Global Endpoint for Claude (GA Announcement)](https://cloud.google.com/blog/products/ai-machine-learning/global-endpoint-for-claude-models-generally-available-on-vertex-ai) — Google Cloud GA announcement
+- 📁 [Anthropic's Claude models on Vertex AI — Google Cloud Docs](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude) — Official GCP documentation with notebook examples
+
+#### Tutorials & Guides
+
+- 📗 [Using Claude Code with Google Vertex AI — Google Cloud Blog](https://medium.com/google-cloud/claude-code-on-google-vertex-ai-25e13b1b643d) — Setup guide with `CLAUDE_CODE_USE_VERTEX` env vars
+- 📗 [Step-by-Step Guide to Connect Claude Code with Google Cloud Vertex AI](https://medium.com/@dan.avila7/step-by-step-guide-to-connect-claude-code-with-google-cloud-vertex-ai-17e7916e711e) — Detailed walkthrough by Daniel Avila
+- 📗 [Using Claude Code with Google Vertex AI — Reddit Guide](https://www.reddit.com/r/ClaudeCode/comments/1pelpo4/using_claude_code_with_google_vertex_ai_a_simple/) — Community guide for GCP billing consolidation and a `vclaude` helper command
+- 📗 [Google Vertex AI Claude Code: Expert Overview — eesel.ai](https://www.eesel.ai/blog/google-vertex-ai-claude-code) — Prerequisites and setup overview
+- 📗 [Claude Code with Google Vertex AI — Portkey Docs](https://docs.portkey.ai/docs/integrations/libraries/claude-code-vertex) — Route Vertex AI through Portkey for observability, cost tracking, and budget controls
+- 📚 [Claude with Google Cloud's Vertex AI — Anthropic Academy](https://anthropic.skilljar.com/claude-with-google-vertex) — Official Anthropic training curriculum for Claude on Vertex AI
+
+### Microsoft Foundry (Azure)
+
+#### Documentation
+
+- 📁 [Claude Code on Microsoft Foundry — Official Setup Guide](https://code.claude.com/docs/en/microsoft-foundry) — `CLAUDE_CODE_USE_FOUNDRY=1`, `ANTHROPIC_FOUNDRY_RESOURCE`, Entra ID (DefaultAzureCredential) and API key auth, "Azure AI User" RBAC role
+- 📁 [Claude in Microsoft Foundry — Anthropic API Docs](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry) — Azure-native endpoints and authentication
+- 📁 [Configure Claude Code for Microsoft Foundry — Microsoft Learn](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/configure-claude-code?tabs=bash) — Microsoft's official step-by-step setup with environment variables
+- 📁 [Deploy Claude models in Microsoft Foundry — Microsoft Learn](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-claude) — Prerequisites and deployment guide
+
+#### Tutorials & Guides
+
+- 📗 [Claude Code + Microsoft Foundry: Enterprise AI Coding Agent Setup](https://devblogs.microsoft.com/all-things-azure/claude-code-microsoft-foundry-enterprise-ai-coding-agent-setup/) — Microsoft Azure Dev Blog: Azure CLI auth, VS Code extension config, Entra ID integration
+- 📗 [Claude Now Available in Microsoft Foundry](https://www.anthropic.com/news/claude-in-microsoft-foundry) — Anthropic announcement for Sonnet 4.5, Haiku 4.5, Opus 4.1 in public preview
+- 📗 [Claude Opus 4.6 Available in Microsoft Foundry on Azure](https://azure.microsoft.com/en-us/blog/claude-opus-4-6-anthropics-powerful-model-for-coding-agents-and-enterprise-workflows-is-now-available-in-microsoft-foundry-on-azure/) — Azure Blog announcement
+- 📗 [What's New in Microsoft Foundry — February 2026](https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-feb-2026/) — February 2026 changelog with Claude model updates
+- 💡 [How Are You Using Claude Code with Azure AI Foundry? — Reddit](https://www.reddit.com/r/ClaudeCode/comments/1r9zptw/how_are_you_using_claude_code_or_similar_with/) — Community discussion on enterprise Azure Foundry setup
+
+### LLM Gateways & Multi-Provider Routing
+
+> Route Claude Code through third-party gateways for observability, failover, budget controls, and multi-provider flexibility. Officially supported via `ANTHROPIC_BASE_URL`, `ANTHROPIC_BEDROCK_BASE_URL`, and `ANTHROPIC_VERTEX_BASE_URL` env vars.
+
+#### Tutorials & Guides
+
+- 📗 [How to Use Claude Code with Bedrock, Vertex AI and Anthropic — Portkey](https://portkey.ai/blog/how-to-use-claude-code-with-bedrock-vertex-ai-and-anthropic) — Production multi-provider routing with intelligent failover
+- 📗 [Claude Code Best Practices for Enterprise Teams — Portkey](https://portkey.ai/blog/claude-code-best-practices-for-enterprise-teams/) — Credential hierarchy, per-team rate limits, provider switching, observability
+- 📗 [Bringing Control and Visibility to Claude Code with an AI Gateway — Portkey](https://portkey.ai/blog/control-and-visibility-to-claude-code/) — Org-level governance with Portkey gateway
+- 📗 [How to Use Claude Code with Any Model via Bifrost — Maxim](https://www.getmaxim.ai/articles/how-to-use-claude-code-with-any-model-or-provider-using-bifrost/) — ANTHROPIC_BASE_URL → Bifrost, model tier overrides, MCP integration
+- 📗 [Best LLM Gateways for Claude Code Multi-Model Routing — Maxim](https://www.getmaxim.ai/articles/best-llm-gateways-for-claude-code-multi-model-routing/) — Comparison of Bifrost, LiteLLM, Portkey, Cloudflare AI Gateway, Kong
+- 📗 [Best Enterprise AI Gateway for Scaling Claude Code in 2026 — DEV.to](https://dev.to/pranay_batta/best-enterprise-ai-gateway-for-scaling-claude-code-in-2026-2jn2) — Performance benchmarks and feature comparison
+- 📗 [Claude Code with LiteLLM — Medium](https://medium.com/@niklas-palm/claude-code-with-litellm-24b3fb115911) — LiteLLM proxying Bedrock with Anthropic fallback
+- 📗 [Claude Code Router: Multi-Model Routing Tutorial — DataCamp](https://www.datacamp.com/tutorial/claude-code-router) — Full tutorial on claude-code-router for cost optimization
+- 📗 [Beyond Anthropic: Using Claude Code with Any Model via Claude Code Router and OpenRouter](https://medium.com/binbash-inc/beyond-anthropic-using-claude-code-with-any-model-via-claude-code-router-and-openrouter-f57f75e0cf41) — Real-world walkthrough of CCR + OpenRouter
+- 📗 [Claude Code in Enterprise Environments: IAM, RBAC, Audit Logs](https://claude-ai.chat/blog/claude-code-in-enterprise-environments/) — IAM for Bedrock, RBAC for Azure Foundry, Cloud Audit Logs for Vertex
+- 📗 [Switch Claude Code Providers in Seconds with claude-provider](https://dev.to/rashed_iqbal/switch-claude-code-providers-in-seconds-with-claude-provider-plugin-cli-3719) — Plugin/CLI for quick provider profile switching (`/provider:add`, `/provider:switch`)
+- 📗 [How to Use Z.AI in Claude Code — ClaudeLog](https://claudelog.com/faqs/how-to-use-z-ai-in-claude-code) — Z.AI (GLM Coding Plan) as an Anthropic-compatible alternative API
+- 💡 [Claude Code + OpenRouter is Amazing! — Reddit](https://www.reddit.com/r/ClaudeCode/comments/1qgxxkd/claude_code_open_router_is_amazing/) — Community setup with `.claude/settings.local.json` snippet
+
+#### LiteLLM Documentation
+
+- 📁 [Claude Code Quickstart — LiteLLM Docs](https://docs.litellm.ai/docs/tutorials/claude_responses_api) — LiteLLM proxy with Anthropic, Bedrock, and Azure Foundry model configs for Claude Code
+- 📁 [Use Claude Code with Non-Anthropic Models — LiteLLM Docs](https://docs.litellm.ai/docs/tutorials/claude_non_anthropic_models) — OpenAI, Gemini, and other providers via LiteLLM proxy
+- 📁 [Use Claude Code with MCPs via LiteLLM — LiteLLM Docs](https://docs.litellm.ai/docs/tutorials/claude_mcp) — Connecting MCP servers to Claude Code via LiteLLM Proxy
+
+#### OpenRouter Documentation
+
+- 📁 [OpenRouter Claude Code Integration Docs](https://openrouter.ai/docs/guides/guides/claude-code-integration) — Direct `ANTHROPIC_BASE_URL` method, GitHub Actions integration, cost-tracking statusline script
+- 📗 [How to Use Claude Code with OpenRouter — APIDog](https://apidog.com/blog/use-claude-code-with-openrouter/) — Comprehensive guide including y-router and CCR methods
+
+#### Tools & Gateways
+
+| Repository / Tool | Stars | Description |
+|-------------------|-------|-------------|
+| 🔧 [luohy15/y-router](https://github.com/luohy15/y-router) | 377 | Cloudflare Worker translating Anthropic Claude API to OpenAI-compatible APIs — enables Claude Code with OpenRouter |
+| 🔧 [RichardAtCT/claude-code-openai-wrapper](https://github.com/RichardAtCT/claude-code-openai-wrapper) | 443 | OpenAI API-compatible wrapper for Claude Code; supports CLI, API key, Bedrock, and Vertex auth via `CLAUDE_AUTH_METHOD` |
+| 🔧 [ujisati/claude-code-provider-proxy](https://github.com/ujisati/claude-code-provider-proxy) | 143 | Multi-provider proxy for routing Claude Code requests |
+| 🔧 [Portkey AI Gateway](https://portkey.ai/for/claude-code) | — | Enterprise AI gateway with observability, governance, and reliability across Bedrock, Vertex AI, and Anthropic |
+| 🔧 [Bifrost by Maxim](https://docs.getbifrost.ai/) | — | Open-source enterprise AI gateway; 20+ providers, sub-11 microsecond latency, Prometheus/OTel telemetry, virtual keys |
+| 🔧 [Vercel AI Gateway](https://vercel.com/docs/ai-gateway/agent-quickstart) | — | Route Claude Code through Vercel AI Gateway via `ANTHROPIC_BASE_URL=https://ai-gateway.vercel.sh` |
+| 🔧 [Zuplo AI Gateway](https://zuplo.com/docs/ai-gateway/integrations/claude-code) | — | Route Claude Code through Zuplo's AI Gateway via `settings.json` env config |
+| 🔧 [TrueFoundry AI Gateway](https://www.truefoundry.com/docs/ai-gateway/claude-code) | — | TrueFoundry AI gateway integration with Claude Code |
+| 🔧 [Conductor](https://docs.conductor.build/guides/providers) | — | Claude Code GUI app with built-in env var panel for OpenRouter, Bedrock, Vertex, Vercel AI Gateway, Azure, and GLM |
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
+
+## 🧠 Memory & Context
+
+> Give Claude Code persistent memory across sessions — through built-in CLAUDE.md/auto-memory features, third-party plugins, and MCP memory servers.
+
+### Documentation
+
+- 📁 [How Claude remembers your project - Claude Code Docs](https://code.claude.com/docs/en/memory) — official docs covering CLAUDE.md, auto-memory (MEMORY.md), `@import` syntax, and `.claude/rules/*.md` glob patterns
+
+### Official Memory Features
+
+> Claude Code ships two complementary memory systems: **CLAUDE.md** (instructions you write) and **auto-memory** (notes Claude writes itself). Both load at the start of every conversation.
+
+- 📗 [Anthropic Just Added Auto-Memory to Claude Code — I Tested It](https://medium.com/@joe.njenga/anthropic-just-added-auto-memory-to-claude-code-memory-md-i-tested-it-0ab8422754d2) — hands-on test of the MEMORY.md auto-memory feature introduced in Claude Code v2.1.59
+- 📗 [Claude Code Auto Memory: How Your AI Learns Your Project](https://claudefa.st/blog/guide/mechanics/auto-memory) — complete guide to how auto-memory works, where files live, and when to use it vs CLAUDE.md
+- 📗 [Claude Code Memory System: MEMORY.md, Topic Files, and Architecture](https://ianlpaterson.com/blog/claude-code-memory-architecture/) — deep dive into the 3-layer memory architecture (slim index, on-demand topic files, semantic search)
+- 🎬 [Claude Code's New Auto-Memory Feature Is HUGE](https://www.youtube.com/watch?v=eWPs3BBXxIU) — walkthrough of the v2.1.59 auto-memory release
+
+### CLAUDE.md Guides
+
+- 📗 [CLAUDE.md Best Practices — 10 Sections to Include](https://uxplanet.org/claude-md-best-practices-1ef4f861ce7c) — project overview, tech stack, architecture, coding conventions, and 6 more essential sections
+- 📗 [The Complete Guide to AI Agent Memory Files (CLAUDE.md, AGENTS.md, and Beyond)](https://hackernoon.com/the-complete-guide-to-ai-agent-memory-files-claudemd-agentsmd-and-beyond) — file hierarchy, auto-memory, `@imports`, and which files you actually need
+- 📗 [The Complete Guide to CLAUDE.md, SKILL.md & Every Important File](https://sidsaladi.substack.com/p/claude-codes-secret-weapon-the-complete) — covers all Claude Code config files and their interaction
+- 📗 [CLAUDE.md Memory System: Tips - SFEIR Institute](https://institute.sfeir.com/en/claude-code/claude-code-memory-system-claude-md/tips/) — 20 actionable tips including 200-line limit, `/compact` usage, and CI/CD validation scripts
+- 📗 [Creating the Perfect CLAUDE.md for Claude Code](https://dometrain.com/blog/creating-the-perfect-claudemd-for-claude-code/) — practical template and structure guide
+- 📗 [CLAUDE.md for Product Managers](https://ccforpms.com/fundamentals/project-memory) — project memory setup for non-engineers; write once, context every session
+
+### Persistent Memory Setup Guides
+
+- 📗 [Persistent Memory for Claude Code: "Never Lose Context" Setup Guide](https://agentnativedev.medium.com/persistent-memory-for-claude-code-never-lose-context-setup-guide-2cb6c7f92c58) — end-to-end architecture for persistent context across sessions using MCP
+- 📗 [Adding Memory to Claude Code with MCP](https://medium.com/@brentwpeterson/adding-memory-to-claude-code-with-mcp-d515072aea8e) — step-by-step: create config, enable MCP servers, start Claude Code with memory
+- 📗 [The Architecture of Persistent Memory for Claude Code](https://dev.to/suede/the-architecture-of-persistent-memory-for-claude-code-17d) — hooks, lifecycle events, and building a custom memory layer
+- 📗 [Add Persistent Memory to Claude Code with Mem0 (5-Minute Setup)](https://mem0.ai/blog/claude-code-memory) — reduces token usage by 90% using Mem0 MCP; install in under 5 minutes
+- 📗 [We Added Supermemory to Claude Code — It's INSANELY Powerful Now](https://supermemory.ai/blog/we-added-supermemory-to-claude-code-its-insanely-powerful-now/) — hybrid memory scoring 81.6% on LongMemEval vs 40–60% for plain RAG
+- 📗 [Infinitely Running Stateful Coding Agents](https://supermemory.ai/blog/infinitely-running-stateful-coding-agents/) — how to run Claude Code for months without losing context using the Supermemory plugin
+- 📗 [Claude Code Keeps Forgetting Your Project? Here's the Fix (2026)](https://dev.to/kiwibreaksme/claude-code-keeps-forgetting-your-project-heres-the-fix-2026-3flm) — compares CLAUDE.md + CodeSyncer (comment-tag) vs multi-agent approaches
+- 📗 [AI Agent Memory: Claude SDK + Cognee Integration Guide](https://www.cognee.ai/blog/integrations/claude-agent-sdk-persistent-memory-with-cognee-integration) — store once, retrieve anytime without prompt stuffing using cognee + MCP
+- 📗 [OpenMemory MCP: AI Memory for Claude Desktop and Code](https://mem0.ai/blog/introducing-openmemory-mcp) — self-hosted persistent memory via MCP, works across Claude Desktop and Claude Code
+
+### Video Tutorials
+
+- 🎬 [How to Setup Claude Memory in 5 Mins!](https://www.youtube.com/watch?v=7eXkrno5KEA) — Claude Code persistent memory with Claude-Mem plugin walkthrough
+- 🎬 [How To Give Claude UNLIMITED Memory! Without Writing Code](https://www.youtube.com/watch?v=H-uwnpmziGA) — no-code approach to extending Claude's context across sessions
+
+### Plugins & Tools
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 35k+ | Plugin that captures sessions and injects relevant context — SQLite + ChromaDB hybrid, 6 lifecycle hooks, web viewer UI, MCP search tools, Endless Mode |
+| 🔧 [steveyegge/beads](https://github.com/steveyegge/beads) | 19k+ | A memory upgrade for your coding agent |
+| 🔧 [supermemoryai/claude-supermemory](https://github.com/supermemoryai/claude-supermemory) | 2.3k+ | Enable Claude Code to learn in real-time, update its knowledge, and grow with you — injects User Profile at session start, supports Team Memory |
+| 🔧 [LakyFx/CogniLayer](https://github.com/LakyFx/CogniLayer) | — | Infinite-speed memory + code graph for Claude Code & Codex CLI — 17 MCP tools, hybrid search, TUI dashboard, crash recovery, saves 80-200K+ tokens/session |
+| 🔧 [mkreyman/mcp-memory-keeper](https://github.com/mkreyman/mcp-memory-keeper) | — | MCP server for persistent context management — never lose context during compaction again |
+
+### MCP Memory Servers
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [mem0ai/mem0](https://github.com/mem0ai/mem0) | 49.9k+ | Universal memory layer for AI Agents — official Mem0 library with MCP server for Claude Code integration |
+| 🔧 [topoteretes/cognee](https://github.com/topoteretes/cognee) | 13.7k+ | Knowledge Engine for AI Agent Memory — graph-based memory in 6 lines of code, MCP-compatible |
+| 🔧 [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | — | Automatic context memory for Claude, VS Code, Cursor — semantic search with ChromaDB |
+
+### Community Discussions
+
+- 💡 [Claude Code has an undocumented persistent memory feature - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1qw9hr4/claude_code_has_an_undocumented_persistent_memory/) — discovery post about `~/.claude/projects/<project-path>/memory/MEMORY.md`
+- 💡 [How Claude Code Auto-Memory works (official feature added in v2.1) - Reddit](https://www.reddit.com/r/ClaudeCode/comments/1qzmofn/how_claude_code_automemory_works_official_feature/) — breakdown of auto-memory mechanism, 200-line limit, and how to disable it
+- 💡 [Two Claude Code features I slept on that completely changed my experience - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1rqxzlp/two_claude_code_features_i_slept_on_that/) — MEMORY.md tips and prioritization strategies
+- 💡 [I built a persistent memory for Claude Code — it remembers everything - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1rhjc7f/i_built_a_persistent_memory_for_claude_code_it/) — CogniLayer community showcase
+- 💡 [Let's talk about all the different .md memory files Claude Code uses - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1rs25t0/lets_talk_about_all_the_differnet_md_memory_files/) — distinguishing CLAUDE.md, MEMORY.md, `.claude/rules/*.md`, and when to use each
+- 💡 [I gave Claude Code persistent memory and it mass-improved my workflow - Reddit](https://www.reddit.com/r/PromptEngineering/comments/1r967vj/i_gave_claude_code_persistent_memory_and_it_mass/) — community-built solution bridging the stateless gap between sessions
+- 💡 [Ditched Claude UI completely. Here's the file-based "memory" system - Reddit](https://www.reddit.com/r/ClaudeCode/comments/1qpe6lh/ditched_claude_ui_completely_heres_the_filebased/) — full workflow using Claude Code exclusively with structured file-based memory
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
+
+## 🖥️ GUI & Desktop Apps
+
+> Desktop applications, web UIs, and mobile clients for Claude Code — visual interfaces beyond the terminal.
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 🔧 [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 42k+ | Unified AI access with Agent capabilities in one desktop app |
+| 🔧 [winfunc/opcode](https://github.com/winfunc/opcode) | 21k+ | GUI app and Toolkit - create custom agents, manage sessions |
+| 🔧 [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 28k+ | Cross-platform desktop All-in-One assistant for Claude Code, Codex & Gemini |
+| 🔧 [siteboon/claudecodeui](https://github.com/siteboon/claudecodeui) | 8.4k+ | Mobile and Web UI for Claude Code — manage sessions and projects remotely |
+| 🔧 [slopus/happy](https://github.com/slopus/happy) | 15k+ | Mobile and Web client with realtime voice & encryption |
+| 🔧 [somersby10ml/win-claude-code](https://github.com/somersby10ml/win-claude-code) | 227 | Claude Code for Windows — no WSL, no Docker, just code |
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
+
+## ⚙️ Utilities & Config
+
+> Configuration frameworks, analytics, workflow tools, routing/proxy utilities, and status line customizations.
 
 ### Configuration & Setup
 
@@ -727,17 +1327,6 @@
 | 🔧 [nyatinte/ccexp](https://github.com/nyatinte/ccexp) | 252 | Interactive terminal for discovering, previewing, and managing config files |
 | 🔧 [gifflet/ccmd](https://github.com/gifflet/ccmd) | 29 | Package manager for Claude Code commands |
 
-### GUI & Desktop Apps
-
-| Repository | Stars | Description |
-|------------|-------|-------------|
-| 🔧 [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 42k+ | Unified AI access with Agent capabilities in one desktop app |
-| 🔧 [winfunc/opcode](https://github.com/winfunc/opcode) | 21k+ | GUI app and Toolkit - create custom agents, manage sessions |
-| 🔧 [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 28k+ | Cross-platform desktop All-in-One assistant for Claude Code, Codex & Gemini |
-| 🔧 [siteboon/claudecodeui](https://github.com/siteboon/claudecodeui) | 8.4k+ | Mobile and Web UI for Claude Code — manage sessions and projects remotely |
-| 🔧 [slopus/happy](https://github.com/slopus/happy) | 15k+ | Mobile and Web client with realtime voice & encryption |
-| 🔧 [somersby10ml/win-claude-code](https://github.com/somersby10ml/win-claude-code) | 227 | Claude Code for Windows — no WSL, no Docker, just code |
-
 ### Usage Analytics & Monitoring
 
 | Repository | Stars | Description |
@@ -746,33 +1335,12 @@
 | 🔧 [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | 7k+ | Real-time usage monitor with predictions and warnings |
 | 🔧 [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | 306 | CLI for logging and analyzing AI-driven coding sessions |
 
-### Memory & Context Management
-
-| Repository | Stars | Description |
-|------------|-------|-------------|
-| 🔧 [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 35k+ | Plugin that captures sessions and injects relevant context |
-| 🔧 [steveyegge/beads](https://github.com/steveyegge/beads) | 19k+ | A memory upgrade for your coding agent |
-
 ### Routing & Proxy
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
 | 🔧 [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) | 30k+ | Use Claude Code as foundation for coding infrastructure |
 | 🔧 [starbaser/ccproxy](https://github.com/starbaser/ccproxy) | 182 | Build mods for Claude Code - hook requests, modify responses |
-
-### Multi-Session & Orchestration
-
-| Repository | Stars | Description |
-|------------|-------|-------------|
-| 🔧 [AndyMik90/Auto-Claude](https://github.com/AndyMik90/Auto-Claude) | 13k+ | Autonomous multi-session AI coding |
-| 🔧 [automazeio/ccpm](https://github.com/automazeio/ccpm) | 7.6k+ | Project management using GitHub Issues and Git worktrees for parallel agents |
-| 🔧 [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 7.9k+ | Autonomous AI development loop with intelligent exit detection |
-| 🔧 [smtg-ai/claude-squad](https://github.com/smtg-ai/claude-squad) | 6.4k+ | Manage Claude Code, Aider, Codex, OpenCode, and Amp in a single TUI |
-| 🔧 [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 21k+ | Agent orchestration platform — multi-agent swarms, autonomous workflows, RAG integration |
-| 🔧 [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 9.3k+ | Open-source AI coworker with memory |
-| 🔧 [built-by-as/FleetCode](https://github.com/built-by-as/FleetCode) | 410 | Light-weight control pane to run CLI coding agents in parallel |
-| 🔧 [regenrek/peky](https://github.com/regenrek/peky) | 140 | All your AI Agents in a single TUI to keep things organized |
-| 🔧 [to-na/claude-code-crew](https://github.com/to-na/claude-code-crew) | 55 | Browser-based interface for managing sessions across Git worktrees |
 
 ### Workflow & Project Management
 
@@ -856,7 +1424,7 @@
 
 ### Proxy Tools (Use Claude Code with Free/Alternative Backends)
 
-> Route Claude Code requests to other model providers using your own API keys — zero changes to the CLI required.
+> Route Claude Code requests to other model providers using your own API keys — zero changes to the CLI required. For enterprise LLM gateways (Portkey, Bifrost, Vercel AI Gateway) and official cloud providers (AWS Bedrock, Google Vertex AI, Microsoft Foundry), see [☁️ Cloud Provider Integrations](#️-cloud-provider-integrations).
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
