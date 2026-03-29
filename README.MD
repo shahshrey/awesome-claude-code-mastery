@@ -1374,6 +1374,7 @@
 | 🔧 [wolfdenpublishing/pyccsl](https://github.com/wolfdenpublishing/pyccsl) | 81 | Python | "PyCCSL" (pronounced "pixel") — Python-based usage tracking |
 
 #### Specialized & Unique
+| 🔧 [krabat-l/claude-dash](https://github.com/krabat-l/claude-dash) | 8 | Node.js | Real-time statusline with context health, cost, quota, cache, tools, git status. Component-based, 5 themes, zero deps |
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
