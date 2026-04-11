@@ -277,6 +277,7 @@
 | 🔧 [solana-foundation/solana-dev-skill](https://github.com/solana-foundation/solana-dev-skill) | 398 | Solana blockchain development skill |
 | 🔧 [Aaronontheweb/dotnet-skills](https://github.com/Aaronontheweb/dotnet-skills) | 608 | .NET development skills |
 | 🔧 [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 14k+ | Marketing skills — CRO, copywriting, SEO, analytics, and growth engineering |
+| 🔧 [nowork-studio/toprank](https://github.com/nowork-studio/toprank) | 115 | Claude Code plugin for SEO, SEM, Google Ads, content writing, and CMS setup |
 
 ### Generators & Tools
 
