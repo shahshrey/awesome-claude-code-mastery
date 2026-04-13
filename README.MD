@@ -277,6 +277,7 @@
 | 🔧 [solana-foundation/solana-dev-skill](https://github.com/solana-foundation/solana-dev-skill) | 398 | Solana blockchain development skill |
 | 🔧 [Aaronontheweb/dotnet-skills](https://github.com/Aaronontheweb/dotnet-skills) | 608 | .NET development skills |
 | 🔧 [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 14k+ | Marketing skills — CRO, copywriting, SEO, analytics, and growth engineering |
+| 🔧 [fabbo-ai/fabbo-ai-generator](https://github.com/fabbo-ai/fabbo-ai-generator) | New | Generate AI videos and images on fabbo.ai via a real Playwright browser — Veo, Sora, Kling, Wan, Luma, Runway, Midjourney, Nano Banana |
 
 ### Generators & Tools
 
