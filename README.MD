@@ -729,6 +729,7 @@
 | 🔧 [yuuichieguchi/claude-remote-approver](https://github.com/yuuichieguchi/claude-remote-approver) | 36 | Approve permission requests from phone via ntfy |
 | 🔧 [yusufkaraaslan/claude-remote-plus](https://github.com/yusufkaraaslan/claude-remote-plus) | 3 | Hot-swap sessions between projects with daemon, MCP, and auto-restart |
 | 🔧 [sequoia-hope/claude-remote](https://github.com/sequoia-hope/claude-remote) | 3 | Run Claude in Docker and serve terminal over a web interface |
+| 🔧 [Onepilot](https://onepilotapp.com) | — | iOS and iPadOS SSH client for running Claude Code, Codex CLI, and other terminal coding agents on a remote machine |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
