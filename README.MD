@@ -1308,6 +1308,7 @@
 | 🔧 [siteboon/claudecodeui](https://github.com/siteboon/claudecodeui) | 8.4k+ | Mobile and Web UI for Claude Code — manage sessions and projects remotely |
 | 🔧 [slopus/happy](https://github.com/slopus/happy) | 15k+ | Mobile and Web client with realtime voice & encryption |
 | 🔧 [somersby10ml/win-claude-code](https://github.com/somersby10ml/win-claude-code) | 227 | Claude Code for Windows — no WSL, no Docker, just code |
+| 🔧 [agentfm-ai/agent-fm](https://github.com/agentfm-ai/agent-fm) | 18 | Local macOS companion for listening to Claude Code and Codex sessions, with Global Mix, blocker alerts, and BYOK narration |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
