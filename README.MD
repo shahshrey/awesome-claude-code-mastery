@@ -1283,6 +1283,7 @@
 | 🔧 [mem0ai/mem0](https://github.com/mem0ai/mem0) | 49.9k+ | Universal memory layer for AI Agents — official Mem0 library with MCP server for Claude Code integration |
 | 🔧 [topoteretes/cognee](https://github.com/topoteretes/cognee) | 13.7k+ | Knowledge Engine for AI Agent Memory — graph-based memory in 6 lines of code, MCP-compatible |
 | 🔧 [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | — | Automatic context memory for Claude, VS Code, Cursor — semantic search with ChromaDB |
+| 🔧 [sunnja69/akephalos](https://github.com/sunnja69/akephalos) | — | Early local-first `.akephalos` passport and MCP stdio server for portable agent preferences, tool notes, rules, project context, and durable memories via markdown/plain files + Git |
 
 ### Community Discussions
 
