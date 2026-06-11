@@ -318,6 +318,7 @@
 | 🔧 [claude-plugins.dev](https://claude-plugins.dev/) | Community-maintained marketplace with 6,000+ public skills |
 | 🔧 [ClaudePluginHub](https://www.claudepluginhub.com/marketplaces/) | Hub with 9,000+ plugins and skills across multiple marketplaces |
 | 🔧 [claudecodemarketplace.net](https://claudecodemarketplace.net/marketplace) | Community submissions marketplace — aggregates known collections from the ecosystem |
+| 🔧 [CreatorSkills](https://creatorskills.co) | **30+** downloadable AI skills for content creators — YouTube scripting, sponsorship analysis, content repurposing, and audience growth. Open SKILL.md format, compatible with Claude, ChatGPT, and 20+ platforms |
 
 #### Notable GitHub Marketplaces
 
