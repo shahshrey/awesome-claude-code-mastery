@@ -969,8 +969,9 @@
 | Server | Description |
 |--------|-------------|
 | 🔧 [GitHub MCP Server](https://www.dronahq.com/top-claude-mcp-server/) | Official GitHub integration |
-| 🔧 [Notion MCP Server](https://zapier.com/blog/claude-mcp-servers/) | Connect to Notion workspaces |
 | 🔧 [HubSpot MCP Server](https://zapier.com/blog/claude-mcp-servers/) | CRM integration |
+| 🔧 [LLM Pulse MCP](https://llmpulse.ai/features/mcp) | AI visibility analytics for brand mentions, citations, share of voice, and AI traffic |
+| 🔧 [Notion MCP Server](https://zapier.com/blog/claude-mcp-servers/) | Connect to Notion workspaces |
 | 🔧 [Zapier MCP Server](https://zapier.com/blog/claude-mcp-servers/) | Workflow automation |
 | 🔧 [Figma MCP Server](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/) | Design tool integration |
 | 🔧 [Sentry MCP Server](https://www.getclockwise.com/blog/claude-code-mcp-tools-integration) | Error monitoring |
