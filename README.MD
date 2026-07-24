@@ -1273,6 +1273,7 @@
 | 🔧 [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 35k+ | Plugin that captures sessions and injects relevant context — SQLite + ChromaDB hybrid, 6 lifecycle hooks, web viewer UI, MCP search tools, Endless Mode |
 | 🔧 [steveyegge/beads](https://github.com/steveyegge/beads) | 19k+ | A memory upgrade for your coding agent |
 | 🔧 [supermemoryai/claude-supermemory](https://github.com/supermemoryai/claude-supermemory) | 2.3k+ | Enable Claude Code to learn in real-time, update its knowledge, and grow with you — injects User Profile at session start, supports Team Memory |
+| 🔧 [plasma-ai/wiki](https://github.com/plasma-ai/wiki) | 63 | Indexed Markdown knowledge bases with a CLI and installable skill for Claude Code and Codex |
 | 🔧 [LakyFx/CogniLayer](https://github.com/LakyFx/CogniLayer) | — | Infinite-speed memory + code graph for Claude Code & Codex CLI — 17 MCP tools, hybrid search, TUI dashboard, crash recovery, saves 80-200K+ tokens/session |
 | 🔧 [mkreyman/mcp-memory-keeper](https://github.com/mkreyman/mcp-memory-keeper) | — | MCP server for persistent context management — never lose context during compaction again |
 
