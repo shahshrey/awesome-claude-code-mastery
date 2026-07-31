@@ -313,6 +313,7 @@
 | 🔧 [claudemarketplaces.com](https://claudemarketplaces.com/) | Meta-directory of **2,919+** Claude Code marketplaces — browse by category, GitHub-backed, open source (by mertdx) |
 | 🔧 [buildwithclaude.com](https://buildwithclaude.com/) | **488+** practical extensions tracking 9k plugins + 4k skills across 2,605 marketplaces; `/plugin marketplace add davepoon/buildwithclaude` |
 | 🔧 [skillsmp.com](https://skillsmp.com/) | **508k+** agent skills in the open SKILL.md format — compatible with Claude Code, Codex, and ChatGPT |
+| 🔧 [SkillSignal](https://skillsignal.cc/) | Free, source-traceable Agent Skills directory with exact upstream files, pinned commits, maintenance, compatibility, documentation quality, and static risk indicators |
 | 🔧 [lobehub.com/skills](https://lobehub.com/en/skills) | **211k+** skills marketplace — open SKILL.md standard with ratings, install counts, and category browsing |
 | 🔧 [awesomeclaudeplugins.com](https://awesomeclaudeplugins.com/) | Automated collection tracking **22k+** plugins across 7,413 GitHub repos with adoption metrics |
 | 🔧 [claude-plugins.dev](https://claude-plugins.dev/) | Community-maintained marketplace with 6,000+ public skills |
