@@ -1334,6 +1334,7 @@
 | 🔧 [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | 12k+ | CLI tool for analyzing Claude Code usage from local JSONL files |
 | 🔧 [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | 7k+ | Real-time usage monitor with predictions and warnings |
 | 🔧 [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | 306 | CLI for logging and analyzing AI-driven coding sessions |
+| 🔧 [tristan666666/agent-island](https://github.com/tristan666666/agent-island) | 120 | Open-source status companion for Claude Code, Codex, Antigravity, Grok, and Cursor with live session state, your-turn alerts, and local monitoring |
 
 ### Routing & Proxy
 
