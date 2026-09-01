@@ -564,7 +564,7 @@
 | 🔧 [vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents) | 4k+ | Orchestrated sub agent dev team powered by Claude Code |
 | 🔧 [a5c-ai/babysitter](https://github.com/a5c-ai/babysitter) | 445 | Deterministic, hallucination-free self-orchestration for complex tasks |
 | 🔧 [CoderMageFox/claudecode-codex-subagents](https://github.com/CoderMageFox/claudecode-codex-subagents) | 39 | Orchestrate tasks by delegating to multiple parallel Codex agents |
-| 📚 [apexbymanish/claude-ai-agents-ios](https://github.com/apexbymanish/claude-ai-agents-ios) | new | iOS/Swift/Xcode subagents & skills with a seven-tier evidence taxonomy every claim is checked against |
+| 📚 [apexbymanish/claude-ai-agents-ios](https://github.com/apexbymanish/claude-ai-agents-ios) | 0 | iOS/Swift/Xcode subagents & skills with a seven-tier evidence taxonomy every claim is checked against |
 
 ### 🏗️ Agent Teams
 
