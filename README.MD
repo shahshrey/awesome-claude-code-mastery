@@ -161,6 +161,7 @@
 - 📗 [The creator of Claude Code just revealed his workflow - VentureBeat](https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are)
 - 📗 [Boris Cherny's Claude Code Setup Thread](https://twitter-thread.com/t/2007179832300581177)
 - 📗 [A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
+- [mblode/agent-skills](https://github.com/mblode/agent-skills) - Nobody ships AI slop on purpose. These skills make sure you don't. UI audits, typography, docs, PR review, and releases. `npx skills add mblode/agent-skills`
 
 ### Guides & Reference Repositories
 
