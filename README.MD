@@ -1275,6 +1275,7 @@
 | 🔧 [supermemoryai/claude-supermemory](https://github.com/supermemoryai/claude-supermemory) | 2.3k+ | Enable Claude Code to learn in real-time, update its knowledge, and grow with you — injects User Profile at session start, supports Team Memory |
 | 🔧 [LakyFx/CogniLayer](https://github.com/LakyFx/CogniLayer) | — | Infinite-speed memory + code graph for Claude Code & Codex CLI — 17 MCP tools, hybrid search, TUI dashboard, crash recovery, saves 80-200K+ tokens/session |
 | 🔧 [mkreyman/mcp-memory-keeper](https://github.com/mkreyman/mcp-memory-keeper) | — | MCP server for persistent context management — never lose context during compaction again |
+| 🔧 [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) | 600+ | Search every past Claude Code session — and Codex, Cursor and 40 more — from inside Claude Code via MCP and a SessionStart hook; local index, one Go binary, no LLM |
 
 ### MCP Memory Servers
 
