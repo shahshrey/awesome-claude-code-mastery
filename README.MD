@@ -695,6 +695,7 @@
 | 🔧 [AndyMik90/Auto-Claude](https://github.com/AndyMik90/Auto-Claude) | 13k+ | Autonomous multi-session AI coding |
 | 🔧 [automazeio/ccpm](https://github.com/automazeio/ccpm) | 7.6k+ | Project management using GitHub Issues and Git worktrees for parallel agents |
 | 🔧 [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 7.9k+ | Autonomous AI development loop with intelligent exit detection |
+| 🔧 [razzant/claudexor](https://github.com/razzant/claudexor) | 85 | Local-first control plane for Claude Code, Codex, Cursor, and OpenCode with profile-aware quota routing, multi-model review, and best-of-N runs |
 | 🔧 [smtg-ai/claude-squad](https://github.com/smtg-ai/claude-squad) | 6.4k+ | Manage Claude Code, Aider, Codex, OpenCode, and Amp in a single TUI |
 | 🔧 [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 21k+ | Agent orchestration platform — multi-agent swarms, autonomous workflows, RAG integration |
 | 🔧 [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 9.3k+ | Open-source AI coworker with memory |
