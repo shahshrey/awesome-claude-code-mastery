@@ -161,6 +161,7 @@
 - 📗 [The creator of Claude Code just revealed his workflow - VentureBeat](https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are)
 - 📗 [Boris Cherny's Claude Code Setup Thread](https://twitter-thread.com/t/2007179832300581177)
 - 📗 [A Guide to Claude Code 2.0 and getting better at using coding agents](https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/)
+- 📗 [Universal Modder: Claude Code installation and setup guide](https://universalmodder.dev/guides/claude-code)
 
 ### Guides & Reference Repositories
 
