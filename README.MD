@@ -497,6 +497,7 @@
 | 🔧 [team-attention/plugins-for-claude-natives](https://github.com/team-attention/plugins-for-claude-natives) | 668 | Claude Code plugins for power users |
 | 🔧 [humanplane/homunculus](https://github.com/humanplane/homunculus) | 297 | Watches how you work, learns your patterns, evolves itself to help you better |
 | 🔧 [closedloop-ai/claude-plugins](https://github.com/closedloop-ai/claude-plugins) | 75 | Plan-first software delivery plugins for multi-agent workflows |
+| 🔧 [jakemarsh/ccthread](https://github.com/jakemarsh/ccthread) | 0 | Read, search, and have Claude summarize your Claude Code conversation logs from the CLI |
 
 ### Tutorials & Guides
 
