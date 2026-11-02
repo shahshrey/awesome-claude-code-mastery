@@ -829,6 +829,7 @@
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
+| 🔧 [777genius/agent-notifications](https://github.com/777genius/agent-notifications) | 819 | Desktop and webhook alerts for Claude Code task completion and attention requests, with sounds and click-to-focus |
 | 🔧 [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | 9.2k+ | Infrastructure with skill auto-activation, hooks, and agents |
 | 🔧 [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) | 2.6k+ | Skills, Agents, Commands, Hooks, Plugins collection |
 | 🔧 [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) | 3.3k+ | Master Claude Code hooks |
