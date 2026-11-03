@@ -171,6 +171,7 @@
 | 📚 [zebbern/claude-code-guide](https://github.com/zebbern/claude-code-guide) | 3.6k+ | Setup, commands, workflows, agents, skills & tips-n-tricks |
 | 📚 [gerred/building-an-agentic-system](https://github.com/gerred/building-an-agentic-system) | 298 | In-depth book and reference on building agentic systems like Claude Code |
 | 📚 [automazeio/claude-code-for-power-users](https://github.com/automazeio/claude-code-for-power-users) | 202 | From Autocomplete to AI Architect: Mastering Claude Code for Professional Development |
+| 📚 [getvibekits/vibe-coding-rules](https://github.com/getvibekits/vibe-coding-rules) | 0 | Free MIT templates for 30 beginner project types: CLAUDE.md + AGENTS.md per project, plus starter skills, hooks and subagents |
 
 ### Deep Dives & Case Studies
 
