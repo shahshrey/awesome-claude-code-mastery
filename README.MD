@@ -1228,6 +1228,7 @@
 | 🔧 [Zuplo AI Gateway](https://zuplo.com/docs/ai-gateway/integrations/claude-code) | — | Route Claude Code through Zuplo's AI Gateway via `settings.json` env config |
 | 🔧 [TrueFoundry AI Gateway](https://www.truefoundry.com/docs/ai-gateway/claude-code) | — | TrueFoundry AI gateway integration with Claude Code |
 | 🔧 [Conductor](https://docs.conductor.build/guides/providers) | — | Claude Code GUI app with built-in env var panel for OpenRouter, Bedrock, Vertex, Vercel AI Gateway, Azure, and GLM |
+| 🔧 [UberLLM](https://uberllm.dev/docs/claude-code) | — | Paid pay-as-you-go Anthropic-compatible API: point `ANTHROPIC_BASE_URL` at `https://api.uberllm.dev` to run Claude Code on Claude, GPT, Gemini, DeepSeek, GLM, Qwen or Kimi models with one key; failed requests not billed |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
