@@ -704,6 +704,7 @@
 | 🔧 [built-by-as/FleetCode](https://github.com/built-by-as/FleetCode) | 410 | Light-weight control pane to run CLI coding agents in parallel |
 | 🔧 [regenrek/peky](https://github.com/regenrek/peky) | 140 | All your AI Agents in a single TUI to keep things organized |
 | 🔧 [to-na/claude-code-crew](https://github.com/to-na/claude-code-crew) | 55 | Browser-based interface for managing sessions across Git worktrees |
+| 🔧 [MarlBurroW/sillage](https://github.com/MarlBurroW/sillage) | 11 | Self-hosted, mobile-first web UI that drives the Claude Code and Codex CLIs on your own machine, with server-side sessions, full-text search, an IDE panel, git worktrees, and an installable PWA |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
