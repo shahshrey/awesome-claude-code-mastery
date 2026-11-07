@@ -321,6 +321,7 @@
 | 🔧 [claude-plugins.dev](https://claude-plugins.dev/) | Community-maintained marketplace with 6,000+ public skills |
 | 🔧 [ClaudePluginHub](https://www.claudepluginhub.com/marketplaces/) | Hub with 9,000+ plugins and skills across multiple marketplaces |
 | 🔧 [claudecodemarketplace.net](https://claudecodemarketplace.net/marketplace) | Community submissions marketplace — aggregates known collections from the ecosystem |
+| 🔧 [Claude Code Playbooks](https://www.claudecodehq.com) | **1,200+** free copy-paste CLAUDE.md playbooks, skills and workflows organized by role (marketers, analysts, researchers, students), with source attribution per playbook |
 
 #### Notable GitHub Marketplaces
 
