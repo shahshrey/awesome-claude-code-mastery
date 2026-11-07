@@ -487,6 +487,7 @@
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
+| 🔧 [akii-technologies-ltd/akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) | 79 | Claude Code plugin to audit sites, check links, group keywords, plan content, and make structured data |
 | 🔧 [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | 4.5k+ | Real-time HUD showing context usage %, active tools, running agents, and todo progress |
 | 🔧 [YishenTu/claudian](https://github.com/YishenTu/claudian) | 3.8k+ | Obsidian plugin that embeds Claude Code as an AI collaborator inside your vault |
 | 🔧 [agenticnotetaking/arscontexta](https://github.com/agenticnotetaking/arscontexta) | 2.6k+ | Generates individualized knowledge systems and "second brain" from conversations |
