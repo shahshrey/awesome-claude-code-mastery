@@ -982,6 +982,7 @@
 | 🔧 [Figma MCP Server](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/) | Design tool integration |
 | 🔧 [Sentry MCP Server](https://www.getclockwise.com/blog/claude-code-mcp-tools-integration) | Error monitoring |
 | 🔧 [ContextStream](https://contextstream.io) | Shared project context for Cursor, Claude Code, Codex, Grok ([MCP](https://mcp.contextstream.io/mcp), [OSS](https://github.com/contextstream/mcp-server)) |
+| 🔧 [Imagera](https://imagera.ai/mcp) | Image, video, voice and music generation and editing from Claude Code; paid, runs use credits ([MCP](https://mcp.imagera.ai/mcp), [plugin](https://github.com/alexadams6ix/imagera-skills)) |
 
 ### Twitter/X Integration
 
