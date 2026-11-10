@@ -1346,6 +1346,7 @@
 | 🔧 [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | 7k+ | Real-time usage monitor with predictions and warnings |
 | 🔧 [Necmttn/ax](https://github.com/Necmttn/ax) | 31 | Local-first telemetry and memory graph for Claude Code, Codex, Pi, OpenCode, and Cursor sessions with recall, costs, skill/hook usage, dispatches, workflow extraction, dashboard, and MCP access |
 | 🔧 [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | 306 | CLI for logging and analyzing AI-driven coding sessions |
+| 🔧 [skprasad-korture/who-said-yes](https://github.com/skprasad-korture/who-said-yes) | New | Counts which of your coding agent's actions you approved yourself at the prompt, versus rules, modes and hooks, from your Claude Code and Codex logs. Read only, no network calls |
 
 ### Routing & Proxy
 
