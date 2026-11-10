@@ -1293,7 +1293,7 @@
 | 🔧 [mem0ai/mem0](https://github.com/mem0ai/mem0) | 49.9k+ | Universal memory layer for AI Agents — official Mem0 library with MCP server for Claude Code integration |
 | 🔧 [topoteretes/cognee](https://github.com/topoteretes/cognee) | 13.7k+ | Knowledge Engine for AI Agent Memory — graph-based memory in 6 lines of code, MCP-compatible |
 | 🔧 [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | — | Automatic context memory for Claude, VS Code, Cursor — semantic search with ChromaDB |
-| 🔧 [SebastiaanBoon/cloud-alter-ego](https://github.com/SebastiaanBoon/cloud-alter-ego) | 5 | Remote MCP connector that gives every Claude chat your rules, profile, contexts, journals and playbooks, stored as plain Markdown in your own OneDrive, Google Drive, Dropbox, GitHub or Azure DevOps. MIT template for developers |
+| 🔧 [SebastiaanBoon/cloud-alter-ego](https://github.com/SebastiaanBoon/cloud-alter-ego) | 5 | Remote MCP connector that gives every Claude chat your rules, profile, contexts, journals and playbooks, stored as plain Markdown in your own OneDrive, Google Drive, Dropbox, GitHub or Azure DevOps. MIT template for developers. [Connector setup](https://cloudalterego.cafeboon.com/docs.html) |
 
 ### Community Discussions
 
