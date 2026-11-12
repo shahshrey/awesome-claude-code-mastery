@@ -982,6 +982,7 @@
 | 🔧 [Figma MCP Server](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/) | Design tool integration |
 | 🔧 [Sentry MCP Server](https://www.getclockwise.com/blog/claude-code-mcp-tools-integration) | Error monitoring |
 | 🔧 [ContextStream](https://contextstream.io) | Shared project context for Cursor, Claude Code, Codex, Grok ([MCP](https://mcp.contextstream.io/mcp), [OSS](https://github.com/contextstream/mcp-server)) |
+| 🔧 [Wavegrain](https://wavegrain.com/mcp) | Make, schedule and post TikTok slideshows and Instagram carousels for a brand through a hosted MCP server ([repo](https://github.com/wavegrain/wavegrain-mcp)) |
 
 ### Twitter/X Integration
 
