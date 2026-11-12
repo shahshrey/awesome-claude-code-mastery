@@ -271,6 +271,7 @@
 | 🔧 [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 16k+ | Manus-style persistent markdown planning |
 | 🔧 [SawyerHood/dev-browser](https://github.com/SawyerHood/dev-browser) | 3.9k+ | Give your agent ability to use a web browser |
 | 🔧 [glitternetwork/pinme](https://github.com/glitternetwork/pinme) | 3k+ | Deploy your frontend in a single command |
+| 🔧 [f-o-x11/deed-page-skill](https://github.com/f-o-x11/deed-page-skill) | 3 | Publish an HTML file or build folder to a permanent [deed.page](https://deed.page) URL with one curl request, after the user says yes |
 | 🔧 [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills) | 3.5k+ | n8n skillset for building flawless workflows |
 | 🔧 [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) | 4.5k+ | Communicate with Google NotebookLM notebooks |
 | 🔧 [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill) | 2k+ | Browser automation with Playwright |
