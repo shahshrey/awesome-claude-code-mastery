@@ -1369,6 +1369,7 @@
 | 🔧 [fynnfluegge/agtx](https://github.com/fynnfluegge/agtx) | 455 | Autonomous multi-session spec-driven AI coding orchestration in the terminal |
 | 🔧 [therealarthur/myrlin-workbook](https://github.com/therealarthur/myrlin-workbook) | 262 | Workspace manager with embedded terminals and drag-and-drop organization |
 | 🔧 [Dimon94/cc-devflow](https://github.com/Dimon94/cc-devflow) | 97 | One-command requirement development flow with sub-agents and quality gates |
+| 🔧 [daxaur/openpaw](https://github.com/daxaur/openpaw) | 178 | Personal assistant wizard for Claude Code with reusable skills, scheduling, dashboard tasks, Telegram control, and focus mode |
 
 ### Other Tools
 
