@@ -1285,7 +1285,7 @@
 | 🔧 [TerminallyLazy/Tree-Ring-Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) | 5 | Local-first memory lifecycle framework for AI agents and coding assistants, with SQLite/FTS recall, audit, redaction, deletion, and portable SKILL.md guidance |
 | 🔧 [LakyFx/CogniLayer](https://github.com/LakyFx/CogniLayer) | — | Infinite-speed memory + code graph for Claude Code & Codex CLI — 17 MCP tools, hybrid search, TUI dashboard, crash recovery, saves 80-200K+ tokens/session |
 | 🔧 [mkreyman/mcp-memory-keeper](https://github.com/mkreyman/mcp-memory-keeper) | — | MCP server for persistent context management — never lose context during compaction again |
-| 🔧 [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) | 600+ | Search every past Claude Code session — and Codex, Cursor and 40 more — from inside Claude Code via MCP and a SessionStart hook; local index, one Go binary, no LLM |
+| 🔧 [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) | 1.4k+ | Search every past Claude Code session — and Codex, Cursor and 41 more — from inside Claude Code via MCP and a SessionStart hook; local index, one Go binary, no LLM |
 
 ### MCP Memory Servers
 
