@@ -323,6 +323,7 @@
 | 🔧 [claude-plugins.dev](https://claude-plugins.dev/) | Community-maintained marketplace with 6,000+ public skills |
 | 🔧 [ClaudePluginHub](https://www.claudepluginhub.com/marketplaces/) | Hub with 9,000+ plugins and skills across multiple marketplaces |
 | 🔧 [claudecodemarketplace.net](https://claudecodemarketplace.net/marketplace) | Community submissions marketplace — aggregates known collections from the ecosystem |
+| 🔧 [HOL Plugins](https://hol.org/plugins) | Directory of plugins, skills, and MCP servers for Claude Code, Codex, and Cursor, ranked by trust score with scanner-backed security signals |
 
 #### Notable GitHub Marketplaces
 
