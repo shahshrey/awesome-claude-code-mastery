@@ -1,0 +1,47 @@
+name: Research Agent
+
+on:
+  schedule:
+    - cron: '0 14 * * 1' # Mondays 14:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Find stale repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/research_agent.py stale --days 90 --out research/stale.md
+
+      - name: Find new resources with Tavily
+        if: ${{ env.TAVILY_API_KEY != '' }}
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/research_agent.py discover --days 90 --out research/candidates.md
+
+      - name: Open a review issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo "Weekly report from \`scripts/research_agent.py\`. Review and update README.MD by hand."
+            echo
+            cat research/stale.md
+            echo
+            if [ -f research/candidates.md ]; then cat research/candidates.md; else echo "_Tavily step skipped: add a TAVILY_API_KEY repo secret._"; fi
+          } > report.md
+          gh issue create --title "Research agent report $(date -u +%Y-%m-%d)" --body-file report.md
+    env:
+      TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
