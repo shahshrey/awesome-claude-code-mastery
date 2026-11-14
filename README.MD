@@ -435,6 +435,7 @@
 | 🔧 [firebase](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/firebase) | Infrastructure | Firebase integration via MCP |
 | 🔧 [stripe](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/stripe) | Payments | Stripe integration with best-practices skill |
 | 🔧 [slack](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/slack) | Communication | Slack integration via HTTP/OAuth MCP |
+| 🔧 [Kling AI (Global)](https://github.com/klingai-tech/claude-plugin) | Image & Video | Vendor repository; not in the `claude-plugins-official` marketplace. Uses `https://kling.ai/mcp/plugin`; OAuth and paid credits |
 | 🔧 [linear](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/linear) | Project Management | Linear issue tracking via MCP |
 | 🔧 [asana](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/asana) | Project Management | Asana integration via MCP |
 | 🔧 [laravel-boost](https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/laravel-boost) | Framework | Laravel framework boost with best-practices skill |
