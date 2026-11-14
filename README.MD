@@ -504,6 +504,7 @@
 | 🔧 [humanplane/homunculus](https://github.com/humanplane/homunculus) | 297 | Watches how you work, learns your patterns, evolves itself to help you better |
 | 🔧 [closedloop-ai/claude-plugins](https://github.com/closedloop-ai/claude-plugins) | 75 | Plan-first software delivery plugins for multi-agent workflows |
 | 🔧 [jakemarsh/ccthread](https://github.com/jakemarsh/ccthread) | 0 | Read, search, and have Claude summarize your Claude Code conversation logs from the CLI |
+| 🔧 [noambrand/ai-time-estimator](https://github.com/noambrand/ai-time-estimator) | 1 | Answers "how long will this take?" in Claude Code's own minutes, measured from your transcripts, and scores each estimate afterwards |
 
 ### Tutorials & Guides
 
