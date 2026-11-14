@@ -851,6 +851,7 @@
 | 🔧 [rinadelph/Rapala](https://github.com/rinadelph/Rapala) | 106 | Auto-commits every edit with context — code fearlessly, revert easily |
 | 🔧 [decider/claude-hooks](https://github.com/decider/claude-hooks) | 68 | Comprehensive hooks for enforcing clean code practices |
 | 🔧 [possibilities/claude-code-generic-hooks](https://github.com/possibilities/claude-code-generic-hooks) | 53 | Generic reusable hooks for Claude Code |
+| 🔧 [dooly6276/claude-bulkhead](https://github.com/dooly6276/claude-bulkhead) | 34 | PreToolUse hooks that block shell commands which cannot be undone, such as `rm -rf $D/` with an empty variable or `pkill -f node` hitting other sessions, and tell Claude the safe form |
 
 ### Scheduling & Cron
 
