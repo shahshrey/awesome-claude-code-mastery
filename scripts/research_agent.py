@@ -30,6 +30,7 @@ import subprocess
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
@@ -112,6 +113,24 @@ QUERIES = {
 }
 
 
+# Run once per month in the window, so every month gets its own results.
+MONTHLY_QUERIES = [
+    "Claude Code new tool GitHub {month}",
+    "Claude Code plugin OR skill OR hook released {month}",
+    "Claude Code update features {month}",
+]
+
+
+def months_since(since: str) -> list[str]:
+    d = dt.date.fromisoformat(since).replace(day=1)
+    today = dt.date.today()
+    out = []
+    while d <= today:
+        out.append(d.strftime("%B %Y"))
+        d = (d.replace(day=28) + dt.timedelta(days=4)).replace(day=1)
+    return out
+
+
 def log(msg: str) -> None:
     print(msg, file=sys.stderr, flush=True)
 
@@ -179,12 +198,12 @@ def readme_urls() -> set[str]:
 # ---------------------------------------------------------------- Tavily
 
 
-def tavily_search(query: str, key: str, days: int) -> list[dict]:
+def tavily_search(query: str, key: str, since: str) -> list[dict]:
     payload = {
         "query": query,
         "search_depth": "advanced",
         "topic": "general",
-        "time_range": "month" if days <= 31 else "year",
+        "start_date": since,
         "max_results": 20,
         "include_raw_content": False,
     }
@@ -199,9 +218,50 @@ def tavily_search(query: str, key: str, days: int) -> list[dict]:
 # ---------------------------------------------------------------- GitHub
 
 
+GITHUB_SEARCH_QUERIES = [
+    "topic:claude-code", "topic:claude-code-plugin", "topic:claude-code-skills",
+    "topic:claude-code-mods", "topic:claude-code-hooks", "topic:claude-code-subagents",
+    "claude-code in:name", "\"claude code\" in:description",
+]
+STAR_BANDS = ["100..149", "150..199", "200..299", "300..499", "500..799",
+              "800..1499", "1500..2999", "3000..9999", ">=10000"]
+
+
+def github_search_sweep(since: str, token: str) -> set[str]:
+    """Find repos created since `since` with 100+ stars through the GitHub search API.
+
+    Star bands keep each query under the 1,000-result cap. The search API allows
+    30 requests a minute, so the sweep sleeps between calls.
+    """
+    found = set()
+    for q in GITHUB_SEARCH_QUERIES:
+        for band in STAR_BANDS:
+            for page in range(1, 11):
+                params = urllib.parse.urlencode({
+                    "q": f"{q} created:>={since} stars:{band} archived:false fork:false",
+                    "per_page": 100, "page": page})
+                req = urllib.request.Request(f"https://api.github.com/search/repositories?{params}")
+                req.add_header("Authorization", f"bearer {token}")
+                req.add_header("User-Agent", "awesome-claude-code-research-agent")
+                try:
+                    with urllib.request.urlopen(req, timeout=60) as resp:
+                        items = json.loads(resp.read().decode()).get("items", [])
+                except urllib.error.HTTPError as e:
+                    log(f"  github search error ({e.code}) for {q} {band}; waiting")
+                    time.sleep(60)
+                    continue
+                found.update(it["full_name"] for it in items)
+                time.sleep(2.2)
+                if len(items) < 100:
+                    break
+    return found
+
+
 REPO_FIELDS = (
     "nameWithOwner stargazerCount pushedAt isArchived isFork description url "
-    "defaultBranchRef{target{...on Commit{committedDate}}}"
+    "defaultBranchRef{target{...on Commit{committedDate}}} "
+    "repositoryTopics(first:20){nodes{topic{name}}} "
+    "readme:object(expression:\"HEAD:README.md\"){...on Blob{text}}"
 )
 
 
@@ -222,6 +282,25 @@ def github_meta(repos: list[str], token: str) -> dict[str, dict | None]:
         for j, r in enumerate(chunk):
             out[r] = data.get(f"r{j}")
     return out
+
+
+CC_RE = re.compile(r"claude[ -]?code|\.claude/|claude-agent-sdk|claude agent sdk|anthropic", re.I)
+OTHER_RE = re.compile(r"\b(codex|cursor|copilot|gemini[ -]cli|opencode|windsurf|aider|cline|openclaw)\b", re.I)
+
+
+def claude_code_focus(meta: dict) -> tuple[bool, str]:
+    """True when the repo is mainly about Claude Code, not a generic or multi-agent tool."""
+    name = meta["nameWithOwner"]
+    topics = " ".join(n["topic"]["name"] for n in ((meta.get("repositoryTopics") or {}).get("nodes") or []))
+    head = f"{name} {meta.get('description') or ''} {topics}"
+    readme = ((meta.get("readme") or {}).get("text") or "")[:20000]
+    cc = len(CC_RE.findall(readme)) + 5 * len(CC_RE.findall(head))
+    other = len(OTHER_RE.findall(readme)) + 5 * len(OTHER_RE.findall(head))
+    if cc == 0:
+        return False, "does not mention Claude Code"
+    if other > cc:
+        return False, f"mostly about other agents ({other} vs {cc} mentions)"
+    return True, f"{cc} Claude Code mentions"
 
 
 def last_commit(meta: dict) -> str:
@@ -254,12 +333,15 @@ def cmd_discover(args) -> None:
     jobs = [(sec, q) for sec, qs in QUERIES.items() for q in qs]
     if args.limit:
         jobs = jobs[: args.limit]
+    for month in months_since(args.since):
+        for q in MONTHLY_QUERIES:
+            jobs.append(("monthly", q.format(month=month)))
     log(f"Running {len(jobs)} Tavily searches...")
 
     found: dict[str, dict] = {}  # repo -> {sections, sources}
     articles: dict[str, dict] = {}
     with ThreadPoolExecutor(max_workers=4) as pool:
-        results = list(pool.map(lambda j: (j, tavily_search(j[1], key, args.days)), jobs))
+        results = list(pool.map(lambda j: (j, tavily_search(j[1], key, args.since)), jobs))
     for (sec, q), hits in results:
         for h in hits:
             url = h.get("url", "")
@@ -273,6 +355,10 @@ def cmd_discover(args) -> None:
                 a["score"] = max(a["score"], h.get("score", 0))
                 a["sections"].add(sec)
 
+    if args.github_sweep:
+        log("Sweeping GitHub search for new Claude Code repos (takes a few minutes)...")
+        for r in github_search_sweep(args.since, token):
+            found.setdefault(r, {"sections": {"github-search"}, "sources": {"github search"}})
     new_repos = sorted(r for r in found if r.lower() not in known)
     log(f"Found {len(found)} repos, {len(new_repos)} not yet in README. Checking GitHub...")
     meta = github_meta(new_repos, token)
@@ -294,6 +380,8 @@ def cmd_discover(args) -> None:
             rejected.append((r, f"no commit in {age} days"))
         elif m["stargazerCount"] < args.min_stars and not official:
             rejected.append((r, f"{m['stargazerCount']} stars"))
+        elif not claude_code_focus(m)[0]:
+            rejected.append((r, claude_code_focus(m)[1]))
         else:
             keep.append((m, sorted(found[r]["sections"]), official, age))
     keep.sort(key=lambda x: (not x[2], -x[0]["stargazerCount"]))
@@ -302,7 +390,8 @@ def cmd_discover(args) -> None:
         f"# Research agent candidates ({dt.date.today().isoformat()})",
         "",
         f"Rules: official (anthropics/*, modelcontextprotocol/*) or {args.min_stars}+ stars, "
-        f"not archived, not a fork, last commit within {args.days} days, not already in README.",
+        f"not archived, not a fork, last commit within {args.days} days, mainly about Claude Code "
+        f"(not generic or multi-agent), not already in README. Search window starts {args.since}.",
         "",
         f"- Searches: {len(jobs)}",
         f"- Repos found: {len(found)} ({len(new_repos)} new)",
@@ -374,8 +463,12 @@ def main() -> None:
     d = sub.add_parser("discover", help="find new resources with Tavily")
     d.add_argument("--days", type=int, default=90, help="max days since last commit (default 90)")
     d.add_argument("--min-stars", type=int, default=MIN_STARS)
+    d.add_argument("--since", default=(dt.date.today() - dt.timedelta(days=90)).isoformat(),
+                   help="search window start, YYYY-MM-DD (default 90 days ago)")
     d.add_argument("--articles", type=int, default=40, help="how many articles to list")
     d.add_argument("--limit", type=int, default=0, help="run only the first N queries (testing)")
+    d.add_argument("--github-sweep", action="store_true",
+                   help="also search GitHub for repos created since --since with 100+ stars")
     d.add_argument("--out")
     d.add_argument("--json")
     d.set_defaults(func=cmd_discover)

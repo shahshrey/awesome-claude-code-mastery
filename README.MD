@@ -106,6 +106,46 @@
 - 📁 [Channels](https://code.claude.com/docs/en/channels) — push CI results, chat messages, and webhooks into a running session
 - 📁 [Review locally with /code-review](https://code.claude.com/docs/en/code-review-local) and [ultrareview](https://code.claude.com/docs/en/ultrareview)
 - 📁 [Test plugins with evals](https://code.claude.com/docs/en/plugin-evals) — `claude plugin eval`
+- 📁 [Claude Tag](https://code.claude.com/docs/en/claude-tag) — Claude in Slack channels
+- 📁 [Message your other Claude Code sessions](https://code.claude.com/docs/en/cross-session-messaging)
+- 📁 [Advisor tool](https://code.claude.com/docs/en/advisor) — escalate hard decisions to a stronger model
+- 📁 [Let Claude use your computer from the CLI](https://code.claude.com/docs/en/computer-use)
+- 📁 [Configure auto mode](https://code.claude.com/docs/en/auto-mode-config) and [permission modes](https://code.claude.com/docs/en/permission-modes)
+- 📁 [Self-hosted environments](https://code.claude.com/docs/en/self-hosted-environments-deploy) — run cloud sessions on your own infrastructure
+- 📁 [Claude Code on mobile](https://code.claude.com/docs/en/mobile)
+- 📁 [Create a mod](https://code.claude.com/docs/en/plugins/mods/create) and [mods interface gallery](https://code.claude.com/docs/en/plugins/mods/gallery)
+- 📁 [Output styles](https://code.claude.com/docs/en/output-styles)
+- 📁 [How Claude Code uses prompt caching](https://code.claude.com/docs/en/prompt-caching)
+- 📁 [Claude Security plugin](https://code.claude.com/docs/en/claude-security) and [security-guidance plugin](https://code.claude.com/docs/en/security-guidance)
+
+### What's New (May – November 2026)
+
+> Launches and official posts from the last six months, newest first.
+
+- 📗 [Introducing Claude Haiku 5.5](https://www.anthropic.com/news/claude-haiku-5-5) — Oct 7, 2026
+- 📗 [Introducing Claude Sonnet 5.5](https://www.anthropic.com/news/claude-sonnet-5-5) — Sep 28, 2026; default Sonnet in Claude Code, 1M context
+- 📗 [Introducing Claude Opus 5.5](https://www.anthropic.com/news/claude-opus-5-5) — Sep 22, 2026; default Opus in Claude Code, 1M context
+- 📗 [Projects redesigned: from folder to conversation](https://claude.com/blog/projects-redesigned) — Sep 17, 2026
+- 📗 [The Claude Code guide for startups](https://claude.com/blog/claude-code-guide-for-startups) — Aug 20, 2026
+- 📗 [Introducing Claude Opus 5](https://www.anthropic.com/news/claude-opus-5) — Jul 24, 2026
+- 📗 [The new rules of context engineering for Claude 5 generation models](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models) — Jul 24, 2026
+- 📗 [How Anthropic runs large-scale code migrations with Claude Code](https://claude.com/blog/ai-code-migration) — Jul 16, 2026
+- 📗 [Claude Code effort level and model selection](https://claude.com/blog/claude-model-and-effort-level-in-claude-code) — Jul 7, 2026
+- 📗 [Introducing Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) — Jun 30, 2026
+- 📗 [Loop engineering: Getting started with loops](https://claude.com/blog/getting-started-with-loops) — Jun 30, 2026
+- 📗 [Introducing Claude Tag](https://www.anthropic.com/news/introducing-claude-tag) — Jun 23, 2026; Claude in your team's Slack channels
+- 📗 [Claude Code now supports artifacts](https://claude.com/blog/artifacts-in-claude-code) — Jun 18, 2026
+- 📗 [Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more) — Jun 18, 2026
+- 📗 [A harness for every task: dynamic workflows in Claude Code](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code) — Jun 2, 2026
+- 📗 [Introducing dynamic workflows](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code) — May 28, 2026
+- 📗 [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8) — May 28, 2026
+- 📗 [Code w/ Claude SF 2026](https://claude.com/blog/code-w-claude-sf-2026-sf) — May 12, 2026
+
+Earlier in 2026:
+
+- 📗 [Introducing routines in Claude Code](https://claude.com/blog/introducing-routines-in-claude-code) — Apr 14, 2026
+- 📗 [Redesigning Claude Code on desktop for parallel agents](https://claude.com/blog/claude-code-desktop-redesign) — Apr 14, 2026
+- 📗 [Making frontier cybersecurity capabilities available to defenders (Claude Code Security)](https://www.anthropic.com/news/claude-code-security) — Feb 20, 2026
 
 ### Blog Posts
 
@@ -181,6 +221,9 @@
 |------------|-------|-------------|
 | 📚 [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 17k+ | Practice made Claude perfect — curated best practices |
 | 📚 [zebbern/claude-code-guide](https://github.com/zebbern/claude-code-guide) | 3.6k+ | Setup, commands, workflows, agents, skills & tips-n-tricks |
+| 📚 [decodingai-magazine/building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course) | 1.2k+ | Learn harness engineering by building Claude Code from scratch. Free, open-source course: 8 articles, 6 videos, 1 codebase. |
+| 📚 [justxor/claude-code-pro-course](https://github.com/justxor/claude-code-pro-course) | 352 | Claude Code PRO — полный курс и гайд на русском: CLAUDE.md, settings, skills, subagents, hooks, MCP, плагины, CI. 8 лабораторных, библиотека промптов и готовый… |
+| 📚 [ai-hero-dev/ai-coding-crash-course](https://github.com/ai-hero-dev/ai-coding-crash-course) | 221 | Exercise repo for the AI Coding Crash Course with Claude Code (aihero.dev) |
 
 ### Deep Dives & Case Studies
 
@@ -251,8 +294,6 @@
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
-| 📚 [janestreet/agent_skills](https://github.com/janestreet/agent_skills) | 8.3k+ | Agent skills from Jane Street |
-| 📚 [google/skills](https://github.com/google/skills) | 24k+ | Agent Skills for Google products and technologies |
 | 📚 [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 11k+ | 300+ agent skills compatible with Claude Code, Codex, and more |
 | 📚 [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) | 7.5k+ | Curated list of Claude Skills |
 | 📚 [VoltAgent/awesome-claude-skills](https://github.com/VoltAgent/awesome-claude-skills) | 11k+ | Awesome collection of Claude Skills and resources |
@@ -277,13 +318,19 @@
 | 🔧 [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 16k+ | Manus-style persistent markdown planning |
 | 🔧 [SawyerHood/dev-browser](https://github.com/SawyerHood/dev-browser) | 3.9k+ | Give your agent ability to use a web browser |
 | 🔧 [czlonkowski/n8n-skills](https://github.com/czlonkowski/n8n-skills) | 3.5k+ | n8n skillset for building flawless workflows |
-| 🔧 [lackeyjb/playwright-skill](https://github.com/lackeyjb/playwright-skill) | 2k+ | Browser automation with Playwright |
 | 🔧 [CharlesWiltgen/Axiom](https://github.com/CharlesWiltgen/Axiom) | 633 | iOS/xOS development skills |
 | 🔧 [solana-foundation/solana-dev-skill](https://github.com/solana-foundation/solana-dev-skill) | 398 | Solana blockchain development skill |
 | 🔧 [Aaronontheweb/dotnet-skills](https://github.com/Aaronontheweb/dotnet-skills) | 608 | .NET development skills |
 | 🔧 [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 14k+ | Marketing skills — CRO, copywriting, SEO, analytics, and growth engineering |
 | 🔧 [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) | 2.9k+ | Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP |
 | 🔧 [jangtrinh/design-os](https://github.com/jangtrinh/design-os) | 37 | Free design skills and CLI: describe the UI in plain words, get web, SwiftUI or Figma-compatible output checked by deterministic taste and accessibility gates (source-available, PolyForm Shield) |
+| 🔧 [EpicGames/unreal-engine-skills-for-claude-code-plugin](https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin) | 2k+ | Epic Games' Unreal Engine skills packaged as a Claude Code plugin |
+| 🔧 [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 56.8k+ | Academic Research Skills for Claude Code: research → write → review → revise → finalize |
+| 🔧 [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 6.4k+ | ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English. |
+| 🔧 [s0xDk/refactoring-ui-skill](https://github.com/s0xDk/refactoring-ui-skill) | 700 | A Claude Code skill that applies the concrete design rules from the book Refactoring UI (Wathan & Schoger) — constrained spacing/type/color/shadow scales, hierarchy… |
+| 🔧 [EricJujianZou/rederive](https://github.com/EricJujianZou/rederive) | 666 | Learn a codebase by re-deriving its design decisions yourself. A Claude Code skill. |
+| 🔧 [Socialpranker/deepdive](https://github.com/Socialpranker/deepdive) | 367 | Deepdive skill for Claude Code — 12-phase research pipeline: plan-review gate, parallel sub-agent search, claims-ledger triangulation with dissent protection,… |
+| 🔧 [secondsky/claude-skills](https://github.com/secondsky/claude-skills) | 248 | Production-ready skills for Claude Code CLI - Cloudflare, React, Tailwind v4, and AI integrations |
 
 | Tool | Description |
 |------|-------------|
@@ -390,6 +437,8 @@
 |------------|-------|-------------|
 | 🔧 [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 12k+ | Official Anthropic-managed directory of high-quality Claude Code plugins |
 | 🔧 [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 9.2k+ | 15 domain-specialist plugins for knowledge workers: sales, engineering, data, design, HR, legal, finance |
+| 🔧 [anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) | 4.9k+ | Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission. |
+| 🔧 [anthropics/launch-your-agent](https://github.com/anthropics/launch-your-agent) | 1.1k+ | Claude Code skills that take a founder from idea to a live Claude Managed Agent: interview, scope a v0, launch in their own account, grade it, iterate, and schedule it |
 
 #### Code Intelligence (LSP) Plugins
 
@@ -469,12 +518,30 @@
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
-| 📚 [karanb192/awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) | 963 | 8,000+ Claude Code mods, with what each one can access before you install it |
 | 🔧 [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | 10k+ | Official Claude Code compound engineering plugin for large-scale workflows |
 | 🔧 [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | 1.6k+ | 340 plugins + 1,367 agent skills; includes CCPI package manager |
 | 🔧 [obra/superpowers-marketplace](https://github.com/obra/superpowers-marketplace) | 654 | Curated Claude Code plugin marketplace (superpowers framework) |
 | 🔧 [hashicorp/agent-skills](https://github.com/hashicorp/agent-skills) | 462 | Agent skills and plugins for HashiCorp products (Terraform, Vault, Consul) |
 | 🔧 [Piebald-AI/claude-code-lsps](https://github.com/Piebald-AI/claude-code-lsps) | 305 | Plugin marketplace focused on LSP server integrations |
+
+### 🧱 Mods
+
+> Mods (launched Oct 2026) are TypeScript hooks that change Claude Code itself: panes, prompt bands, tool-call guards and commands. See the [Mods overview](https://code.claude.com/docs/en/plugins/mods/overview).
+
+| Repository | Stars | Description |
+|------------|-------|-------------|
+| 📚 [karanb192/awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) | 963 | 8,000+ Claude Code mods, with what each one can access before you install it |
+| 🔧 [hamzafer/claude-code-mods](https://github.com/hamzafer/claude-code-mods) | 477 | Claude Code mods: plugins built on hooks that add live lines above the prompt, guards, panes and games. Context bar, usage meter, Codex review watch, Markdown… |
+| 🔧 [HeyCubit/effortless](https://github.com/HeyCubit/effortless) | 347 | Mods for Claude Code. effortless picks the reasoning effort for every prompt and shows the cache countdown. textless (desktop app) shows art, quotes and chess instead… |
+| 🔧 [wh000wh000/awesome-claude-mods](https://github.com/wh000wh000/awesome-claude-mods) | 346 | Awesome Claude Mods — evidence-graded index of Claude Code mods, plugins and hooks. 20 languages, rebuilt every 2 hours. |
+| 🔧 [hellosverre/claude-skins](https://github.com/hellosverre/claude-skins) | 296 | Skins for Claude Code: tool rows with icons, diff, table and Mermaid chart cards, a usage band and fifteen themes. /skin swaps them live. |
+| 🔧 [midudev/better-claude](https://github.com/midudev/better-claude) | 281 | Small plugins and mods that make your life (and Claude Code) better |
+| 🔧 [scasella/claude-flightdeck](https://github.com/scasella/claude-flightdeck) | 268 | A Claude Code mod that puts a live agent dashboard in your terminal: context and cost, advisor timeline, every permission check, subagent cards and swimlanes. |
+| 🔧 [nateherkai/claude-code-mods](https://github.com/nateherkai/claude-code-mods) | 138 | Four Claude Code mods: Cache Keeper, Recording Mode, Goal Meter, and Collision Guard |
+| 🔧 [cablate/ctx-handoff-mod](https://github.com/cablate/ctx-handoff-mod) | 128 | Claude Code mod: hands off to a fresh conversation when context fills up, keeps the cache warm while you're away, and turns what you teach Claude into project notes |
+| 🔧 [alexknowshtml/claude-auto-handoff](https://github.com/alexknowshtml/claude-auto-handoff) | 125 | Claude Code mod: hand a long session off to a fresh one with a structured brief, instead of auto-compacting |
+| 🔧 [ray-amjad/claude-code-mods](https://github.com/ray-amjad/claude-code-mods) | 115 | Claude Code mods: panes, bands, prompt guards, secret handling and memory tools |
+| 🔧 [whyashthakker/awesome-claude-code-mods](https://github.com/whyashthakker/awesome-claude-code-mods) | 121 | Collection of 100+ mods you can use with Claude Code. |
 
 ### Notable Community Plugins
 
@@ -486,6 +553,11 @@
 | 🔧 [zhukunpenglinyutong/idea-claude-code-gui](https://github.com/zhukunpenglinyutong/idea-claude-code-gui) | 1.8k+ | JetBrains / IntelliJ IDEA GUI Plugin for Claude Code |
 | 🔧 [gmickel/gmickel-claude-marketplace](https://github.com/gmickel/gmickel-claude-marketplace) | 545 | Flow-Next plan-first workflows, Ralph autonomous overnight mode, multi-model review gates |
 | 🔧 [closedloop-ai/claude-plugins](https://github.com/closedloop-ai/claude-plugins) | 75 | Plan-first software delivery plugins for multi-agent workflows |
+| 🔧 [iamumeransari/claude-show-your-work](https://github.com/iamumeransari/claude-show-your-work) | 311 | Claude Code plugin to see, review and iterate on your agent's work without leaving the terminal: show images, play videos, and run visual QA with Playwright… |
+| 🔧 [yeswehack/claude-kit](https://github.com/yeswehack/claude-kit) | 375 | Claude Code plugin for writing triager-grade bug bounty reports |
+| 🔧 [Eigenwise/eigenwise-toolshed](https://github.com/Eigenwise/eigenwise-toolshed) | 285 | Claude Code plugins for the work that keeps coming back: repo maps, conditional rules, ticketed parallel work, extra subscription models, local usage metrics, and… |
+| 🔧 [xai-org/grok-build-plugin-cc](https://github.com/xai-org/grok-build-plugin-cc) | 281 | Claude Code plugin that delegates reviews, rescue tasks, and session transfer to the Grok Build CLI |
+| 🔧 [safety-research/thimble](https://github.com/safety-research/thimble) | 117 | thimble is a Claude Code plugin for making sense of agent outputs |
 
 ### Tutorials & Guides
 
@@ -660,7 +732,6 @@
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
-| 🔧 [stablyai/orca](https://github.com/stablyai/orca) | 124k+ | Run a fleet of coding agents (Claude Code, Codex) with your own subscription on desktop, mobile, and remote runtimes |
 | 🔧 [automazeio/ccpm](https://github.com/automazeio/ccpm) | 7.6k+ | Project management using GitHub Issues and Git worktrees for parallel agents |
 | 🔧 [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | 7.9k+ | Autonomous AI development loop with intelligent exit detection |
 | 🔧 [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) | 14k+ | Desktop app (macOS, Windows, Linux) that runs many Claude Code sessions in parallel git worktrees alongside Codex, Cursor and other agents, with an orchestrator agent splitting the work and a Kanban board tracking each PR through CI and review |
@@ -669,6 +740,12 @@
 | 🔧 [sno-ai/sno-station](https://github.com/sno-ai/sno-station) | 1k+ | Runs Claude Code, Codex and Cursor as one team: `sno reach pair` puts a builder and a challenger on a task, and work moves to another agent at a usage limit |
 | 🔧 [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 21k+ | Agent orchestration platform — multi-agent swarms, autonomous workflows, RAG integration |
 | 🔧 [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | 9.3k+ | Open-source AI coworker with memory |
+| 🔧 [Paradigm-Study/claude-share](https://github.com/Paradigm-Study/claude-share) | 1k+ | Multiplayer sessions for Claude Code. Share a link, work together live, and review the same replies, tools and previews. |
+| 🔧 [Nanako0129/pilotfish](https://github.com/Nanako0129/pilotfish) | 718 | Multi-model orchestration layer for Claude Code — the frontier model plans, cheaper models execute, verification guards quality. One-prompt install. |
+| 🔧 [craftzdog/tmux-claude-hatch](https://github.com/craftzdog/tmux-claude-hatch) | 408 | tmux plugin that runs Claude Code sessions in popups per project directory, with an fzf picker showing each session's status and a bell that highlights the window… |
+| 🔧 [matank001/clodfarm](https://github.com/matank001/clodfarm) | 221 | clodfarm (say it out loud): a farm of Claude Code agents. Plant a mission, they split it into sub-agents, open the work, and pace themselves on each account's real… |
+| 🔧 [funador/claude-code-merge-queue](https://github.com/funador/claude-code-merge-queue) | 131 | Local merge queue for parallel Claude Code agents |
+| 🔧 [cablate/model-relay](https://github.com/cablate/model-relay) | 111 | Per-window model switcher, subagent router, and automatic 429 failover for Claude Code — switch any window with /provider, delegate subagents across models, and keep… |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -697,6 +774,9 @@
 |------------|-------|-------------|
 | 🔧 [sequoia-hope/claude-remote](https://github.com/sequoia-hope/claude-remote) | 3 | Run Claude in Docker and serve terminal over a web interface |
 | 🔧 [Onepilot](https://onepilotapp.com) | — | iOS and iPadOS SSH client for running Claude Code, Codex CLI, and other terminal coding agents on a remote machine |
+| 🔧 [techjarves/Mobile-Harness](https://github.com/techjarves/Mobile-Harness) | 932 | Claude Code on Android:  AI-powered mobile coding IDE for Android — chat with a coding agent, run Linux commands, edit files, review diffs, and preview web apps… |
+| 🔧 [AkaraChen/cc-remote](https://github.com/AkaraChen/cc-remote) | 392 | Claude Code with the model on a remote host and the tools on your machine |
+| 🔧 [makushingu/harness-maxxing](https://github.com/makushingu/harness-maxxing) | 227 | Self-hosted web control room for Claude Code: persistent sessions, memory, scheduled jobs, Telegram and voice on your own server. Free and fair source (source-available). |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -786,6 +866,7 @@
 | 🔧 [severity1/claude-code-prompt-improver](https://github.com/severity1/claude-code-prompt-improver) | 1.3k+ | Intelligent prompt improver hook |
 | 🔧 [CloudAI-X/claude-workflow-v2](https://github.com/CloudAI-X/claude-workflow-v2) | 1.3k+ | Universal workflow plugin with agents, skills, hooks |
 | 🔧 [yifanzz/claude-code-boost](https://github.com/yifanzz/claude-code-boost) | 164 | Hook utilities with intelligent auto-approval |
+| 🔧 [karanb192/claude-code-hooks](https://github.com/karanb192/claude-code-hooks) | 582 | 🪝 Claude Code hooks + an installable plugin marketplace: safety, cost, observability, productivity. |
 
 ### Scheduling & Cron
 
@@ -1173,13 +1254,15 @@
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
-| 🔧 [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | 15k+ | Long-term memory for agent coding CLIs, with handoff between agent vendors |
 | 🔧 [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 35k+ | Plugin that captures sessions and injects relevant context — SQLite + ChromaDB hybrid, 6 lifecycle hooks, web viewer UI, MCP search tools, Endless Mode |
 | 🔧 [steveyegge/beads](https://github.com/steveyegge/beads) | 19k+ | A memory upgrade for your coding agent |
 | 🔧 [supermemoryai/claude-supermemory](https://github.com/supermemoryai/claude-supermemory) | 2.3k+ | Enable Claude Code to learn in real-time, update its knowledge, and grow with you — injects User Profile at session start, supports Team Memory |
 | 🔧 [TerminallyLazy/Tree-Ring-Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) | 5 | Local-first memory lifecycle framework for AI agents and coding assistants, with SQLite/FTS recall, audit, redaction, deletion, and portable SKILL.md guidance |
 | 🔧 [mkreyman/mcp-memory-keeper](https://github.com/mkreyman/mcp-memory-keeper) | — | MCP server for persistent context management — never lose context during compaction again |
 | 🔧 [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) | 1.4k+ | Search every past Claude Code session — and Codex, Cursor and 41 more — from inside Claude Code via MCP and a SessionStart hook; local index, one Go binary, no LLM |
+| 🔧 [nameforjt-afk/session-knowledge](https://github.com/nameforjt-afk/session-knowledge) | 307 | Turn your Claude Code session history into a searchable local knowledge base — 13 MCP tools, pure stdlib, nothing leaves your machine |
+| 🔧 [Avijit07x/claude-db](https://github.com/Avijit07x/claude-db) | 235 | Free, open-source memory for Claude Code. Your own database, no cloud, no subscription. |
+| 🔧 [anshulforyou/grandma](https://github.com/anshulforyou/grandma) | 118 | A memory layer for Claude Code that learns as you work. Persistent, per-context memory as plain markdown in your own git repo. No server, no telemetry. |
 
 ### MCP Memory Servers
 
@@ -1213,6 +1296,8 @@
 | 🔧 [siteboon/claudecodeui](https://github.com/siteboon/claudecodeui) | 8.4k+ | Mobile and Web UI for Claude Code — manage sessions and projects remotely |
 | 🔧 [slopus/happy](https://github.com/slopus/happy) | 15k+ | Mobile and Web client with realtime voice & encryption |
 | 🔧 [pungme/superagent-desktop](https://github.com/pungme/superagent-desktop) | 26 | macOS desktop app giving Claude Code a real browser, an iOS Simulator, and a phone companion for remote monitoring |
+| 🔧 [baocode-dev/baocode](https://github.com/baocode-dev/baocode) | 710 | Awesome GUI for Claude Code CLI✨  https://baocode.dev |
+| 🔧 [m1ckc3s/claude-status-bar](https://github.com/m1ckc3s/claude-status-bar) | 731 | Menu bar status indicator for Claude Code |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -1230,6 +1315,7 @@
 | 🔧 [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | 10k+ | Official Claude Code compound engineering plugin |
 | 🔧 [maxritter/claude-codepro](https://github.com/maxritter/claude-codepro) | 1.5k+ | Professional dev environment with spec-driven workflow, TDD, LSP |
 | 🔧 [nyatinte/ccexp](https://github.com/nyatinte/ccexp) | 252 | Interactive terminal for discovering, previewing, and managing config files |
+| 🔧 [smixs/awesome-claude-output-styles](https://github.com/smixs/awesome-claude-output-styles) | 148 | Make Claude talk like a human: 17 installable output styles for Claude Code, built on credited methodologies |
 
 ### Usage Analytics & Monitoring
 
@@ -1237,6 +1323,11 @@
 |------------|-------|-------------|
 | 🔧 [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | 12k+ | CLI tool for analyzing Claude Code usage from local JSONL files |
 | 🔧 [Necmttn/ax](https://github.com/Necmttn/ax) | 31 | Local-first telemetry and memory graph for Claude Code, Codex, Pi, OpenCode, and Cursor sessions with recall, costs, skill/hook usage, dispatches, workflow extraction, dashboard, and MCP access |
+| 🔧 [alexeyw/lot-map](https://github.com/alexeyw/lot-map) | 752 | A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages. |
+| 🔧 [karanb192/cache-tax](https://github.com/karanb192/cache-tax) | 395 | Keep Claude Code’s prompt cache warm during breaks and show the estimated cost before a cold send. |
+| 🔧 [kelviq/tare](https://github.com/kelviq/tare) | 307 | Ask Claude Code where your usage went. Token audit, limit diagnosis and usage forensics — built from the session logs already on your machine, nothing leaves it. |
+| 🔧 [stefanprodan/cctop](https://github.com/stefanprodan/cctop) | 148 | Live top-style monitor for Claude Code sessions |
+| 🔧 [lambdalisue/cclens](https://github.com/lambdalisue/cclens) | 143 | cclens — a lens onto your Claude Code usage |
 
 ### Routing & Proxy
 
@@ -1270,6 +1361,9 @@
 | 🔧 [Haleclipse/CCometixLine](https://github.com/Haleclipse/CCometixLine) | 2.1k+ | Rust | Fast Rust-based status line tool |
 | 🔧 [leeguooooo/claude-code-usage-bar](https://github.com/leeguooooo/claude-code-usage-bar) | 156 | Python | Burn rate calc, time-until-depletion, tmux integration |
 | 🔧 [Wangnov/claude-code-statusline-pro](https://github.com/Wangnov/claude-code-statusline-pro) | 154 | Rust | Pro version in Rust |
+| 🔧 [Nanako0129/coralline](https://github.com/Nanako0129/coralline) | 554 | — | 🪸 Powerlevel10k-inspired statusline for Claude Code — paste one prompt and your AI interviews you, then installs it |
+| 🔧 [Autumn1337/better-statusline](https://github.com/Autumn1337/better-statusline) | 422 | — | A status line for Claude Code: the session's figures as dot-matrix rings, and the music you are playing beside them |
+| 🔧 [robonuggets/ribbon](https://github.com/robonuggets/ribbon) | 248 | — | A slim band above your Claude Code prompt: usage left, reset times, and whether the prompt cache is warm or cold. By Jay E \| RoboNuggets |
 
 #### Specialized & Unique
 
@@ -1281,7 +1375,6 @@
 
 | Repository | Description |
 |------------|-------------|
-| 🔧 [accessd/tmux-agent-indicator](https://github.com/accessd/tmux-agent-indicator) | Visual pane border colors + status bar icons for AI agents |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
@@ -1323,8 +1416,6 @@
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
-| 🔧 [github/copilot-cli](https://github.com/github/copilot-cli) | 11k+ | GitHub Copilot coding agent in your terminal |
-| 🔧 [openai/codex](https://github.com/openai/codex) | 135k+ | OpenAI's lightweight coding agent for the terminal |
 | 🔧 [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode) | 17k+ | All-in-one agentic engineering platform |
 | 🔧 [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | 23k+ | Get 10X more out of Claude Code, Codex or any coding agent |
 | 🔧 [code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode) | 40k+ | Batteries-included agent harness |
