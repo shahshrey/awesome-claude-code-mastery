@@ -284,8 +284,8 @@ def github_meta(repos: list[str], token: str) -> dict[str, dict | None]:
     return out
 
 
-CC_RE = re.compile(r"claude[ -]?code|\.claude/|claude-agent-sdk|claude agent sdk|anthropic", re.I)
-OTHER_RE = re.compile(r"\b(codex|cursor|copilot|gemini[ -]cli|opencode|windsurf|aider|cline|openclaw)\b", re.I)
+CC_RE = re.compile(r"claude[ -]?code|\.claude/|claude-agent-sdk|claude agent sdk|CLAUDE\.md", re.I)
+OTHER_RE = re.compile(r"\b(codex|cursor|copilot|gemini[ -]cli|opencode|windsurf|aider|cline|openclaw|hermes)\b", re.I)
 
 
 def claude_code_focus(meta: dict) -> tuple[bool, str]:
@@ -296,10 +296,10 @@ def claude_code_focus(meta: dict) -> tuple[bool, str]:
     readme = ((meta.get("readme") or {}).get("text") or "")[:20000]
     cc = len(CC_RE.findall(readme)) + 5 * len(CC_RE.findall(head))
     other = len(OTHER_RE.findall(readme)) + 5 * len(OTHER_RE.findall(head))
-    if cc == 0:
-        return False, "does not mention Claude Code"
-    if other > cc:
-        return False, f"mostly about other agents ({other} vs {cc} mentions)"
+    if not CC_RE.search(head):
+        return False, "name, description and topics do not mention Claude Code"
+    if other > cc * 0.5:
+        return False, f"too much about other agents ({other} vs {cc} mentions)"
     return True, f"{cc} Claude Code mentions"
 
 
