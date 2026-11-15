@@ -290,6 +290,7 @@
 | 🔧 [alirezarezvani/claude-code-skill-factory](https://github.com/alirezarezvani/claude-code-skill-factory) | 600 | Production-ready skill factory toolkit |
 | 🔧 [numman-ali/openskills](https://github.com/numman-ali/openskills) | 9k+ | Universal skills loader for AI coding agents — `npm i -g openskills` |
 | 🔧 [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | 409 | Package manager for AI agents — install agent skills from GitHub |
+| 🔧 [Frank-Masciopinto/ironheights](https://github.com/Frank-Masciopinto/ironheights) | 4 | Local static scanner for skills before install: `npx ironheights scan .claude/skills/<name>` flags prompt injection, hidden text, credential reads and exfil; rule-based, no findings is not proof of safety (Apache-2.0) |
 
 | Tool | Description |
 |------|-------------|
