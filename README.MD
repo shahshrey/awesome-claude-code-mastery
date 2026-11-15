@@ -961,7 +961,7 @@
 | 🔧 [Pimzino/spec-workflow-mcp](https://github.com/Pimzino/spec-workflow-mcp) | 4k+ | Spec-driven development workflow with real-time web dashboard and VSCode extension |
 | 🔧 [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 3.8k+ | 25+ visual charts for chart generation and data analysis |
 | 🔧 [ConstantineB6/comfy-pilot](https://github.com/ConstantineB6/comfy-pilot) | 131 | MCP server + embedded terminal for ComfyUI workflows |
-| 🔧 [tubeagentkit/youtube-mcp](https://github.com/tubeagentkit/youtube-mcp) | 10 | YouTube transcripts, search, channels and playlists through a hosted MCP server (paid service, free credits on sign-up) |
+| 🔧 [tubeagentkit/youtube-mcp](https://github.com/tubeagentkit/youtube-mcp) | 10 | MIT stdio server and plugin files for the proprietary hosted GetYouTubeTranscript service (paid, free credits): YouTube transcripts, search, channels, playlists |
 
 #### MCP Resources
 
