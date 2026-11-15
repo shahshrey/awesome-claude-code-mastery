@@ -987,6 +987,7 @@
 | 🔧 [Figma MCP Server](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/) | Design tool integration |
 | 🔧 [Sentry MCP Server](https://www.getclockwise.com/blog/claude-code-mcp-tools-integration) | Error monitoring |
 | 🔧 [ContextStream](https://contextstream.io) | Shared project context for Cursor, Claude Code, Codex, Grok ([MCP](https://mcp.contextstream.io/mcp), [OSS](https://github.com/contextstream/mcp-server)) |
+| 🔧 [No Stairs Please](https://nostairsplease.com) | Independent US live-music venue directory, load-in specs, stage dimensions, and drive-time tour routing ([MCP](https://nostairsplease.com/mcp)) |
 
 ### Twitter/X Integration
 
