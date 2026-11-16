@@ -334,6 +334,7 @@
 | 🔧 [quemsah/awesome-claude-plugins](https://github.com/quemsah/awesome-claude-plugins) | 181 | Source repo for awesomeclaudeplugins.com — automated plugin adoption metrics |
 | 🔧 [Chat2AnyLLM/awesome-claude-plugins](https://github.com/Chat2AnyLLM/awesome-claude-plugins) | 62 | Curated list of awesome Claude marketplaces and plugins with website |
 | 🔧 [Dev-GOM/claude-code-marketplace](https://github.com/Dev-GOM/claude-code-marketplace) | 76 | Hooks, commands, and agents for developer productivity and workflow automation |
+| 🔧 [varunmoka28/moka-harness](https://github.com/varunmoka28/moka-harness) | 0 | Guard hooks, terminal mods and a working-style file, plus third-party plugins and skills pinned to one commit each |
 
 #### Articles & Guides
 
