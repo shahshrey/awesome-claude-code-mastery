@@ -2,7 +2,7 @@
 
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges) [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-Thank you for your interest in contributing to **Awesome Claude Code Resources**! 🎉
+Thank you for your interest in contributing to **Awesome Claude Code Mastery**! 🎉
 
 ## Contents
 
@@ -10,7 +10,6 @@ Thank you for your interest in contributing to **Awesome Claude Code Resources**
 - [Adding a Resource](#adding-a-resource)
 - [Emoji Legend](#emoji-legend)
 - [Pull Request Guidelines](#pull-request-guidelines)
-- [Contributing to the Website](#contributing-to-the-website)
 
 ## Resource Guidelines
 
@@ -38,11 +37,14 @@ Before adding a resource, please ensure it meets the following criteria:
 
 ### Quick Add (GitHub Web UI)
 
-1. Go to the [README.MD](https://github.com/shahshrey/awesome-claude-code-resources/blob/main/README.MD)
+Resources live in the section files under [`docs/`](docs/). The root `README.MD` only links to those sections, so add new resources to the matching `docs/` file.
+
+1. Open the matching section file in [`docs/`](https://github.com/shahshrey/awesome-claude-code-mastery/tree/main/docs) (e.g. `docs/mcp.md`)
 2. Click the edit icon (pencil) at the top right
-3. Find the appropriate category for your resource
+3. Find the appropriate subsection for your resource
 4. Add your resource in the correct format (see below)
-5. Create a Pull Request with a descriptive title
+5. If you add a new subsection, also add a link to it in that section of `README.MD`
+6. Create a Pull Request with a descriptive title
 
 ### Resource Format
 
@@ -73,7 +75,7 @@ Use the appropriate emoji to categorize your resource:
 | 📁 | `:file_folder:` | Documentation |
 | 📚 | `:books:` | Course, book, or collection of resources |
 | 📗 | `:green_book:` | Article or written tutorial |
-| 📹 | `:video_camera:` | Video resource (YouTube, video course, etc.) |
+| 🎬 | `:clapper:` | Video resource (YouTube, video course, etc.) |
 | 🔧 | `:wrench:` | Tool or utility |
 | 💡 | `:bulb:` | Community resource or discussion |
 
@@ -82,7 +84,7 @@ Use the appropriate emoji to categorize your resource:
 1. **Descriptive title** - e.g., "Add: Claude Code Tutorial by Author Name"
 2. **One category per PR** - If adding to multiple categories, consider separate PRs
 3. **Fill out the PR template** - Provide all requested information
-4. **Check for duplicates** - Search the README before submitting
+4. **Check for duplicates** - Search the `docs/` files before submitting
 5. **Test your links** - Ensure all links are working
 
 ### PR Title Format

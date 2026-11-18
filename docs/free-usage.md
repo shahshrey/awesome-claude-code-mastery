@@ -1,11 +1,11 @@
 # 🆓 Using Claude Code for Free
 
-> Ways to use Claude Code without a paid subscription — free credits, cloud provider trials, proxy tools, and programs for open source maintainers.
+> Ways to use Claude Code without a paid subscription — free credits, cloud provider trials, proxy tools, and programs for open-source maintainers.
 
 ## Official Free & Discounted Access
 
 - 📁 [Claude Plans & Pricing](https://claude.com/pricing) — Official pricing page; free tier includes Sonnet 4.5 with usage limits
-- 📗 [Free Claude Max for Open Source Maintainers](https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/) — Anthropic offers the $200/month Max 20x plan free for 6 months to maintainers of repos with 5,000+ stars or 1M+ monthly NPM downloads (up to 10,000 contributors)
+- 📗 [Free Claude Max for Open-Source Maintainers](https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/) — Anthropic offers the $200/month Max 20x plan free for 6 months to maintainers of repos with 5,000+ stars or 1M+ monthly NPM downloads (up to 10,000 contributors)
 - 📗 [Anthropic Opens File Creation, App Connectors and Skills to Free Claude Users](https://www.storyboard18.com/digital/anthropic-opens-file-creation-app-connectors-and-skills-to-free-claude-users-89470.htm) — February 2026 free tier expansion
 
 ## Free API Credits & Cloud Trials
@@ -16,6 +16,8 @@
 - 📗 [Claude Free vs Pro vs Max 2026: Which Plan Is Worth It?](https://freeacademy.ai/blog/claude-free-vs-pro-vs-max-comparison-2026) — Detailed plan comparison to help decide if free tier is enough
 
 ## Proxy Tools (Use Claude Code with Free/Alternative Backends)
+
+> ⚠️ **Security note:** These are third-party, community-maintained projects. A proxy sees every prompt, file snippet, and tool result Claude Code sends, plus any API keys you configure, and the backend provider it forwards to may log or retain that data. Review the source before running one, prefer local backends (Ollama, LM Studio, llama.cpp) for private code, never send secrets or proprietary code to free hosted endpoints, and check each provider's data-retention and terms of service.
 
 | Repository | Stars | Description |
 |------------|-------|-------------|

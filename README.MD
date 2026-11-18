@@ -13,7 +13,7 @@
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a>
   <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0"></a>
-  <a href="https://github.com/shahshrey/awesome-claude-code-resources/stargazers"><img src="https://img.shields.io/github/stars/shahshrey/awesome-claude-code-resources?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/shahshrey/awesome-claude-code-mastery/stargazers"><img src="https://img.shields.io/github/stars/shahshrey/awesome-claude-code-mastery?style=social" alt="GitHub stars"></a>
 </p>
 
 <p>
@@ -26,7 +26,7 @@
 *Your comprehensive guide to mastering Claude Code — the agentic coding tool from Anthropic*
 
 <p>
-  <a href="https://github.com/shahshrey/awesome-claude-code-resources/issues"><strong>Report Issue</strong></a>
+  <a href="https://github.com/shahshrey/awesome-claude-code-mastery/issues"><strong>Report Issue</strong></a>
 </p>
 
 </div>
@@ -50,22 +50,24 @@
 
 ## Contents
 
-- [Official Resources](#️-official-resources)
-- [Getting Started & Learning](#-getting-started--learning)
-- [Using Claude Code for Free](#-using-claude-code-for-free)
-- [Skills](#-skills)
-- [Subagents](#-subagents)
-- [Agent Teams](#️-agent-teams)
-- [Remote Control](#-remote-control)
-- [Hooks & Automation](#-hooks--automation)
-- [Headless Mode & CI/CD](#-headless-mode--cicd)
-- [MCP (Model Context Protocol)](#-mcp-model-context-protocol)
-- [SDK & API](#-sdk--api)
-- [Tools & Extensions](#️-tools--extensions)
-- [Alternative Coding Agents](#-alternative-coding-agents)
-- [Community](#-community)
+- [Official Resources](#official-resources)
+- [Getting Started & Learning](#getting-started-learning)
+- [Using Claude Code for Free](#using-claude-code-for-free)
+- [Skills](#skills)
+- [Subagents](#subagents)
+- [Agent Teams](#agent-teams)
+- [Remote Control](#remote-control)
+- [Hooks & Automation](#hooks-automation)
+- [Headless Mode & CI/CD](#headless-mode-cicd)
+- [MCP (Model Context Protocol)](#mcp-model-context-protocol)
+- [SDK & API](#sdk-api)
+- [Tools & Extensions](#tools-extensions)
+- [Alternative Coding Agents](#alternative-coding-agents)
+- [Community](#community)
 
 ---
+
+<a id="official-resources"></a>
 
 ## 🏛️ Official Resources
 
@@ -84,6 +86,8 @@
 
 ---
 
+<a id="getting-started-learning"></a>
+
 ## 📚 Getting Started & Learning
 
 > General tutorials, courses, best practices, and deep dives. Feature-specific learning content (Skills, MCP, SDK, etc.) lives in each feature's section.
@@ -99,19 +103,23 @@
 
 ---
 
+<a id="using-claude-code-for-free"></a>
+
 ## 🆓 Using Claude Code for Free
 
-> Ways to use Claude Code without a paid subscription — free credits, cloud provider trials, proxy tools, and programs for open source maintainers.
+> Ways to use Claude Code without a paid subscription — free credits, cloud provider trials, proxy tools, and programs for open-source maintainers.
 
 📄 **[View all Free Usage resources →](docs/free-usage.md)**
 
-- [Official Free & Discounted Access](docs/free-usage.md#official-free--discounted-access) — Free tier details, Claude Max free for OSS maintainers (6 months), February 2026 free tier expansion
+- [Official Free & Discounted Access](docs/free-usage.md#official-free--discounted-access) — Free tier details, Claude Max free for open-source maintainers (6 months), February 2026 free tier expansion
 - [Free API Credits & Cloud Trials](docs/free-usage.md#free-api-credits--cloud-trials) — Comprehensive guides to using Claude Code for free via API credits, Vertex AI ($300 free), and Bedrock
 - [Proxy Tools](docs/free-usage.md#proxy-tools-use-claude-code-with-freealternative-backends) — claude-code-router (29.6k+ stars), free-claude-code (NVIDIA NIM), claude-code-proxy variants for OpenRouter, Gemini, Ollama, and Codex
 - [Pricing Guides](docs/free-usage.md#pricing-guides) — Plan comparisons and cost-saving strategies
 - [Tips for Minimizing Costs](docs/free-usage.md#tips-for-minimizing-costs) — Use Sonnet, .claudeignore, concise prompts, cloud free tiers
 
 ---
+
+<a id="skills"></a>
 
 ## 🎯 Skills
 
@@ -133,6 +141,8 @@
 
 ---
 
+<a id="subagents"></a>
+
 ## 🤖 Subagents
 
 > Resources about Claude Code's subagent capabilities for multi-agent workflows.
@@ -143,6 +153,8 @@
 - [Tools & Collections](docs/subagents.md#tools--collections) — agents, claude-flow, awesome-claude-code-subagents, sub-agents manager, babysitter, and more
 
 ---
+
+<a id="agent-teams"></a>
 
 ## 🏗️ Agent Teams
 
@@ -158,6 +170,8 @@
 
 ---
 
+<a id="remote-control"></a>
+
 ## 📱 Remote Control
 
 > Control Claude Code sessions from any device — phone, tablet, or another computer. Released as a native feature in February 2026.
@@ -169,6 +183,8 @@
 - [Tools & Extensions](docs/remote-control.md#tools--extensions) — Claude-Code-Remote (email/Discord/Telegram), remote-approver, remote-plus, Docker-based remote
 
 ---
+
+<a id="hooks-automation"></a>
 
 ## ⚡ Hooks & Automation
 
@@ -182,6 +198,8 @@
 
 ---
 
+<a id="headless-mode-cicd"></a>
+
 ## 🔄 Headless Mode & CI/CD
 
 > Run Claude Code non-interactively in pipelines, GitHub Actions, and automated workflows.
@@ -193,6 +211,8 @@
 - [Tools](docs/headless-cicd.md#tools) — claude-code-action (official), GitLab webhook, clactions (self-repair)
 
 ---
+
+<a id="mcp-model-context-protocol"></a>
 
 ## 🔌 MCP (Model Context Protocol)
 
@@ -208,6 +228,8 @@
 - [Twitter/X Integration](docs/mcp.md#twitterx-integration) — MCP Twitter interface, ClaudeLog Twitter MCP
 
 ---
+
+<a id="sdk-api"></a>
 
 ## 💻 SDK & API
 
@@ -230,6 +252,8 @@
 
 ---
 
+<a id="tools-extensions"></a>
+
 ## 🛠️ Tools & Extensions
 
 > Utilities and tools to enhance your Claude Code experience.
@@ -248,6 +272,8 @@
 
 ---
 
+<a id="alternative-coding-agents"></a>
+
 ## 🤝 Alternative Coding Agents
 
 > Other agentic coding tools inspired by or compatible with Claude Code.
@@ -257,6 +283,8 @@
 - continue, kilocode, vibe-kanban, oh-my-opencode, opencode, humanlayer, code2prompt
 
 ---
+
+<a id="community"></a>
 
 ## 👥 Community
 
@@ -279,7 +307,7 @@
 
 ## Contributing
 
-Contributions welcome! Please read the contribution guidelines first. If you have a resource to add, please submit a pull request.
+Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first. Resources live in the [`docs/`](docs/) section files — add new ones there and submit a pull request.
 
 ## License
 

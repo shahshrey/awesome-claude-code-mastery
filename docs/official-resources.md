@@ -23,7 +23,7 @@
 | Repository | Stars | Description |
 |------------|-------|-------------|
 | 🔧 [anthropics/claude-code](https://github.com/anthropics/claude-code) | 73k+ | Official Claude Code - agentic coding tool for your terminal |
-| 🔧 [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 8.8k+ | Official, Anthropic-managed directory of high quality Claude Code Plugins |
+| 🔧 [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 8.8k+ | Official, Anthropic-managed directory of high-quality Claude Code Plugins |
 | 🔧 [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) | 3.5k+ | AI-powered security review GitHub Action using Claude |
 | 🔧 [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | — | Official GitHub Action for Claude Code in CI/CD pipelines |
 | 📚 [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 34k+ | Collection of notebooks/recipes showcasing effective ways of using Claude |

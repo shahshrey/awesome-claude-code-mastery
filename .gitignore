@@ -13,6 +13,7 @@ Thumbs.db
 *.swp
 *.swo
 *~
+.cursor/
 
 # Logs
 *.log
@@ -21,5 +22,3 @@ npm-debug.log*
 # Environment
 .env
 .env.local
-
-.cursor/
