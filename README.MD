@@ -247,6 +247,7 @@
 | 📚 [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) | 7.5k+ | Curated list of Claude Skills |
 | 📚 [VoltAgent/awesome-claude-skills](https://github.com/VoltAgent/awesome-claude-skills) | 11k+ | Awesome collection of Claude Skills and resources |
 | 📚 [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) | 3k+ | Skills for AI coding agents (Claude, Codex, Copilot, VS Code) |
+ | 📚 [laolaoshiren/claude-code-skills-zh](https://github.com/laolaoshiren/claude-code-skills-zh) | 918 | Curated Claude Code skills collection for Chinese developers: 445+ skills with Chinese documentation, plus 21 original install-ready skills |
 
 ### Core Libraries
 
