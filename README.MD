@@ -709,6 +709,7 @@
 | 🔧 [built-by-as/FleetCode](https://github.com/built-by-as/FleetCode) | 410 | Light-weight control pane to run CLI coding agents in parallel |
 | 🔧 [regenrek/peky](https://github.com/regenrek/peky) | 140 | All your AI Agents in a single TUI to keep things organized |
 | 🔧 [to-na/claude-code-crew](https://github.com/to-na/claude-code-crew) | 55 | Browser-based interface for managing sessions across Git worktrees |
+| 🔧 [gettaskhold/taskhold-plugin](https://github.com/gettaskhold/taskhold-plugin) | 0 | Plugin and skill (MIT) for [Taskhold](https://taskhold.com?ref=awesome-claude-code-mastery), a paid hosted task list (7-day trial) your Claude Code agents share over MCP: they plan steps, report live progress and ask when stuck |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%">
 
