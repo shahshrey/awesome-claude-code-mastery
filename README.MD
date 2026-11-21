@@ -154,6 +154,7 @@
 ### Best Practices & Guides
 
 - 📗 [Cooking with Claude Code: The Complete Guide - Sid Bharath](https://www.siddharthbharath.com/claude-code-the-complete-guide/)
+- 📚 [Little Cups of Claude](https://littlecupsofclaude.com) - Short tips for Claude Code, the Claude API, the Agent SDK and MCP, one every weekday
 - 📗 [The Claude Code Complete Guide: Learn Vibe-Coding & Agentic AI](https://natesnewsletter.substack.com/p/the-claude-code-complete-guide-learn)
 - 📗 [The Ultimate Claude Code Guide: Every Hidden Trick, Hack, and Power Feature](https://dev.to/holasoymalva/the-ultimate-claude-code-guide-every-hidden-trick-hack-and-power-feature-you-need-to-know-2l45)
 - 📗 [How the Creator of Claude Code Uses Claude Code: A Complete Breakdown](https://dev.to/sivarampg/how-the-creator-of-claude-code-uses-claude-code-a-complete-breakdown-4f07)
