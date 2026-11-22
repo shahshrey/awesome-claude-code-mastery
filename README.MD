@@ -491,7 +491,7 @@
 |------------|-------|-------------|
 | 🔧 [akii-technologies-ltd/akii-seo-ai-search-optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) | 79 | Claude Code plugin to audit sites, check links, group keywords, plan content, and make structured data |
 | 🔧 [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | 4.5k+ | Real-time HUD showing context usage %, active tools, running agents, and todo progress |
-| 🔧 [melthond/sharpen](https://github.com/melthond/sharpen) | 3 | Claude Code plugin that rewrites each prompt from the conversation, codebase and installed tools, and shows it for approval first |
+| 🔧 [melthond/sharpen](https://github.com/melthond/sharpen) | 3 | Claude Code plugin that, when turned on, rewrites eligible prompts from the conversation, codebase and installed tools and shows them for approval first (off by default; skips other slash commands and `raw:` prompts) |
 | 🔧 [YishenTu/claudian](https://github.com/YishenTu/claudian) | 3.8k+ | Obsidian plugin that embeds Claude Code as an AI collaborator inside your vault |
 | 🔧 [agenticnotetaking/arscontexta](https://github.com/agenticnotetaking/arscontexta) | 2.6k+ | Generates individualized knowledge systems and "second brain" from conversations |
 | 🔧 [ZeframLou/call-me](https://github.com/ZeframLou/call-me) | 2.5k+ | Minimal plugin that calls you on the phone when Claude finishes a task |
