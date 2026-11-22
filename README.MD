@@ -1318,7 +1318,7 @@
 | Repository | Stars | Description |
 |------------|-------|-------------|
 | 🔧 [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 42k+ | Unified AI access with Agent capabilities in one desktop app |
-| 🔧 [Valo](https://getvalo.dev) | — | Desktop workspace that runs Claude Code, Codex, Gemini, Cursor and GLM side by side on Windows, macOS and Linux, with per-tool permissions. |
+| 🔧 [Valo](https://getvalo.dev) | — | Desktop workspace for Claude Code and Codex on Windows, macOS and Linux. Free plan available; side-by-side Multiview requires Pro. |
 | 🔧 [winfunc/opcode](https://github.com/winfunc/opcode) | 21k+ | GUI app and Toolkit - create custom agents, manage sessions |
 | 🔧 [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 28k+ | Cross-platform desktop All-in-One assistant for Claude Code, Codex & Gemini |
 | 🔧 [siteboon/claudecodeui](https://github.com/siteboon/claudecodeui) | 8.4k+ | Mobile and Web UI for Claude Code — manage sessions and projects remotely |
