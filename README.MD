@@ -1224,6 +1224,7 @@
 
 | Repository / Tool | Stars | Description |
 |-------------------|-------|-------------|
+| 🔧 [Folkbench/folkbench](https://github.com/Folkbench/folkbench) | 3349 | Folkbench Switch: desktop app (macOS / Windows, beta) that saves API endpoints and keys locally and writes the selected one into Claude Code, Codex and Gemini CLI configs after showing a diff |
 | 🔧 [luohy15/y-router](https://github.com/luohy15/y-router) | 377 | Cloudflare Worker translating Anthropic Claude API to OpenAI-compatible APIs — enables Claude Code with OpenRouter |
 | 🔧 [RichardAtCT/claude-code-openai-wrapper](https://github.com/RichardAtCT/claude-code-openai-wrapper) | 443 | OpenAI API-compatible wrapper for Claude Code; supports CLI, API key, Bedrock, and Vertex auth via `CLAUDE_AUTH_METHOD` |
 | 🔧 [ujisati/claude-code-provider-proxy](https://github.com/ujisati/claude-code-provider-proxy) | 143 | Multi-provider proxy for routing Claude Code requests |
