@@ -974,6 +974,7 @@
 | 🔧 [Zapier MCP Server](https://zapier.com/blog/claude-mcp-servers/) | Workflow automation |
 | 🔧 [Figma MCP Server](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/) | Design tool integration |
 | 🔧 [Sentry MCP Server](https://www.getclockwise.com/blog/claude-code-mcp-tools-integration) | Error monitoring |
+| 🔧 [getrunheed/runheed-plugin](https://github.com/getrunheed/runheed-plugin) | 0 | Plugin and skills (MIT) for [Runheed](https://runheed.com/?ref=awesome-claude-code-mastery), a paid hosted error tracker (7-day trial) that Claude Code reads over MCP: stack traces and breadcrumbs in, fix, mark resolved |
 
 ### Twitter/X Integration
 
