@@ -735,6 +735,7 @@
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
+| 🔧 [gal064/muxflow](https://github.com/gal064/muxflow) | 118 | Remote-first tmux IDE with Claude Code notifications on desktop and Android, voice replies, and screenshot paste over SSH |
 | 🔧 [JessyTsui/Claude-Code-Remote](https://github.com/JessyTsui/Claude-Code-Remote) | 1.2k+ | Control via email, Discord, and Telegram |
 | 🔧 [yuuichieguchi/claude-remote-approver](https://github.com/yuuichieguchi/claude-remote-approver) | 36 | Approve permission requests from phone via ntfy |
 | 🔧 [yusufkaraaslan/claude-remote-plus](https://github.com/yusufkaraaslan/claude-remote-plus) | 3 | Hot-swap sessions between projects with daemon, MCP, and auto-restart |
