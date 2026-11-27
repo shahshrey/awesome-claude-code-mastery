@@ -988,6 +988,7 @@
 | 🔧 [Figma MCP Server](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/) | Design tool integration |
 | 🔧 [Sentry MCP Server](https://www.getclockwise.com/blog/claude-code-mcp-tools-integration) | Error monitoring |
 | 🔧 [ContextStream](https://contextstream.io) | Shared project context for Cursor, Claude Code, Codex, Grok ([MCP](https://mcp.contextstream.io/mcp), [OSS](https://github.com/contextstream/mcp-server)) |
+| 🔧 [Genaya Connect](https://developer.genaya.com/mcp) | Ask about a service business's appointments, clients, invoices and calls, and prepare changes the member confirms (remote MCP `https://api.genaya.com/mcp`, paid, every plan starts with a 14-day free trial) |
 
 ### Twitter/X Integration
 
