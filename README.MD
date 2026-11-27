@@ -962,6 +962,7 @@
 | 🔧 [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 3.8k+ | 25+ visual charts for chart generation and data analysis |
 | 🔧 [ateymoori/oh-my-android](https://github.com/ateymoori/oh-my-android) | 167 | Native macOS control panel for the Android Emulator with a built-in MCP server (18 tools) for Claude Code |
 | 🔧 [ConstantineB6/comfy-pilot](https://github.com/ConstantineB6/comfy-pilot) | 131 | MCP server + embedded terminal for ComfyUI workflows |
+| 🔧 [theluckystrike/mcpstamp-check](https://github.com/theluckystrike/mcpstamp-check) | — | CLI, GitHub Action, and remote MCP server to audit remote MCP endpoints for Claude, ChatGPT, Gemini, and MCP Registry readiness |
 
 #### MCP Resources
 
