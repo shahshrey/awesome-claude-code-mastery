@@ -281,6 +281,7 @@
 | 🔧 [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) | 2.9k+ | Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads — connects to Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP |
 | 🔧 [jangtrinh/design-os](https://github.com/jangtrinh/design-os) | 37 | Free design skills and CLI: describe the UI in plain words, get web, SwiftUI or Figma-compatible output checked by deterministic taste and accessibility gates (source-available, PolyForm Shield) |
 | 🔧 [xvary-research/claude-code-stock-analysis-skill](https://github.com/xvary-research/claude-code-stock-analysis-skill) | 21 | Stock research skill using public SEC EDGAR and market data: `/analyze`, `/score`, `/compare` (MIT) |
+| 🔧 [samclaassen/internal-tool-blueprints](https://github.com/samclaassen/internal-tool-blueprints) | 0 | 37 internal business tool specs as skills (CRM, help desk, approval workflow): build one phase at a time and run the acceptance checks; 28 build-tested (MIT) |
 
 ### Generators & Tools
 
